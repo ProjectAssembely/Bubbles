@@ -24,6 +24,8 @@ DOMAIN_STOP_WORDS = {
     "develop", "developing", "direct", "coordinate", "monitor", "appropriate", "necessary", "various",
     "new", "existing", "make", "based", "needs", "needed", "areas", "area", "methods", "techniques",
     "tasks", "task", "occupations", "occupation", "etc", "such", "include", "includes", "jobs",
+    "abreast", "developments", "current", "proper", "large", "holding", "explain", "incoming", "levels",
+    "applications", "operational", "effects",
 }
 # Note: TF-IDF's max_df also drops any term that appears in more than half of the clusters.
 STOP_WORDS = list(ENGLISH_STOP_WORDS | DOMAIN_STOP_WORDS)
@@ -72,12 +74,12 @@ def top_terms(job_text: pd.Series, labels: pd.Series, n: int = 5, exclude=(-1,))
         chosen, seen = [], set()
         for j in scores.argsort()[::-1]:
             term = vocab[j]
-            words = {_stem(w) for w in term.split()}
-            # Skip near-duplicates: same stem, or a word already covered by a chosen bigram
-            if _stem(term) in seen or (len(words) == 1 and words <= seen):
+            # Words reduced to a short root so 'sew' / 'sewing' / 'sewing machines' count as overlapping
+            words = {_stem(w)[:5] for w in term.split()}
+            # Skip near-duplicates: any term sharing a word with one already chosen
+            if words & seen:
                 continue
             chosen.append(term)
-            seen.add(_stem(term))
             seen.update(words)
             if len(chosen) == n:
                 break
