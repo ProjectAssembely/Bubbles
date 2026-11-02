@@ -88,16 +88,16 @@ def top_terms(job_text: pd.Series, labels: pd.Series, n: int = 5, exclude=(-1,))
     return pd.DataFrame(rows).set_index("cluster")
 
 
-# Plain-language names for the 6 broad numeric groups (Phase 3, K=6).
+# Plain-language names for the 6 top-level groups (hybrid groups, see hybrid_groups.py).
 # Cluster ids can change between runs, so each name is matched by a keyword
 # from that group's defining attributes rather than by its number.
 GROUP_NAMES = [
     ("Programming", "Tech & Analysis", "I want to solve problems with technology, science and data"),
     ("Repairing", "Build & Fix", "I want to build, repair and operate machines and equipment"),
-    ("Instructing", "Teach & Lead", "I want to teach, communicate with and lead people"),
+    ("Instructing", "Teach & Guide", "I want to teach, train and guide people"),
     ("Caring for Others", "Help & Heal", "I want to help people and care for their health"),
-    ("Stamina", "Hands-On Work", "I want active, physical, hands-on work"),
-    ("Administrative", "Organize & Serve", "I want to organize, manage records and serve customers"),
+    ("Stamina", "Hands-On Service", "I want active, hands-on work serving people"),
+    ("Administrative", "Business & Management", "I want to run things: manage, sell, organize and handle money"),
 ]
 
 

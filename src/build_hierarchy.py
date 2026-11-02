@@ -1,6 +1,7 @@
 """Phase 5: combine the clustering results into one nested hierarchy for the bubble UI.
 
-    Level 1  6 broad groups from the numeric attributes (Phase 3), with plain-language names (Phase 4)
+    Level 1  6 broad groups from text + numeric features combined (hybrid_groups.py),
+             with plain-language names (labeling.py)
     Level 2  text subclusters found inside each group (embeddings -> UMAP -> HDBSCAN)
     Level 3  large subclusters (> MAX_LEAF_CLUSTER jobs) are split once more with K-Means
     Leaves   individual occupations
@@ -22,10 +23,11 @@ import numpy as np
 import pandas as pd
 import umap
 from sklearn.cluster import KMeans
-from sklearn.neighbors import KNeighborsClassifier
 
+from hybrid_groups import hybrid_groups
 from labeling import load_job_text, name_groups, top_terms
 from load_onet import CODE, PROCESSED, ROOT, load_table
+from numeric_clustering import load_features, profile, standardize
 from text_clustering import SEED, load_embeddings
 
 MIN_CLUSTER_SIZE, MIN_SAMPLES = 5, 2   # HDBSCAN settings inside each group
@@ -36,17 +38,11 @@ N_TASKS_SHOWN = 5
 NICHE = -1
 
 
-def assign_groups(E: pd.DataFrame) -> pd.Series:
-    """Level 1 group per job. Jobs without numeric scores get the majority group of their
-    5 nearest neighbors in text-embedding space."""
-    numeric = pd.read_csv(PROCESSED / "numeric_clusters.csv", index_col="code")["kmeans6"]
-    known = E.index.intersection(numeric.index)
-    missing = E.index.difference(numeric.index)
-    groups = numeric.loc[known].copy()
-    if len(missing):
-        knn = KNeighborsClassifier(n_neighbors=5, metric="cosine").fit(E.loc[known], groups)
-        groups = pd.concat([groups, pd.Series(knn.predict(E.loc[missing]), index=missing)])
-    return groups.loc[E.index].rename("group")
+def group_profiles(groups: pd.Series) -> pd.Series:
+    """Defining numeric attributes per group, used to match groups to their names."""
+    Z = standardize(load_features("IM"))
+    common = Z.index.intersection(groups.index)
+    return profile(Z.loc[common], groups.loc[common].values, n=6)
 
 
 def subcluster(Xg: np.ndarray) -> np.ndarray:
@@ -150,11 +146,10 @@ def main() -> None:
     E = pd.DataFrame(X, index=codes)
     text = load_job_text()
 
-    groups = assign_groups(E)
+    groups = hybrid_groups().loc[E.index]
     paths = build_paths(E, groups)
     labels = label_clusters(paths, text)
-    profiles = pd.read_csv(PROCESSED / "numeric_cluster_profiles.csv", index_col=0)["defining_attributes"]
-    names = name_groups(profiles)
+    names = name_groups(group_profiles(groups))
     details = job_details()
 
     tree = build_tree(paths, labels, names, details)

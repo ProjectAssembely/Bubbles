@@ -1,924 +1,924 @@
 code,group,sub,split,title,group_name,sub_label
-11-3021.00,0,0,-1,Computer and Information Systems Managers,Tech & Analysis,Network · Users · Security
-11-3051.01,0,-1,-1,Quality Control Systems Managers,Tech & Analysis,Unique roles
-11-9041.00,0,5,-1,Architectural and Engineering Managers,Tech & Analysis,Bids · Plan Design · Contracts
-11-9041.01,0,8,-1,Biofuels/Biodiesel Technology and Product Development Managers,Tech & Analysis,Experiments · Chemists · Pilot
-11-9121.00,0,0,-1,Natural Sciences Managers,Tech & Analysis,Network · Users · Security
-11-9121.02,0,2,-1,Water Resource Specialists,Tech & Analysis,Hazardous · Protection · Wastewater
-11-9199.10,0,5,-1,Wind Energy Development Managers,Tech & Analysis,Bids · Plan Design · Contracts
-11-9199.11,0,2,-1,Brownfield Redevelopment Specialists and Site Managers,Tech & Analysis,Hazardous · Protection · Wastewater
-13-1041.01,0,2,-1,Environmental Compliance Inspectors,Tech & Analysis,Hazardous · Protection · Wastewater
-13-1051.00,0,5,-1,Cost Estimators,Tech & Analysis,Bids · Plan Design · Contracts
-13-1081.01,0,7,-1,Logistics Engineers,Tech & Analysis,Fabrication · Specifications · Designs
-13-1081.02,0,7,-1,Logistics Analysts,Tech & Analysis,Fabrication · Specifications · Designs
-13-2054.00,0,3,-1,Financial Risk Specialists,Tech & Analysis,Data Statistical · Business · Programming
-13-2099.01,0,3,-1,Financial Quantitative Analysts,Tech & Analysis,Data Statistical · Business · Programming
-15-1211.00,0,0,-1,Computer Systems Analysts,Tech & Analysis,Network · Users · Security
-15-1212.00,0,0,-1,Information Security Analysts,Tech & Analysis,Network · Users · Security
-15-1221.00,0,0,-1,Computer and Information Research Scientists,Tech & Analysis,Network · Users · Security
-15-1231.00,0,0,-1,Computer Network Support Specialists,Tech & Analysis,Network · Users · Security
-15-1232.00,0,0,-1,Computer User Support Specialists,Tech & Analysis,Network · Users · Security
-15-1241.00,0,0,-1,Computer Network Architects,Tech & Analysis,Network · Users · Security
-15-1241.01,0,0,-1,Telecommunications Engineering Specialists,Tech & Analysis,Network · Users · Security
-15-1242.00,0,3,-1,Database Administrators,Tech & Analysis,Data Statistical · Business · Programming
-15-1243.00,0,3,-1,Database Architects,Tech & Analysis,Data Statistical · Business · Programming
-15-1243.01,0,3,-1,Data Warehousing Specialists,Tech & Analysis,Data Statistical · Business · Programming
-15-1244.00,0,0,-1,Network and Computer Systems Administrators,Tech & Analysis,Network · Users · Security
-15-1251.00,0,0,-1,Computer Programmers,Tech & Analysis,Network · Users · Security
-15-1252.00,0,0,-1,Software Developers,Tech & Analysis,Network · Users · Security
-15-1253.00,0,0,-1,Software Quality Assurance Analysts and Testers,Tech & Analysis,Network · Users · Security
-15-1254.00,0,0,-1,Web Developers,Tech & Analysis,Network · Users · Security
-15-1255.00,0,0,-1,Web and Digital Interface Designers,Tech & Analysis,Network · Users · Security
-15-1255.01,0,0,-1,Video Game Designers,Tech & Analysis,Network · Users · Security
-15-1299.01,0,0,-1,Web Administrators,Tech & Analysis,Network · Users · Security
-15-1299.02,0,1,-1,Geographic Information Systems Technologists and Technicians,Tech & Analysis,Remote · Satellite · Geographic
-15-1299.04,0,0,-1,Penetration Testers,Tech & Analysis,Network · Users · Security
-15-1299.05,0,0,-1,Information Security Engineers,Tech & Analysis,Network · Users · Security
-15-1299.06,0,0,-1,Digital Forensics Analysts,Tech & Analysis,Network · Users · Security
-15-1299.07,0,0,-1,Blockchain Engineers,Tech & Analysis,Network · Users · Security
-15-1299.08,0,0,-1,Computer Systems Engineers/Architects,Tech & Analysis,Network · Users · Security
-15-2011.00,0,3,-1,Actuaries,Tech & Analysis,Data Statistical · Business · Programming
-15-2021.00,0,3,-1,Mathematicians,Tech & Analysis,Data Statistical · Business · Programming
-15-2031.00,0,3,-1,Operations Research Analysts,Tech & Analysis,Data Statistical · Business · Programming
-15-2041.00,0,3,-1,Statisticians,Tech & Analysis,Data Statistical · Business · Programming
-15-2041.01,0,3,-1,Biostatisticians,Tech & Analysis,Data Statistical · Business · Programming
-15-2051.00,0,3,-1,Data Scientists,Tech & Analysis,Data Statistical · Business · Programming
-15-2051.01,0,3,-1,Business Intelligence Analysts,Tech & Analysis,Data Statistical · Business · Programming
-15-2051.02,0,3,-1,Clinical Data Managers,Tech & Analysis,Data Statistical · Business · Programming
-15-2099.01,0,3,-1,Bioinformatics Technicians,Tech & Analysis,Data Statistical · Business · Programming
-17-1011.00,0,5,-1,"Architects, Except Landscape and Naval",Tech & Analysis,Bids · Plan Design · Contracts
-17-1012.00,0,5,-1,Landscape Architects,Tech & Analysis,Bids · Plan Design · Contracts
-17-1021.00,0,1,-1,Cartographers and Photogrammetrists,Tech & Analysis,Remote · Satellite · Geographic
-17-1022.01,0,1,-1,Geodetic Surveyors,Tech & Analysis,Remote · Satellite · Geographic
-17-2011.00,0,7,-1,Aerospace Engineers,Tech & Analysis,Fabrication · Specifications · Designs
-17-2021.00,0,-1,-1,Agricultural Engineers,Tech & Analysis,Unique roles
-17-2031.00,0,8,-1,Bioengineers and Biomedical Engineers,Tech & Analysis,Experiments · Chemists · Pilot
-17-2041.00,0,8,-1,Chemical Engineers,Tech & Analysis,Experiments · Chemists · Pilot
-17-2051.00,0,5,-1,Civil Engineers,Tech & Analysis,Bids · Plan Design · Contracts
-17-2051.01,0,5,-1,Transportation Engineers,Tech & Analysis,Bids · Plan Design · Contracts
-17-2051.02,0,2,-1,Water/Wastewater Engineers,Tech & Analysis,Hazardous · Protection · Wastewater
-17-2061.00,0,0,-1,Computer Hardware Engineers,Tech & Analysis,Network · Users · Security
-17-2071.00,0,6,-1,Electrical Engineers,Tech & Analysis,Solar · Energy Sources · Heating
-17-2072.00,0,7,-1,"Electronics Engineers, Except Computer",Tech & Analysis,Fabrication · Specifications · Designs
-17-2072.01,0,0,-1,Radio Frequency Identification Device Specialists,Tech & Analysis,Network · Users · Security
-17-2081.00,0,2,-1,Environmental Engineers,Tech & Analysis,Hazardous · Protection · Wastewater
-17-2111.02,0,2,-1,Fire-Prevention and Protection Engineers,Tech & Analysis,Hazardous · Protection · Wastewater
-17-2112.00,0,7,-1,Industrial Engineers,Tech & Analysis,Fabrication · Specifications · Designs
-17-2112.01,0,0,-1,Human Factors Engineers and Ergonomists,Tech & Analysis,Network · Users · Security
-17-2112.02,0,-1,-1,Validation Engineers,Tech & Analysis,Unique roles
-17-2112.03,0,7,-1,Manufacturing Engineers,Tech & Analysis,Fabrication · Specifications · Designs
-17-2121.00,0,7,-1,Marine Engineers and Naval Architects,Tech & Analysis,Fabrication · Specifications · Designs
-17-2131.00,0,7,-1,Materials Engineers,Tech & Analysis,Fabrication · Specifications · Designs
-17-2141.00,0,7,-1,Mechanical Engineers,Tech & Analysis,Fabrication · Specifications · Designs
-17-2141.01,0,7,-1,Fuel Cell Engineers,Tech & Analysis,Fabrication · Specifications · Designs
-17-2141.02,0,7,-1,Automotive Engineers,Tech & Analysis,Fabrication · Specifications · Designs
-17-2151.00,0,-1,-1,"Mining and Geological Engineers, Including Mining Safety Engineers",Tech & Analysis,Unique roles
-17-2161.00,0,4,-1,Nuclear Engineers,Tech & Analysis,Radiation · Nuclear · Radioactive
-17-2171.00,0,-1,-1,Petroleum Engineers,Tech & Analysis,Unique roles
-17-2199.03,0,6,-1,"Energy Engineers, Except Wind and Solar",Tech & Analysis,Solar · Energy Sources · Heating
-17-2199.05,0,7,-1,Mechatronics Engineers,Tech & Analysis,Fabrication · Specifications · Designs
-17-2199.06,0,7,-1,Microsystems Engineers,Tech & Analysis,Fabrication · Specifications · Designs
-17-2199.07,0,7,-1,Photonics Engineers,Tech & Analysis,Fabrication · Specifications · Designs
-17-2199.08,0,7,-1,Robotics Engineers,Tech & Analysis,Fabrication · Specifications · Designs
-17-2199.09,0,-1,-1,Nanosystems Engineers,Tech & Analysis,Unique roles
-17-2199.10,0,6,-1,Wind Energy Engineers,Tech & Analysis,Solar · Energy Sources · Heating
-17-2199.11,0,6,-1,Solar Energy Systems Engineers,Tech & Analysis,Solar · Energy Sources · Heating
-17-3011.00,0,-1,-1,Architectural and Civil Drafters,Tech & Analysis,Unique roles
-17-3012.00,0,7,-1,Electrical and Electronics Drafters,Tech & Analysis,Fabrication · Specifications · Designs
-17-3013.00,0,7,-1,Mechanical Drafters,Tech & Analysis,Fabrication · Specifications · Designs
-17-3021.00,0,7,-1,Aerospace Engineering and Operations Technologists and Technicians,Tech & Analysis,Fabrication · Specifications · Designs
-17-3022.00,0,5,-1,Civil Engineering Technologists and Technicians,Tech & Analysis,Bids · Plan Design · Contracts
-17-3025.00,0,2,-1,Environmental Engineering Technologists and Technicians,Tech & Analysis,Hazardous · Protection · Wastewater
-17-3026.00,0,7,-1,Industrial Engineering Technologists and Technicians,Tech & Analysis,Fabrication · Specifications · Designs
-17-3026.01,0,-1,-1,Nanotechnology Engineering Technologists and Technicians,Tech & Analysis,Unique roles
-17-3027.00,0,7,-1,Mechanical Engineering Technologists and Technicians,Tech & Analysis,Fabrication · Specifications · Designs
-17-3031.00,0,1,-1,Surveying and Mapping Technicians,Tech & Analysis,Remote · Satellite · Geographic
-19-1011.00,0,-1,-1,Animal Scientists,Tech & Analysis,Unique roles
-19-1012.00,0,8,-1,Food Scientists and Technologists,Tech & Analysis,Experiments · Chemists · Pilot
-19-1013.00,0,2,-1,Soil and Plant Scientists,Tech & Analysis,Hazardous · Protection · Wastewater
-19-1021.00,0,9,-1,Biochemists and Biophysicists,Tech & Analysis,Cell · Specimens · Dna
-19-1022.00,0,9,-1,Microbiologists,Tech & Analysis,Cell · Specimens · Dna
-19-1029.01,0,3,-1,Bioinformatics Scientists,Tech & Analysis,Data Statistical · Business · Programming
-19-1029.02,0,9,-1,Molecular and Cellular Biologists,Tech & Analysis,Cell · Specimens · Dna
-19-1029.03,0,9,-1,Geneticists,Tech & Analysis,Cell · Specimens · Dna
-19-1029.04,0,2,-1,Biologists,Tech & Analysis,Hazardous · Protection · Wastewater
-19-1042.00,0,9,-1,"Medical Scientists, Except Epidemiologists",Tech & Analysis,Cell · Specimens · Dna
-19-2011.00,0,0,-1,Astronomers,Tech & Analysis,Network · Users · Security
-19-2012.00,0,4,-1,Physicists,Tech & Analysis,Radiation · Nuclear · Radioactive
-19-2021.00,0,1,-1,Atmospheric and Space Scientists,Tech & Analysis,Remote · Satellite · Geographic
-19-2031.00,0,8,-1,Chemists,Tech & Analysis,Experiments · Chemists · Pilot
-19-2032.00,0,-1,-1,Materials Scientists,Tech & Analysis,Unique roles
-19-2041.00,0,2,-1,"Environmental Scientists and Specialists, Including Health",Tech & Analysis,Hazardous · Protection · Wastewater
-19-2041.02,0,2,-1,Environmental Restoration Planners,Tech & Analysis,Hazardous · Protection · Wastewater
-19-2041.03,0,2,-1,Industrial Ecologists,Tech & Analysis,Hazardous · Protection · Wastewater
-19-2042.00,0,2,-1,"Geoscientists, Except Hydrologists and Geographers",Tech & Analysis,Hazardous · Protection · Wastewater
-19-2043.00,0,2,-1,Hydrologists,Tech & Analysis,Hazardous · Protection · Wastewater
-19-2099.01,0,1,-1,Remote Sensing Scientists and Technologists,Tech & Analysis,Remote · Satellite · Geographic
-19-3011.01,0,2,-1,Environmental Economists,Tech & Analysis,Hazardous · Protection · Wastewater
-19-4012.01,0,1,-1,Precision Agriculture Technicians,Tech & Analysis,Remote · Satellite · Geographic
-19-4021.00,0,9,-1,Biological Technicians,Tech & Analysis,Cell · Specimens · Dna
-19-4031.00,0,8,-1,Chemical Technicians,Tech & Analysis,Experiments · Chemists · Pilot
-19-4044.00,0,2,-1,Hydrologic Technicians,Tech & Analysis,Hazardous · Protection · Wastewater
-19-4051.02,0,4,-1,Nuclear Monitoring Technicians,Tech & Analysis,Radiation · Nuclear · Radioactive
-19-4099.01,0,-1,-1,Quality Control Analysts,Tech & Analysis,Unique roles
-19-4099.03,0,1,-1,Remote Sensing Technicians,Tech & Analysis,Remote · Satellite · Geographic
-25-1032.00,0,0,-1,"Engineering Teachers, Postsecondary",Tech & Analysis,Network · Users · Security
-25-1054.00,0,0,-1,"Physics Teachers, Postsecondary",Tech & Analysis,Network · Users · Security
-27-1021.00,0,7,-1,Commercial and Industrial Designers,Tech & Analysis,Fabrication · Specifications · Designs
-27-1022.00,0,7,-1,Fashion Designers,Tech & Analysis,Fabrication · Specifications · Designs
-27-1027.00,0,7,-1,Set and Exhibit Designers,Tech & Analysis,Fabrication · Specifications · Designs
-29-1222.00,0,9,-1,"Physicians, Pathologists",Tech & Analysis,Cell · Specimens · Dna
-29-2011.01,0,9,-1,Cytogenetic Technologists,Tech & Analysis,Cell · Specimens · Dna
-29-2036.00,0,4,-1,Medical Dosimetrists,Tech & Analysis,Radiation · Nuclear · Radioactive
-41-9031.00,0,7,-1,Sales Engineers,Tech & Analysis,Fabrication · Specifications · Designs
-43-9111.00,0,3,-1,Statistical Assistants,Tech & Analysis,Data Statistical · Business · Programming
-47-4011.01,0,6,-1,Energy Auditors,Tech & Analysis,Solar · Energy Sources · Heating
-51-6092.00,0,7,-1,Fabric and Apparel Patternmakers,Tech & Analysis,Fabrication · Specifications · Designs
-51-8011.00,0,4,-1,Nuclear Power Reactor Operators,Tech & Analysis,Radiation · Nuclear · Radioactive
-51-8012.00,0,6,-1,Power Distributors and Dispatchers,Tech & Analysis,Solar · Energy Sources · Heating
-53-2021.00,0,-1,-1,Air Traffic Controllers,Tech & Analysis,Unique roles
-53-6041.00,0,5,-1,Traffic Technicians,Tech & Analysis,Bids · Plan Design · Contracts
-17-3023.00,1,4,-1,Electrical and Electronic Engineering Technologists and Technicians,Build & Fix,Calibrate · Analyze · Test Adjust
-17-3024.00,1,4,-1,Electro-Mechanical and Mechatronics Technologists and Technicians,Build & Fix,Calibrate · Analyze · Test Adjust
-17-3024.01,1,4,-1,Robotics Technicians,Build & Fix,Calibrate · Analyze · Test Adjust
-17-3027.01,1,4,-1,Automotive Engineering Technicians,Build & Fix,Calibrate · Analyze · Test Adjust
-17-3028.00,1,4,-1,Calibration Technologists and Technicians,Build & Fix,Calibrate · Analyze · Test Adjust
-17-3029.08,1,4,-1,Photonics Technicians,Build & Fix,Calibrate · Analyze · Test Adjust
-19-4012.00,1,0,-1,Agricultural Technicians,Build & Fix,Trucks · Drive · Levers
-19-4043.00,1,0,-1,"Geological Technicians, Except Hydrologic Technicians",Build & Fix,Trucks · Drive · Levers
-19-4051.00,1,9,-1,Nuclear Technicians,Build & Fix,Instrument · Readings · Chemical
-27-4012.00,1,5,-1,Broadcast Technicians,Build & Fix,Installers Repairers · Wires · Transmission
-27-4015.00,1,5,-1,Lighting Technicians,Build & Fix,Installers Repairers · Wires · Transmission
-27-4031.00,1,5,-1,"Camera Operators, Television, Video, and Film",Build & Fix,Installers Repairers · Wires · Transmission
-29-2011.04,1,-1,-1,Histotechnologists,Build & Fix,Unique roles
-31-9093.00,1,-1,-1,Medical Equipment Preparers,Build & Fix,Unique roles
-33-2011.00,1,1,-1,Firefighters,Build & Fix,Tow · Marine · Vessels
-33-9093.00,1,2,-1,Transportation Security Screeners,Build & Fix,Traffic · Delays · Routes
-37-3013.00,1,0,-1,Tree Trimmers and Pruners,Build & Fix,Trucks · Drive · Levers
-43-5111.00,1,11,-1,"Weighers, Measurers, Checkers, and Samplers, Recordkeeping",Build & Fix,Food · Dislodge · Weigh Measure
-45-2091.00,1,0,-1,Agricultural Equipment Operators,Build & Fix,Trucks · Drive · Levers
-45-2092.00,1,0,-1,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",Build & Fix,Trucks · Drive · Levers
-45-2093.00,1,0,-1,"Farmworkers, Farm, Ranch, and Aquacultural Animals",Build & Fix,Trucks · Drive · Levers
-45-3031.00,1,1,-1,Fishing and Hunting Workers,Build & Fix,Tow · Marine · Vessels
-45-4011.00,1,0,-1,Forest and Conservation Workers,Build & Fix,Trucks · Drive · Levers
-45-4021.00,1,0,-1,Fallers,Build & Fix,Trucks · Drive · Levers
-45-4022.00,1,0,-1,Logging Equipment Operators,Build & Fix,Trucks · Drive · Levers
-45-4023.00,1,0,-1,Log Graders and Scalers,Build & Fix,Trucks · Drive · Levers
-47-2011.00,1,7,-1,Boilermakers,Build & Fix,Protractors · Blueprints Drawings · Fit
-47-2021.00,1,6,-1,Brickmasons and Blockmasons,Build & Fix,Cement · Joints · Strips
-47-2022.00,1,6,-1,Stonemasons,Build & Fix,Cement · Joints · Strips
-47-2031.00,1,6,-1,Carpenters,Build & Fix,Cement · Joints · Strips
-47-2041.00,1,6,-1,Carpet Installers,Build & Fix,Cement · Joints · Strips
-47-2043.00,1,6,-1,Floor Sanders and Finishers,Build & Fix,Cement · Joints · Strips
-47-2051.00,1,6,-1,Cement Masons and Concrete Finishers,Build & Fix,Cement · Joints · Strips
-47-2053.00,1,6,-1,Terrazzo Workers and Finishers,Build & Fix,Cement · Joints · Strips
-47-2061.00,1,-1,-1,Construction Laborers,Build & Fix,Unique roles
-47-2071.00,1,0,-1,"Paving, Surfacing, and Tamping Equipment Operators",Build & Fix,Trucks · Drive · Levers
-47-2072.00,1,0,-1,Pile Driver Operators,Build & Fix,Trucks · Drive · Levers
-47-2073.00,1,0,-1,Operating Engineers and Other Construction Equipment Operators,Build & Fix,Trucks · Drive · Levers
-47-2081.00,1,6,-1,Drywall and Ceiling Tile Installers,Build & Fix,Cement · Joints · Strips
-47-2111.00,1,5,-1,Electricians,Build & Fix,Installers Repairers · Wires · Transmission
-47-2121.00,1,6,-1,Glaziers,Build & Fix,Cement · Joints · Strips
-47-2132.00,1,3,-1,"Insulation Workers, Mechanical",Build & Fix,Diagnose · Mechanics · Repair Overhaul
-47-2152.00,1,-1,-1,"Plumbers, Pipefitters, and Steamfitters",Build & Fix,Unique roles
-47-2152.04,1,3,-1,Solar Thermal Installers and Technicians,Build & Fix,Diagnose · Mechanics · Repair Overhaul
-47-2161.00,1,6,-1,Plasterers and Stucco Masons,Build & Fix,Cement · Joints · Strips
-47-2171.00,1,6,-1,Reinforcing Iron and Rebar Workers,Build & Fix,Cement · Joints · Strips
-47-2181.00,1,6,-1,Roofers,Build & Fix,Cement · Joints · Strips
-47-2211.00,1,6,-1,Sheet Metal Workers,Build & Fix,Cement · Joints · Strips
-47-2221.00,1,6,-1,Structural Iron and Steel Workers,Build & Fix,Cement · Joints · Strips
-47-2231.00,1,3,-1,Solar Photovoltaic Installers,Build & Fix,Diagnose · Mechanics · Repair Overhaul
-47-3011.00,1,6,-1,"Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters",Build & Fix,Cement · Joints · Strips
-47-3012.00,1,6,-1,Helpers--Carpenters,Build & Fix,Cement · Joints · Strips
-47-3013.00,1,5,-1,Helpers--Electricians,Build & Fix,Installers Repairers · Wires · Transmission
-47-4021.00,1,3,-1,Elevator and Escalator Installers and Repairers,Build & Fix,Diagnose · Mechanics · Repair Overhaul
-47-4041.00,1,-1,-1,Hazardous Materials Removal Workers,Build & Fix,Unique roles
-47-4051.00,1,0,-1,Highway Maintenance Workers,Build & Fix,Trucks · Drive · Levers
-47-4061.00,1,2,-1,Rail-Track Laying and Maintenance Equipment Operators,Build & Fix,Traffic · Delays · Routes
-47-4071.00,1,0,-1,Septic Tank Servicers and Sewer Pipe Cleaners,Build & Fix,Trucks · Drive · Levers
-47-4091.00,1,6,-1,Segmental Pavers,Build & Fix,Cement · Joints · Strips
-47-4099.03,1,3,-1,Weatherization Installers and Technicians,Build & Fix,Diagnose · Mechanics · Repair Overhaul
-47-5011.00,1,0,-1,"Derrick Operators, Oil and Gas",Build & Fix,Trucks · Drive · Levers
-47-5012.00,1,0,-1,"Rotary Drill Operators, Oil and Gas",Build & Fix,Trucks · Drive · Levers
-47-5013.00,1,0,-1,"Service Unit Operators, Oil and Gas",Build & Fix,Trucks · Drive · Levers
-47-5022.00,1,0,-1,"Excavating and Loading Machine and Dragline Operators, Surface Mining",Build & Fix,Trucks · Drive · Levers
-47-5023.00,1,0,-1,"Earth Drillers, Except Oil and Gas",Build & Fix,Trucks · Drive · Levers
-47-5032.00,1,0,-1,"Explosives Workers, Ordnance Handling Experts, and Blasters",Build & Fix,Trucks · Drive · Levers
-47-5041.00,1,0,-1,Continuous Mining Machine Operators,Build & Fix,Trucks · Drive · Levers
-47-5043.00,1,6,-1,"Roof Bolters, Mining",Build & Fix,Cement · Joints · Strips
-47-5071.00,1,0,-1,"Roustabouts, Oil and Gas",Build & Fix,Trucks · Drive · Levers
-47-5081.00,1,0,-1,Helpers--Extraction Workers,Build & Fix,Trucks · Drive · Levers
-49-2011.00,1,4,-1,"Computer, Automated Teller, and Office Machine Repairers",Build & Fix,Calibrate · Analyze · Test Adjust
-49-2021.00,1,5,-1,"Radio, Cellular, and Tower Equipment Installers and Repairers",Build & Fix,Installers Repairers · Wires · Transmission
-49-2022.00,1,5,-1,"Telecommunications Equipment Installers and Repairers, Except Line Installers",Build & Fix,Installers Repairers · Wires · Transmission
-49-2091.00,1,4,-1,Avionics Technicians,Build & Fix,Calibrate · Analyze · Test Adjust
-49-2092.00,1,3,-1,"Electric Motor, Power Tool, and Related Repairers",Build & Fix,Diagnose · Mechanics · Repair Overhaul
-49-2093.00,1,5,-1,"Electrical and Electronics Installers and Repairers, Transportation Equipment",Build & Fix,Installers Repairers · Wires · Transmission
-49-2094.00,1,4,-1,"Electrical and Electronics Repairers, Commercial and Industrial Equipment",Build & Fix,Calibrate · Analyze · Test Adjust
-49-2095.00,1,5,-1,"Electrical and Electronics Repairers, Powerhouse, Substation, and Relay",Build & Fix,Installers Repairers · Wires · Transmission
-49-2096.00,1,5,-1,"Electronic Equipment Installers and Repairers, Motor Vehicles",Build & Fix,Installers Repairers · Wires · Transmission
-49-2097.00,1,5,-1,Audiovisual Equipment Installers and Repairers,Build & Fix,Installers Repairers · Wires · Transmission
-49-2098.00,1,5,-1,Security and Fire Alarm Systems Installers,Build & Fix,Installers Repairers · Wires · Transmission
-49-3011.00,1,3,-1,Aircraft Mechanics and Service Technicians,Build & Fix,Diagnose · Mechanics · Repair Overhaul
-49-3021.00,1,3,-1,Automotive Body and Related Repairers,Build & Fix,Diagnose · Mechanics · Repair Overhaul
-49-3023.00,1,3,-1,Automotive Service Technicians and Mechanics,Build & Fix,Diagnose · Mechanics · Repair Overhaul
-49-3031.00,1,3,-1,Bus and Truck Mechanics and Diesel Engine Specialists,Build & Fix,Diagnose · Mechanics · Repair Overhaul
-49-3041.00,1,3,-1,Farm Equipment Mechanics and Service Technicians,Build & Fix,Diagnose · Mechanics · Repair Overhaul
-49-3042.00,1,3,-1,"Mobile Heavy Equipment Mechanics, Except Engines",Build & Fix,Diagnose · Mechanics · Repair Overhaul
-49-3043.00,1,3,-1,Rail Car Repairers,Build & Fix,Diagnose · Mechanics · Repair Overhaul
-49-3051.00,1,3,-1,Motorboat Mechanics and Service Technicians,Build & Fix,Diagnose · Mechanics · Repair Overhaul
-49-3052.00,1,3,-1,Motorcycle Mechanics,Build & Fix,Diagnose · Mechanics · Repair Overhaul
-49-3053.00,1,3,-1,Outdoor Power Equipment and Other Small Engine Mechanics,Build & Fix,Diagnose · Mechanics · Repair Overhaul
-49-3091.00,1,3,-1,Bicycle Repairers,Build & Fix,Diagnose · Mechanics · Repair Overhaul
-49-3092.00,1,3,-1,Recreational Vehicle Service Technicians,Build & Fix,Diagnose · Mechanics · Repair Overhaul
-49-9011.00,1,3,-1,Mechanical Door Repairers,Build & Fix,Diagnose · Mechanics · Repair Overhaul
-49-9012.00,1,3,-1,"Control and Valve Installers and Repairers, Except Mechanical Door",Build & Fix,Diagnose · Mechanics · Repair Overhaul
-49-9021.00,1,3,-1,"Heating, Air Conditioning, and Refrigeration Mechanics and Installers",Build & Fix,Diagnose · Mechanics · Repair Overhaul
-49-9031.00,1,3,-1,Home Appliance Repairers,Build & Fix,Diagnose · Mechanics · Repair Overhaul
-49-9041.00,1,3,-1,Industrial Machinery Mechanics,Build & Fix,Diagnose · Mechanics · Repair Overhaul
-49-9043.00,1,3,-1,"Maintenance Workers, Machinery",Build & Fix,Diagnose · Mechanics · Repair Overhaul
-49-9044.00,1,7,-1,Millwrights,Build & Fix,Protractors · Blueprints Drawings · Fit
-49-9051.00,1,5,-1,Electrical Power-Line Installers and Repairers,Build & Fix,Installers Repairers · Wires · Transmission
-49-9052.00,1,5,-1,Telecommunications Line Installers and Repairers,Build & Fix,Installers Repairers · Wires · Transmission
-49-9062.00,1,4,-1,Medical Equipment Repairers,Build & Fix,Calibrate · Analyze · Test Adjust
-49-9063.00,1,8,-1,Musical Instrument Repairers and Tuners,Build & Fix,Workpieces · Tooling · Cutting Tools
-49-9071.00,1,3,-1,"Maintenance and Repair Workers, General",Build & Fix,Diagnose · Mechanics · Repair Overhaul
-49-9081.00,1,-1,-1,Wind Turbine Service Technicians,Build & Fix,Unique roles
-49-9092.00,1,1,-1,Commercial Divers,Build & Fix,Tow · Marine · Vessels
-49-9094.00,1,3,-1,Locksmiths and Safe Repairers,Build & Fix,Diagnose · Mechanics · Repair Overhaul
-49-9095.00,1,3,-1,Manufactured Building and Mobile Home Installers,Build & Fix,Diagnose · Mechanics · Repair Overhaul
-49-9096.00,1,0,-1,Riggers,Build & Fix,Trucks · Drive · Levers
-49-9097.00,1,-1,-1,Signal and Track Switch Repairers,Build & Fix,Unique roles
-49-9098.00,1,3,-1,"Helpers--Installation, Maintenance, and Repair Workers",Build & Fix,Diagnose · Mechanics · Repair Overhaul
-49-9099.01,1,3,-1,Geothermal Technicians,Build & Fix,Diagnose · Mechanics · Repair Overhaul
-51-2011.00,1,7,-1,"Aircraft Structure, Surfaces, Rigging, and Systems Assemblers",Build & Fix,Protractors · Blueprints Drawings · Fit
-51-2031.00,1,7,-1,Engine and Other Machine Assemblers,Build & Fix,Protractors · Blueprints Drawings · Fit
-51-2051.00,1,-1,-1,Fiberglass Laminators and Fabricators,Build & Fix,Unique roles
+11-1011.00,0,-1,-1,Chief Executives,Business & Management,Unique roles
+11-1021.00,0,4,0,General and Operations Managers,Business & Management,Product · Purchased · Trade
+11-1031.00,0,-1,-1,Legislators,Business & Management,Unique roles
+11-2011.00,0,4,1,Advertising and Promotions Managers,Business & Management,Product · Purchased · Trade
+11-2021.00,0,4,2,Marketing Managers,Business & Management,Product · Purchased · Trade
+11-2022.00,0,4,0,Sales Managers,Business & Management,Product · Purchased · Trade
+11-2032.00,0,4,1,Public Relations Managers,Business & Management,Product · Purchased · Trade
+11-2033.00,0,4,1,Fundraising Managers,Business & Management,Product · Purchased · Trade
+11-3012.00,0,-1,-1,Administrative Services Managers,Business & Management,Unique roles
+11-3013.00,0,-1,-1,Facilities Managers,Business & Management,Unique roles
+11-3013.01,0,1,-1,Security Managers,Business & Management,Law Enforcement · Criminal · Suspects
+11-3031.00,0,3,1,Financial Managers,Business & Management,Securities · Investment · Accounts
+11-3031.01,0,3,1,Treasurers and Controllers,Business & Management,Securities · Investment · Accounts
+11-3031.03,0,3,1,Investment Fund Managers,Business & Management,Securities · Investment · Accounts
+11-3061.00,0,4,0,Purchasing Managers,Business & Management,Product · Purchased · Trade
+11-3071.00,0,4,0,"Transportation, Storage, and Distribution Managers",Business & Management,Product · Purchased · Trade
+11-3111.00,0,7,-1,Compensation and Benefits Managers,Business & Management,Compensation · Opportunity · Equal
+11-3121.00,0,7,-1,Human Resources Managers,Business & Management,Compensation · Opportunity · Equal
+11-9051.00,0,10,-1,Food Service Managers,Business & Management,Complaints Regarding · Line Supervisors · Customer
+11-9071.00,0,10,-1,Gambling Managers,Business & Management,Complaints Regarding · Line Supervisors · Customer
+11-9072.00,0,10,-1,"Entertainment and Recreation Managers, Except Gambling",Business & Management,Complaints Regarding · Line Supervisors · Customer
+11-9081.00,0,10,-1,Lodging Managers,Business & Management,Complaints Regarding · Line Supervisors · Customer
+11-9111.00,0,-1,-1,Medical and Health Services Managers,Business & Management,Unique roles
+11-9131.00,0,9,-1,Postmasters and Mail Superintendents,Business & Management,Word Processing · Calls · Messages
+11-9141.00,0,0,-1,"Property, Real Estate, and Community Association Managers",Business & Management,Values · Land · Owners
+11-9151.00,0,8,-1,Social and Community Service Managers,Business & Management,Social · Child · Residents
+11-9161.00,0,1,-1,Emergency Management Directors,Business & Management,Law Enforcement · Criminal · Suspects
+11-9171.00,0,10,-1,Funeral Home Managers,Business & Management,Complaints Regarding · Line Supervisors · Customer
+11-9179.02,0,10,-1,Spa Managers,Business & Management,Complaints Regarding · Line Supervisors · Customer
+11-9199.01,0,3,1,Regulatory Affairs Managers,Business & Management,Securities · Investment · Accounts
+11-9199.02,0,3,1,Compliance Managers,Business & Management,Securities · Investment · Accounts
+11-9199.08,0,1,-1,Loss Prevention Managers,Business & Management,Law Enforcement · Criminal · Suspects
+13-1011.00,0,4,1,"Agents and Business Managers of Artists, Performers, and Athletes",Business & Management,Product · Purchased · Trade
+13-1021.00,0,4,0,"Buyers and Purchasing Agents, Farm Products",Business & Management,Product · Purchased · Trade
+13-1022.00,0,4,0,"Wholesale and Retail Buyers, Except Farm Products",Business & Management,Product · Purchased · Trade
+13-1023.00,0,4,0,"Purchasing Agents, Except Wholesale, Retail, and Farm Products",Business & Management,Product · Purchased · Trade
+13-1031.00,0,3,0,"Claims Adjusters, Examiners, and Investigators",Business & Management,Securities · Investment · Accounts
+13-1032.00,0,3,0,"Insurance Appraisers, Auto Damage",Business & Management,Securities · Investment · Accounts
+13-1041.00,0,3,1,Compliance Officers,Business & Management,Securities · Investment · Accounts
+13-1041.03,0,7,-1,Equal Opportunity Representatives and Officers,Business & Management,Compensation · Opportunity · Equal
+13-1041.04,0,1,-1,Government Property Inspectors and Investigators,Business & Management,Law Enforcement · Criminal · Suspects
+13-1041.07,0,3,1,Regulatory Affairs Specialists,Business & Management,Securities · Investment · Accounts
+13-1041.08,0,4,0,Customs Brokers,Business & Management,Product · Purchased · Trade
+13-1071.00,0,7,-1,Human Resources Specialists,Business & Management,Compensation · Opportunity · Equal
+13-1075.00,0,7,-1,Labor Relations Specialists,Business & Management,Compensation · Opportunity · Equal
+13-1082.00,0,-1,-1,Project Management Specialists,Business & Management,Unique roles
+13-1111.00,0,-1,-1,Management Analysts,Business & Management,Unique roles
+13-1121.00,0,-1,-1,"Meeting, Convention, and Event Planners",Business & Management,Unique roles
+13-1131.00,0,4,1,Fundraisers,Business & Management,Product · Purchased · Trade
+13-1141.00,0,7,-1,"Compensation, Benefits, and Job Analysis Specialists",Business & Management,Compensation · Opportunity · Equal
+13-1161.00,0,4,2,Market Research Analysts and Marketing Specialists,Business & Management,Product · Purchased · Trade
+13-1161.01,0,4,2,Search Marketing Strategists,Business & Management,Product · Purchased · Trade
+13-1199.04,0,1,-1,Business Continuity Planners,Business & Management,Law Enforcement · Criminal · Suspects
+13-1199.06,0,4,2,Online Merchants,Business & Management,Product · Purchased · Trade
+13-2011.00,0,3,1,Accountants and Auditors,Business & Management,Securities · Investment · Accounts
+13-2022.00,0,0,-1,Appraisers of Personal and Business Property,Business & Management,Values · Land · Owners
+13-2023.00,0,0,-1,Appraisers and Assessors of Real Estate,Business & Management,Values · Land · Owners
+13-2031.00,0,3,1,Budget Analysts,Business & Management,Securities · Investment · Accounts
+13-2041.00,0,3,2,Credit Analysts,Business & Management,Securities · Investment · Accounts
+13-2051.00,0,3,1,Financial and Investment Analysts,Business & Management,Securities · Investment · Accounts
+13-2052.00,0,3,1,Personal Financial Advisors,Business & Management,Securities · Investment · Accounts
+13-2053.00,0,3,0,Insurance Underwriters,Business & Management,Securities · Investment · Accounts
+13-2054.00,0,3,1,Financial Risk Specialists,Business & Management,Securities · Investment · Accounts
+13-2061.00,0,3,1,Financial Examiners,Business & Management,Securities · Investment · Accounts
+13-2071.00,0,3,2,Credit Counselors,Business & Management,Securities · Investment · Accounts
+13-2072.00,0,3,2,Loan Officers,Business & Management,Securities · Investment · Accounts
+13-2081.00,0,3,2,"Tax Examiners and Collectors, and Revenue Agents",Business & Management,Securities · Investment · Accounts
+13-2082.00,0,3,2,Tax Preparers,Business & Management,Securities · Investment · Accounts
+13-2099.04,0,1,-1,"Fraud Examiners, Investigators and Analysts",Business & Management,Law Enforcement · Criminal · Suspects
+15-1299.03,0,5,-1,Document Management Specialists,Business & Management,Input · Data Entry · Content
+15-2011.00,0,3,0,Actuaries,Business & Management,Securities · Investment · Accounts
+15-2051.01,0,4,2,Business Intelligence Analysts,Business & Management,Product · Purchased · Trade
+19-1031.03,0,-1,-1,Park Naturalists,Business & Management,Unique roles
+19-3011.00,0,3,1,Economists,Business & Management,Securities · Investment · Accounts
+19-3022.00,0,7,-1,Survey Researchers,Business & Management,Compensation · Opportunity · Equal
+19-3093.00,0,6,-1,Historians,Business & Management,Television · News · Scripts
+21-1015.00,0,8,-1,Rehabilitation Counselors,Business & Management,Social · Child · Residents
+21-1092.00,0,1,-1,Probation Officers and Correctional Treatment Specialists,Business & Management,Law Enforcement · Criminal · Suspects
+21-1093.00,0,8,-1,Social and Human Service Assistants,Business & Management,Social · Child · Residents
+23-1011.00,0,2,-1,Lawyers,Business & Management,Motions · Trial · Judicial
+23-1012.00,0,2,-1,Judicial Law Clerks,Business & Management,Motions · Trial · Judicial
+23-1021.00,0,2,-1,"Administrative Law Judges, Adjudicators, and Hearing Officers",Business & Management,Motions · Trial · Judicial
+23-1022.00,0,2,-1,"Arbitrators, Mediators, and Conciliators",Business & Management,Motions · Trial · Judicial
+23-1023.00,0,2,-1,"Judges, Magistrate Judges, and Magistrates",Business & Management,Motions · Trial · Judicial
+23-2011.00,0,2,-1,Paralegals and Legal Assistants,Business & Management,Motions · Trial · Judicial
+23-2093.00,0,0,-1,"Title Examiners, Abstractors, and Searchers",Business & Management,Values · Land · Owners
+25-4011.00,0,6,-1,Archivists,Business & Management,Television · News · Scripts
+25-4012.00,0,6,-1,Curators,Business & Management,Television · News · Scripts
+25-4022.00,0,6,-1,Librarians and Media Collections Specialists,Business & Management,Television · News · Scripts
+25-9021.00,0,8,-1,Farm and Home Management Educators,Business & Management,Social · Child · Residents
+27-1011.00,0,6,-1,Art Directors,Business & Management,Television · News · Scripts
+27-1024.00,0,6,-1,Graphic Designers,Business & Management,Television · News · Scripts
+27-2012.00,0,6,-1,Producers and Directors,Business & Management,Television · News · Scripts
+27-2012.03,0,6,-1,Media Programming Directors,Business & Management,Television · News · Scripts
+27-2012.04,0,6,-1,Talent Directors,Business & Management,Television · News · Scripts
+27-2041.00,0,6,-1,Music Directors and Composers,Business & Management,Television · News · Scripts
+27-3011.00,0,6,-1,Broadcast Announcers and Radio Disc Jockeys,Business & Management,Television · News · Scripts
+27-3023.00,0,6,-1,"News Analysts, Reporters, and Journalists",Business & Management,Television · News · Scripts
+27-3031.00,0,4,1,Public Relations Specialists,Business & Management,Product · Purchased · Trade
+27-3041.00,0,6,-1,Editors,Business & Management,Television · News · Scripts
+27-3043.00,0,6,-1,Writers and Authors,Business & Management,Television · News · Scripts
+27-3043.05,0,6,-1,"Poets, Lyricists and Creative Writers",Business & Management,Television · News · Scripts
+27-3091.00,0,6,-1,Interpreters and Translators,Business & Management,Television · News · Scripts
+27-3092.00,0,2,-1,Court Reporters and Simultaneous Captioners,Business & Management,Motions · Trial · Judicial
+27-4032.00,0,6,-1,Film and Video Editors,Business & Management,Television · News · Scripts
+33-1011.00,0,1,-1,First-Line Supervisors of Correctional Officers,Business & Management,Law Enforcement · Criminal · Suspects
+33-1012.00,0,1,-1,First-Line Supervisors of Police and Detectives,Business & Management,Law Enforcement · Criminal · Suspects
+33-1091.00,0,1,-1,First-Line Supervisors of Security Workers,Business & Management,Law Enforcement · Criminal · Suspects
+33-3012.00,0,1,-1,Correctional Officers and Jailers,Business & Management,Law Enforcement · Criminal · Suspects
+33-3021.00,0,1,-1,Detectives and Criminal Investigators,Business & Management,Law Enforcement · Criminal · Suspects
+33-3021.02,0,1,-1,Police Identification and Records Officers,Business & Management,Law Enforcement · Criminal · Suspects
+33-3021.06,0,1,-1,Intelligence Analysts,Business & Management,Law Enforcement · Criminal · Suspects
+33-3031.00,0,1,-1,Fish and Game Wardens,Business & Management,Law Enforcement · Criminal · Suspects
+33-3051.00,0,1,-1,Police and Sheriff's Patrol Officers,Business & Management,Law Enforcement · Criminal · Suspects
+33-3051.04,0,1,-1,Customs and Border Protection Officers,Business & Management,Law Enforcement · Criminal · Suspects
+33-3052.00,0,1,-1,Transit and Railroad Police,Business & Management,Law Enforcement · Criminal · Suspects
+33-9021.00,0,1,-1,Private Detectives and Investigators,Business & Management,Law Enforcement · Criminal · Suspects
+33-9031.00,0,1,-1,Gambling Surveillance Officers and Gambling Investigators,Business & Management,Law Enforcement · Criminal · Suspects
+33-9099.02,0,1,-1,Retail Loss Prevention Specialists,Business & Management,Law Enforcement · Criminal · Suspects
+35-1011.00,0,10,-1,Chefs and Head Cooks,Business & Management,Complaints Regarding · Line Supervisors · Customer
+35-1012.00,0,10,-1,First-Line Supervisors of Food Preparation and Serving Workers,Business & Management,Complaints Regarding · Line Supervisors · Customer
+37-1011.00,0,10,-1,First-Line Supervisors of Housekeeping and Janitorial Workers,Business & Management,Complaints Regarding · Line Supervisors · Customer
+39-1013.00,0,10,-1,First-Line Supervisors of Gambling Services Workers,Business & Management,Complaints Regarding · Line Supervisors · Customer
+39-1014.00,0,10,-1,"First-Line Supervisors of Entertainment and Recreation Workers, Except Gambling Services",Business & Management,Complaints Regarding · Line Supervisors · Customer
+39-1022.00,0,10,-1,First-Line Supervisors of Personal Service Workers,Business & Management,Complaints Regarding · Line Supervisors · Customer
+39-9032.00,0,8,-1,Recreation Workers,Business & Management,Social · Child · Residents
+41-1011.00,0,4,0,First-Line Supervisors of Retail Sales Workers,Business & Management,Product · Purchased · Trade
+41-1012.00,0,4,0,First-Line Supervisors of Non-Retail Sales Workers,Business & Management,Product · Purchased · Trade
+41-3011.00,0,4,2,Advertising Sales Agents,Business & Management,Product · Purchased · Trade
+41-3021.00,0,3,0,Insurance Sales Agents,Business & Management,Securities · Investment · Accounts
+41-3031.00,0,3,1,"Securities, Commodities, and Financial Services Sales Agents",Business & Management,Securities · Investment · Accounts
+41-3041.00,0,-1,-1,Travel Agents,Business & Management,Unique roles
+41-3091.00,0,4,2,"Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel",Business & Management,Product · Purchased · Trade
+41-4011.00,0,4,2,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",Business & Management,Product · Purchased · Trade
+41-4012.00,0,4,2,"Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",Business & Management,Product · Purchased · Trade
+41-9021.00,0,0,-1,Real Estate Brokers,Business & Management,Values · Land · Owners
+41-9022.00,0,0,-1,Real Estate Sales Agents,Business & Management,Values · Land · Owners
+41-9031.00,0,4,2,Sales Engineers,Business & Management,Product · Purchased · Trade
+41-9041.00,0,4,2,Telemarketers,Business & Management,Product · Purchased · Trade
+43-1011.00,0,-1,-1,First-Line Supervisors of Office and Administrative Support Workers,Business & Management,Unique roles
+43-3011.00,0,3,2,Bill and Account Collectors,Business & Management,Securities · Investment · Accounts
+43-3021.00,0,3,2,Billing and Posting Clerks,Business & Management,Securities · Investment · Accounts
+43-3031.00,0,3,2,"Bookkeeping, Accounting, and Auditing Clerks",Business & Management,Securities · Investment · Accounts
+43-3051.00,0,3,2,Payroll and Timekeeping Clerks,Business & Management,Securities · Investment · Accounts
+43-3061.00,0,4,0,Procurement Clerks,Business & Management,Product · Purchased · Trade
+43-3071.00,0,3,2,Tellers,Business & Management,Securities · Investment · Accounts
+43-4011.00,0,3,2,Brokerage Clerks,Business & Management,Securities · Investment · Accounts
+43-4021.00,0,3,2,Correspondence Clerks,Business & Management,Securities · Investment · Accounts
+43-4031.00,0,2,-1,"Court, Municipal, and License Clerks",Business & Management,Motions · Trial · Judicial
+43-4041.00,0,3,2,"Credit Authorizers, Checkers, and Clerks",Business & Management,Securities · Investment · Accounts
+43-4051.00,0,3,2,Customer Service Representatives,Business & Management,Securities · Investment · Accounts
+43-4061.00,0,7,-1,"Eligibility Interviewers, Government Programs",Business & Management,Compensation · Opportunity · Equal
+43-4071.00,0,5,-1,File Clerks,Business & Management,Input · Data Entry · Content
+43-4111.00,0,7,-1,"Interviewers, Except Eligibility and Loan",Business & Management,Compensation · Opportunity · Equal
+43-4131.00,0,3,2,Loan Interviewers and Clerks,Business & Management,Securities · Investment · Accounts
+43-4141.00,0,3,2,New Accounts Clerks,Business & Management,Securities · Investment · Accounts
+43-4151.00,0,4,0,Order Clerks,Business & Management,Product · Purchased · Trade
+43-4161.00,0,7,-1,"Human Resources Assistants, Except Payroll and Timekeeping",Business & Management,Compensation · Opportunity · Equal
+43-4171.00,0,9,-1,Receptionists and Information Clerks,Business & Management,Word Processing · Calls · Messages
+43-4181.00,0,-1,-1,Reservation and Transportation Ticket Agents and Travel Clerks,Business & Management,Unique roles
+43-5011.01,0,4,0,Freight Forwarders,Business & Management,Product · Purchased · Trade
+43-5031.00,0,1,-1,Public Safety Telecommunicators,Business & Management,Law Enforcement · Criminal · Suspects
+43-5032.00,0,10,-1,"Dispatchers, Except Police, Fire, and Ambulance",Business & Management,Complaints Regarding · Line Supervisors · Customer
+43-5061.00,0,4,0,"Production, Planning, and Expediting Clerks",Business & Management,Product · Purchased · Trade
+43-6011.00,0,9,-1,Executive Secretaries and Executive Administrative Assistants,Business & Management,Word Processing · Calls · Messages
+43-6012.00,0,2,-1,Legal Secretaries and Administrative Assistants,Business & Management,Motions · Trial · Judicial
+43-6014.00,0,9,-1,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive",Business & Management,Word Processing · Calls · Messages
+43-9021.00,0,5,-1,Data Entry Keyers,Business & Management,Input · Data Entry · Content
+43-9022.00,0,5,-1,Word Processors and Typists,Business & Management,Input · Data Entry · Content
+43-9041.00,0,3,0,Insurance Claims and Policy Processing Clerks,Business & Management,Securities · Investment · Accounts
+43-9061.00,0,9,-1,"Office Clerks, General",Business & Management,Word Processing · Calls · Messages
+43-9081.00,0,5,-1,Proofreaders and Copy Markers,Business & Management,Input · Data Entry · Content
+53-1042.00,0,10,-1,"First-Line Supervisors of Helpers, Laborers, and Material Movers, Hand",Business & Management,Complaints Regarding · Line Supervisors · Customer
+53-1042.01,0,-1,-1,Recycling Coordinators,Business & Management,Unique roles
+53-1043.00,0,10,-1,First-Line Supervisors of Material-Moving Machine and Vehicle Operators,Business & Management,Complaints Regarding · Line Supervisors · Customer
+53-1044.00,0,10,-1,First-Line Supervisors of Passenger Attendants,Business & Management,Complaints Regarding · Line Supervisors · Customer
+17-3024.00,1,9,-1,Electro-Mechanical and Mechatronics Technologists and Technicians,Build & Fix,Assemblies · Subassemblies · Modify
+17-3024.01,1,9,-1,Robotics Technicians,Build & Fix,Assemblies · Subassemblies · Modify
+17-3029.08,1,9,-1,Photonics Technicians,Build & Fix,Assemblies · Subassemblies · Modify
+27-1012.00,1,8,-1,Craft Artists,Build & Fix,Protractors · Models · Cut Shape
+27-4015.00,1,13,-1,Lighting Technicians,Build & Fix,Installers Repairers · Wiring · Wires
+31-9093.00,1,15,-1,Medical Equipment Preparers,Build & Fix,Reassemble · Fabricate Parts · Adjust Repair
+33-2011.00,1,1,-1,Firefighters,Build & Fix,Decks · Crew · Marine
+37-2021.00,1,2,2,Pest Control Workers,Build & Fix,Drive · Equipment · Trucks
+37-3012.00,1,2,2,"Pesticide Handlers, Sprayers, and Applicators, Vegetation",Build & Fix,Drive · Equipment · Trucks
+37-3013.00,1,2,2,Tree Trimmers and Pruners,Build & Fix,Drive · Equipment · Trucks
+43-5041.00,1,13,-1,"Meter Readers, Utilities",Build & Fix,Installers Repairers · Wiring · Wires
+43-5111.00,1,10,-1,"Weighers, Measurers, Checkers, and Samplers, Recordkeeping",Build & Fix,Weigh · Materials Products · Conveyors
+43-9071.00,1,6,-1,"Office Machine Operators, Except Computer",Build & Fix,Folding · Printed · Pages
+45-2091.00,1,2,0,Agricultural Equipment Operators,Build & Fix,Drive · Equipment · Trucks
+45-2092.00,1,2,2,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",Build & Fix,Drive · Equipment · Trucks
+45-3031.00,1,1,-1,Fishing and Hunting Workers,Build & Fix,Decks · Crew · Marine
+45-4011.00,1,2,2,Forest and Conservation Workers,Build & Fix,Drive · Equipment · Trucks
+45-4021.00,1,2,2,Fallers,Build & Fix,Drive · Equipment · Trucks
+45-4022.00,1,2,2,Logging Equipment Operators,Build & Fix,Drive · Equipment · Trucks
+45-4023.00,1,2,2,Log Graders and Scalers,Build & Fix,Drive · Equipment · Trucks
+47-2011.00,1,8,-1,Boilermakers,Build & Fix,Protractors · Models · Cut Shape
+47-2021.00,1,5,-1,Brickmasons and Blockmasons,Build & Fix,Surface · Brush · Grout
+47-2022.00,1,5,-1,Stonemasons,Build & Fix,Surface · Brush · Grout
+47-2031.00,1,4,-1,Carpenters,Build & Fix,Paneling · Nail · Frameworks
+47-2041.00,1,5,-1,Carpet Installers,Build & Fix,Surface · Brush · Grout
+47-2042.00,1,5,-1,"Floor Layers, Except Carpet, Wood, and Hard Tiles",Build & Fix,Surface · Brush · Grout
+47-2043.00,1,5,-1,Floor Sanders and Finishers,Build & Fix,Surface · Brush · Grout
+47-2044.00,1,5,-1,Tile and Stone Setters,Build & Fix,Surface · Brush · Grout
+47-2051.00,1,5,-1,Cement Masons and Concrete Finishers,Build & Fix,Surface · Brush · Grout
+47-2053.00,1,5,-1,Terrazzo Workers and Finishers,Build & Fix,Surface · Brush · Grout
+47-2061.00,1,2,1,Construction Laborers,Build & Fix,Drive · Equipment · Trucks
+47-2071.00,1,2,0,"Paving, Surfacing, and Tamping Equipment Operators",Build & Fix,Drive · Equipment · Trucks
+47-2072.00,1,2,0,Pile Driver Operators,Build & Fix,Drive · Equipment · Trucks
+47-2073.00,1,2,0,Operating Engineers and Other Construction Equipment Operators,Build & Fix,Drive · Equipment · Trucks
+47-2081.00,1,4,-1,Drywall and Ceiling Tile Installers,Build & Fix,Paneling · Nail · Frameworks
+47-2082.00,1,5,-1,Tapers,Build & Fix,Surface · Brush · Grout
+47-2111.00,1,13,-1,Electricians,Build & Fix,Installers Repairers · Wiring · Wires
+47-2121.00,1,-1,-1,Glaziers,Build & Fix,Unique roles
+47-2131.00,1,-1,-1,"Insulation Workers, Floor, Ceiling, and Wall",Build & Fix,Unique roles
+47-2132.00,1,-1,-1,"Insulation Workers, Mechanical",Build & Fix,Unique roles
+47-2141.00,1,5,-1,"Painters, Construction and Maintenance",Build & Fix,Surface · Brush · Grout
+47-2142.00,1,5,-1,Paperhangers,Build & Fix,Surface · Brush · Grout
+47-2151.00,1,2,1,Pipelayers,Build & Fix,Drive · Equipment · Trucks
+47-2152.00,1,2,1,"Plumbers, Pipefitters, and Steamfitters",Build & Fix,Drive · Equipment · Trucks
+47-2152.04,1,-1,-1,Solar Thermal Installers and Technicians,Build & Fix,Unique roles
+47-2161.00,1,5,-1,Plasterers and Stucco Masons,Build & Fix,Surface · Brush · Grout
+47-2171.00,1,4,-1,Reinforcing Iron and Rebar Workers,Build & Fix,Paneling · Nail · Frameworks
+47-2181.00,1,4,-1,Roofers,Build & Fix,Paneling · Nail · Frameworks
+47-2211.00,1,4,-1,Sheet Metal Workers,Build & Fix,Paneling · Nail · Frameworks
+47-2221.00,1,4,-1,Structural Iron and Steel Workers,Build & Fix,Paneling · Nail · Frameworks
+47-2231.00,1,-1,-1,Solar Photovoltaic Installers,Build & Fix,Unique roles
+47-3011.00,1,5,-1,"Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters",Build & Fix,Surface · Brush · Grout
+47-3012.00,1,4,-1,Helpers--Carpenters,Build & Fix,Paneling · Nail · Frameworks
+47-3013.00,1,13,-1,Helpers--Electricians,Build & Fix,Installers Repairers · Wiring · Wires
+47-3014.00,1,5,-1,"Helpers--Painters, Paperhangers, Plasterers, and Stucco Masons",Build & Fix,Surface · Brush · Grout
+47-3015.00,1,2,1,"Helpers--Pipelayers, Plumbers, Pipefitters, and Steamfitters",Build & Fix,Drive · Equipment · Trucks
+47-3016.00,1,4,-1,Helpers--Roofers,Build & Fix,Paneling · Nail · Frameworks
+47-4021.00,1,12,-1,Elevator and Escalator Installers and Repairers,Build & Fix,Doors · Connect Electrical · Pipe
+47-4031.00,1,4,-1,Fence Erectors,Build & Fix,Paneling · Nail · Frameworks
+47-4041.00,1,10,-1,Hazardous Materials Removal Workers,Build & Fix,Weigh · Materials Products · Conveyors
+47-4051.00,1,2,0,Highway Maintenance Workers,Build & Fix,Drive · Equipment · Trucks
+47-4061.00,1,2,0,Rail-Track Laying and Maintenance Equipment Operators,Build & Fix,Drive · Equipment · Trucks
+47-4071.00,1,2,1,Septic Tank Servicers and Sewer Pipe Cleaners,Build & Fix,Drive · Equipment · Trucks
+47-4091.00,1,5,-1,Segmental Pavers,Build & Fix,Surface · Brush · Grout
+47-4099.03,1,12,-1,Weatherization Installers and Technicians,Build & Fix,Doors · Connect Electrical · Pipe
+47-5011.00,1,2,1,"Derrick Operators, Oil and Gas",Build & Fix,Drive · Equipment · Trucks
+47-5012.00,1,2,1,"Rotary Drill Operators, Oil and Gas",Build & Fix,Drive · Equipment · Trucks
+47-5013.00,1,2,1,"Service Unit Operators, Oil and Gas",Build & Fix,Drive · Equipment · Trucks
+47-5022.00,1,2,1,"Excavating and Loading Machine and Dragline Operators, Surface Mining",Build & Fix,Drive · Equipment · Trucks
+47-5023.00,1,2,1,"Earth Drillers, Except Oil and Gas",Build & Fix,Drive · Equipment · Trucks
+47-5032.00,1,2,1,"Explosives Workers, Ordnance Handling Experts, and Blasters",Build & Fix,Drive · Equipment · Trucks
+47-5041.00,1,2,1,Continuous Mining Machine Operators,Build & Fix,Drive · Equipment · Trucks
+47-5043.00,1,4,-1,"Roof Bolters, Mining",Build & Fix,Paneling · Nail · Frameworks
+47-5044.00,1,2,0,"Loading and Moving Machine Operators, Underground Mining",Build & Fix,Drive · Equipment · Trucks
+47-5051.00,1,-1,-1,"Rock Splitters, Quarry",Build & Fix,Unique roles
+47-5071.00,1,2,1,"Roustabouts, Oil and Gas",Build & Fix,Drive · Equipment · Trucks
+47-5081.00,1,2,1,Helpers--Extraction Workers,Build & Fix,Drive · Equipment · Trucks
+49-2011.00,1,15,-1,"Computer, Automated Teller, and Office Machine Repairers",Build & Fix,Reassemble · Fabricate Parts · Adjust Repair
+49-2021.00,1,13,-1,"Radio, Cellular, and Tower Equipment Installers and Repairers",Build & Fix,Installers Repairers · Wiring · Wires
+49-2022.00,1,13,-1,"Telecommunications Equipment Installers and Repairers, Except Line Installers",Build & Fix,Installers Repairers · Wiring · Wires
+49-2091.00,1,15,-1,Avionics Technicians,Build & Fix,Reassemble · Fabricate Parts · Adjust Repair
+49-2092.00,1,-1,-1,"Electric Motor, Power Tool, and Related Repairers",Build & Fix,Unique roles
+49-2093.00,1,13,-1,"Electrical and Electronics Installers and Repairers, Transportation Equipment",Build & Fix,Installers Repairers · Wiring · Wires
+49-2094.00,1,-1,-1,"Electrical and Electronics Repairers, Commercial and Industrial Equipment",Build & Fix,Unique roles
+49-2095.00,1,13,-1,"Electrical and Electronics Repairers, Powerhouse, Substation, and Relay",Build & Fix,Installers Repairers · Wiring · Wires
+49-2096.00,1,13,-1,"Electronic Equipment Installers and Repairers, Motor Vehicles",Build & Fix,Installers Repairers · Wiring · Wires
+49-2097.00,1,13,-1,Audiovisual Equipment Installers and Repairers,Build & Fix,Installers Repairers · Wiring · Wires
+49-2098.00,1,13,-1,Security and Fire Alarm Systems Installers,Build & Fix,Installers Repairers · Wiring · Wires
+49-3011.00,1,14,-1,Aircraft Mechanics and Service Technicians,Build & Fix,Ignition · Pistons · Diagnose Adjust
+49-3021.00,1,-1,-1,Automotive Body and Related Repairers,Build & Fix,Unique roles
+49-3022.00,1,-1,-1,Automotive Glass Installers and Repairers,Build & Fix,Unique roles
+49-3023.00,1,14,-1,Automotive Service Technicians and Mechanics,Build & Fix,Ignition · Pistons · Diagnose Adjust
+49-3031.00,1,14,-1,Bus and Truck Mechanics and Diesel Engine Specialists,Build & Fix,Ignition · Pistons · Diagnose Adjust
+49-3041.00,1,15,-1,Farm Equipment Mechanics and Service Technicians,Build & Fix,Reassemble · Fabricate Parts · Adjust Repair
+49-3042.00,1,15,-1,"Mobile Heavy Equipment Mechanics, Except Engines",Build & Fix,Reassemble · Fabricate Parts · Adjust Repair
+49-3043.00,1,14,-1,Rail Car Repairers,Build & Fix,Ignition · Pistons · Diagnose Adjust
+49-3051.00,1,14,-1,Motorboat Mechanics and Service Technicians,Build & Fix,Ignition · Pistons · Diagnose Adjust
+49-3052.00,1,14,-1,Motorcycle Mechanics,Build & Fix,Ignition · Pistons · Diagnose Adjust
+49-3053.00,1,14,-1,Outdoor Power Equipment and Other Small Engine Mechanics,Build & Fix,Ignition · Pistons · Diagnose Adjust
+49-3091.00,1,14,-1,Bicycle Repairers,Build & Fix,Ignition · Pistons · Diagnose Adjust
+49-3092.00,1,12,-1,Recreational Vehicle Service Technicians,Build & Fix,Doors · Connect Electrical · Pipe
+49-3093.00,1,14,-1,Tire Repairers and Changers,Build & Fix,Ignition · Pistons · Diagnose Adjust
+49-9011.00,1,12,-1,Mechanical Door Repairers,Build & Fix,Doors · Connect Electrical · Pipe
+49-9012.00,1,13,-1,"Control and Valve Installers and Repairers, Except Mechanical Door",Build & Fix,Installers Repairers · Wiring · Wires
+49-9021.00,1,12,-1,"Heating, Air Conditioning, and Refrigeration Mechanics and Installers",Build & Fix,Doors · Connect Electrical · Pipe
+49-9031.00,1,12,-1,Home Appliance Repairers,Build & Fix,Doors · Connect Electrical · Pipe
+49-9041.00,1,15,-1,Industrial Machinery Mechanics,Build & Fix,Reassemble · Fabricate Parts · Adjust Repair
+49-9043.00,1,15,-1,"Maintenance Workers, Machinery",Build & Fix,Reassemble · Fabricate Parts · Adjust Repair
+49-9044.00,1,9,-1,Millwrights,Build & Fix,Assemblies · Subassemblies · Modify
+49-9045.00,1,7,-1,"Refractory Materials Repairers, Except Brickmasons",Build & Fix,Molds · Molten Metal · Ladles
+49-9051.00,1,13,-1,Electrical Power-Line Installers and Repairers,Build & Fix,Installers Repairers · Wiring · Wires
+49-9052.00,1,13,-1,Telecommunications Line Installers and Repairers,Build & Fix,Installers Repairers · Wiring · Wires
+49-9061.00,1,9,-1,Camera and Photographic Equipment Repairers,Build & Fix,Assemblies · Subassemblies · Modify
+49-9062.00,1,15,-1,Medical Equipment Repairers,Build & Fix,Reassemble · Fabricate Parts · Adjust Repair
+49-9063.00,1,3,-1,Musical Instrument Repairers and Tuners,Build & Fix,Sharpen · Cuts · Workpieces
+49-9064.00,1,-1,-1,Watch and Clock Repairers,Build & Fix,Unique roles
+49-9071.00,1,-1,-1,"Maintenance and Repair Workers, General",Build & Fix,Unique roles
+49-9081.00,1,11,-1,Wind Turbine Service Technicians,Build & Fix,Plant · Readings · Compressors
+49-9091.00,1,15,-1,"Coin, Vending, and Amusement Machine Servicers and Repairers",Build & Fix,Reassemble · Fabricate Parts · Adjust Repair
+49-9092.00,1,1,-1,Commercial Divers,Build & Fix,Decks · Crew · Marine
+49-9094.00,1,12,-1,Locksmiths and Safe Repairers,Build & Fix,Doors · Connect Electrical · Pipe
+49-9095.00,1,12,-1,Manufactured Building and Mobile Home Installers,Build & Fix,Doors · Connect Electrical · Pipe
+49-9096.00,1,2,0,Riggers,Build & Fix,Drive · Equipment · Trucks
+49-9097.00,1,13,-1,Signal and Track Switch Repairers,Build & Fix,Installers Repairers · Wiring · Wires
+49-9098.00,1,15,-1,"Helpers--Installation, Maintenance, and Repair Workers",Build & Fix,Reassemble · Fabricate Parts · Adjust Repair
+49-9099.01,1,-1,-1,Geothermal Technicians,Build & Fix,Unique roles
+51-2011.00,1,9,-1,"Aircraft Structure, Surfaces, Rigging, and Systems Assemblers",Build & Fix,Assemblies · Subassemblies · Modify
+51-2021.00,1,-1,-1,"Coil Winders, Tapers, and Finishers",Build & Fix,Unique roles
+51-2022.00,1,9,-1,Electrical and Electronic Equipment Assemblers,Build & Fix,Assemblies · Subassemblies · Modify
+51-2023.00,1,9,-1,Electromechanical Equipment Assemblers,Build & Fix,Assemblies · Subassemblies · Modify
+51-2031.00,1,9,-1,Engine and Other Machine Assemblers,Build & Fix,Assemblies · Subassemblies · Modify
+51-2041.00,1,8,-1,Structural Metal Fabricators and Fitters,Build & Fix,Protractors · Models · Cut Shape
+51-2051.00,1,7,-1,Fiberglass Laminators and Fabricators,Build & Fix,Molds · Molten Metal · Ladles
+51-2061.00,1,9,-1,Timing Device Assemblers and Adjusters,Build & Fix,Assemblies · Subassemblies · Modify
 51-2092.00,1,-1,-1,Team Assemblers,Build & Fix,Unique roles
-51-3091.00,1,11,-1,"Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders",Build & Fix,Food · Dislodge · Weigh Measure
-51-3092.00,1,11,-1,Food Batchmakers,Build & Fix,Food · Dislodge · Weigh Measure
-51-4021.00,1,10,-1,"Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic",Build & Fix,Tenders · Setters Operators · Tend
-51-4023.00,1,8,-1,"Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",Build & Fix,Workpieces · Tooling · Cutting Tools
-51-4032.00,1,8,-1,"Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic",Build & Fix,Workpieces · Tooling · Cutting Tools
-51-4033.00,1,8,-1,"Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic",Build & Fix,Workpieces · Tooling · Cutting Tools
-51-4034.00,1,8,-1,"Lathe and Turning Machine Tool Setters, Operators, and Tenders, Metal and Plastic",Build & Fix,Workpieces · Tooling · Cutting Tools
-51-4035.00,1,8,-1,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",Build & Fix,Workpieces · Tooling · Cutting Tools
-51-4041.00,1,7,-1,Machinists,Build & Fix,Protractors · Blueprints Drawings · Fit
-51-4051.00,1,10,-1,Metal-Refining Furnace Operators and Tenders,Build & Fix,Tenders · Setters Operators · Tend
-51-4061.00,1,7,-1,"Model Makers, Metal and Plastic",Build & Fix,Protractors · Blueprints Drawings · Fit
-51-4062.00,1,7,-1,"Patternmakers, Metal and Plastic",Build & Fix,Protractors · Blueprints Drawings · Fit
-51-4072.00,1,10,-1,"Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",Build & Fix,Tenders · Setters Operators · Tend
-51-4081.00,1,8,-1,"Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic",Build & Fix,Workpieces · Tooling · Cutting Tools
-51-4111.00,1,7,-1,Tool and Die Makers,Build & Fix,Protractors · Blueprints Drawings · Fit
-51-4122.00,1,8,-1,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",Build & Fix,Workpieces · Tooling · Cutting Tools
-51-4191.00,1,10,-1,"Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic",Build & Fix,Tenders · Setters Operators · Tend
-51-4192.00,1,7,-1,"Layout Workers, Metal and Plastic",Build & Fix,Protractors · Blueprints Drawings · Fit
-51-4193.00,1,10,-1,"Plating Machine Setters, Operators, and Tenders, Metal and Plastic",Build & Fix,Tenders · Setters Operators · Tend
-51-4194.00,1,8,-1,"Tool Grinders, Filers, and Sharpeners",Build & Fix,Workpieces · Tooling · Cutting Tools
-51-5112.00,1,10,-1,Printing Press Operators,Build & Fix,Tenders · Setters Operators · Tend
-51-5113.00,1,10,-1,Print Binding and Finishing Workers,Build & Fix,Tenders · Setters Operators · Tend
-51-6062.00,1,-1,-1,"Textile Cutting Machine Setters, Operators, and Tenders",Build & Fix,Unique roles
-51-6091.00,1,10,-1,"Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fibers",Build & Fix,Tenders · Setters Operators · Tend
-51-6093.00,1,6,-1,Upholsterers,Build & Fix,Cement · Joints · Strips
-51-7011.00,1,6,-1,Cabinetmakers and Bench Carpenters,Build & Fix,Cement · Joints · Strips
-51-7021.00,1,6,-1,Furniture Finishers,Build & Fix,Cement · Joints · Strips
-51-7031.00,1,7,-1,"Model Makers, Wood",Build & Fix,Protractors · Blueprints Drawings · Fit
-51-7032.00,1,7,-1,"Patternmakers, Wood",Build & Fix,Protractors · Blueprints Drawings · Fit
-51-8013.00,1,9,-1,Power Plant Operators,Build & Fix,Instrument · Readings · Chemical
-51-8013.03,1,9,-1,Biomass Plant Technicians,Build & Fix,Instrument · Readings · Chemical
-51-8013.04,1,9,-1,Hydroelectric Plant Technicians,Build & Fix,Instrument · Readings · Chemical
-51-8021.00,1,9,-1,Stationary Engineers and Boiler Operators,Build & Fix,Instrument · Readings · Chemical
-51-8031.00,1,9,-1,Water and Wastewater Treatment Plant and System Operators,Build & Fix,Instrument · Readings · Chemical
-51-8091.00,1,9,-1,Chemical Plant and System Operators,Build & Fix,Instrument · Readings · Chemical
-51-8092.00,1,9,-1,Gas Plant Operators,Build & Fix,Instrument · Readings · Chemical
-51-8093.00,1,9,-1,"Petroleum Pump System Operators, Refinery Operators, and Gaugers",Build & Fix,Instrument · Readings · Chemical
-51-8099.01,1,9,-1,Biofuels Processing Technicians,Build & Fix,Instrument · Readings · Chemical
-51-9011.00,1,9,-1,Chemical Equipment Operators and Tenders,Build & Fix,Instrument · Readings · Chemical
-51-9012.00,1,9,-1,"Separating, Filtering, Clarifying, Precipitating, and Still Machine Setters, Operators, and Tenders",Build & Fix,Instrument · Readings · Chemical
-51-9021.00,1,11,-1,"Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders",Build & Fix,Food · Dislodge · Weigh Measure
-51-9022.00,1,8,-1,"Grinding and Polishing Workers, Hand",Build & Fix,Workpieces · Tooling · Cutting Tools
-51-9023.00,1,11,-1,"Mixing and Blending Machine Setters, Operators, and Tenders",Build & Fix,Food · Dislodge · Weigh Measure
-51-9032.00,1,8,-1,"Cutting and Slicing Machine Setters, Operators, and Tenders",Build & Fix,Workpieces · Tooling · Cutting Tools
-51-9041.00,1,10,-1,"Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders",Build & Fix,Tenders · Setters Operators · Tend
-51-9061.00,1,4,-1,"Inspectors, Testers, Sorters, Samplers, and Weighers",Build & Fix,Calibrate · Analyze · Test Adjust
+51-3091.00,1,10,-1,"Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders",Build & Fix,Weigh · Materials Products · Conveyors
+51-3092.00,1,10,-1,Food Batchmakers,Build & Fix,Weigh · Materials Products · Conveyors
+51-3093.00,1,10,-1,Food Cooking Machine Operators and Tenders,Build & Fix,Weigh · Materials Products · Conveyors
+51-4021.00,1,6,-1,"Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic",Build & Fix,Folding · Printed · Pages
+51-4022.00,1,3,-1,"Forging Machine Setters, Operators, and Tenders, Metal and Plastic",Build & Fix,Sharpen · Cuts · Workpieces
+51-4023.00,1,3,-1,"Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",Build & Fix,Sharpen · Cuts · Workpieces
+51-4031.00,1,3,-1,"Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic",Build & Fix,Sharpen · Cuts · Workpieces
+51-4032.00,1,3,-1,"Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic",Build & Fix,Sharpen · Cuts · Workpieces
+51-4033.00,1,3,-1,"Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic",Build & Fix,Sharpen · Cuts · Workpieces
+51-4034.00,1,3,-1,"Lathe and Turning Machine Tool Setters, Operators, and Tenders, Metal and Plastic",Build & Fix,Sharpen · Cuts · Workpieces
+51-4035.00,1,3,-1,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",Build & Fix,Sharpen · Cuts · Workpieces
+51-4041.00,1,8,-1,Machinists,Build & Fix,Protractors · Models · Cut Shape
+51-4051.00,1,7,-1,Metal-Refining Furnace Operators and Tenders,Build & Fix,Molds · Molten Metal · Ladles
+51-4052.00,1,7,-1,"Pourers and Casters, Metal",Build & Fix,Molds · Molten Metal · Ladles
+51-4061.00,1,8,-1,"Model Makers, Metal and Plastic",Build & Fix,Protractors · Models · Cut Shape
+51-4062.00,1,8,-1,"Patternmakers, Metal and Plastic",Build & Fix,Protractors · Models · Cut Shape
+51-4071.00,1,7,-1,Foundry Mold and Coremakers,Build & Fix,Molds · Molten Metal · Ladles
+51-4072.00,1,7,-1,"Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",Build & Fix,Molds · Molten Metal · Ladles
+51-4081.00,1,3,-1,"Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic",Build & Fix,Sharpen · Cuts · Workpieces
+51-4111.00,1,8,-1,Tool and Die Makers,Build & Fix,Protractors · Models · Cut Shape
+51-4121.00,1,8,-1,"Welders, Cutters, Solderers, and Brazers",Build & Fix,Protractors · Models · Cut Shape
+51-4122.00,1,-1,-1,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",Build & Fix,Unique roles
+51-4191.00,1,7,-1,"Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic",Build & Fix,Molds · Molten Metal · Ladles
+51-4192.00,1,8,-1,"Layout Workers, Metal and Plastic",Build & Fix,Protractors · Models · Cut Shape
+51-4193.00,1,7,-1,"Plating Machine Setters, Operators, and Tenders, Metal and Plastic",Build & Fix,Molds · Molten Metal · Ladles
+51-4194.00,1,3,-1,"Tool Grinders, Filers, and Sharpeners",Build & Fix,Sharpen · Cuts · Workpieces
+51-5111.00,1,6,-1,Prepress Technicians and Workers,Build & Fix,Folding · Printed · Pages
+51-5112.00,1,6,-1,Printing Press Operators,Build & Fix,Folding · Printed · Pages
+51-5113.00,1,6,-1,Print Binding and Finishing Workers,Build & Fix,Folding · Printed · Pages
+51-6011.00,1,0,-1,Laundry and Dry-Cleaning Workers,Build & Fix,Needles · Fabric · Sew
+51-6021.00,1,0,-1,"Pressers, Textile, Garment, and Related Materials",Build & Fix,Needles · Fabric · Sew
+51-6031.00,1,0,-1,Sewing Machine Operators,Build & Fix,Needles · Fabric · Sew
+51-6041.00,1,0,-1,Shoe and Leather Workers and Repairers,Build & Fix,Needles · Fabric · Sew
+51-6042.00,1,0,-1,Shoe Machine Operators and Tenders,Build & Fix,Needles · Fabric · Sew
+51-6051.00,1,0,-1,"Sewers, Hand",Build & Fix,Needles · Fabric · Sew
+51-6052.00,1,0,-1,"Tailors, Dressmakers, and Custom Sewers",Build & Fix,Needles · Fabric · Sew
+51-6061.00,1,0,-1,Textile Bleaching and Dyeing Machine Operators and Tenders,Build & Fix,Needles · Fabric · Sew
+51-6062.00,1,0,-1,"Textile Cutting Machine Setters, Operators, and Tenders",Build & Fix,Needles · Fabric · Sew
+51-6063.00,1,0,-1,"Textile Knitting and Weaving Machine Setters, Operators, and Tenders",Build & Fix,Needles · Fabric · Sew
+51-6064.00,1,0,-1,"Textile Winding, Twisting, and Drawing Out Machine Setters, Operators, and Tenders",Build & Fix,Needles · Fabric · Sew
+51-6091.00,1,6,-1,"Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fibers",Build & Fix,Folding · Printed · Pages
+51-6092.00,1,8,-1,Fabric and Apparel Patternmakers,Build & Fix,Protractors · Models · Cut Shape
+51-6093.00,1,0,-1,Upholsterers,Build & Fix,Needles · Fabric · Sew
+51-7011.00,1,4,-1,Cabinetmakers and Bench Carpenters,Build & Fix,Paneling · Nail · Frameworks
+51-7021.00,1,5,-1,Furniture Finishers,Build & Fix,Surface · Brush · Grout
+51-7031.00,1,8,-1,"Model Makers, Wood",Build & Fix,Protractors · Models · Cut Shape
+51-7032.00,1,8,-1,"Patternmakers, Wood",Build & Fix,Protractors · Models · Cut Shape
+51-7041.00,1,3,-1,"Sawing Machine Setters, Operators, and Tenders, Wood",Build & Fix,Sharpen · Cuts · Workpieces
+51-7042.00,1,3,-1,"Woodworking Machine Setters, Operators, and Tenders, Except Sawing",Build & Fix,Sharpen · Cuts · Workpieces
+51-8013.00,1,11,-1,Power Plant Operators,Build & Fix,Plant · Readings · Compressors
+51-8013.03,1,11,-1,Biomass Plant Technicians,Build & Fix,Plant · Readings · Compressors
+51-8013.04,1,11,-1,Hydroelectric Plant Technicians,Build & Fix,Plant · Readings · Compressors
+51-8021.00,1,11,-1,Stationary Engineers and Boiler Operators,Build & Fix,Plant · Readings · Compressors
+51-8031.00,1,11,-1,Water and Wastewater Treatment Plant and System Operators,Build & Fix,Plant · Readings · Compressors
+51-8091.00,1,11,-1,Chemical Plant and System Operators,Build & Fix,Plant · Readings · Compressors
+51-8092.00,1,11,-1,Gas Plant Operators,Build & Fix,Plant · Readings · Compressors
+51-8093.00,1,11,-1,"Petroleum Pump System Operators, Refinery Operators, and Gaugers",Build & Fix,Plant · Readings · Compressors
+51-8099.01,1,11,-1,Biofuels Processing Technicians,Build & Fix,Plant · Readings · Compressors
+51-9011.00,1,10,-1,Chemical Equipment Operators and Tenders,Build & Fix,Weigh · Materials Products · Conveyors
+51-9012.00,1,10,-1,"Separating, Filtering, Clarifying, Precipitating, and Still Machine Setters, Operators, and Tenders",Build & Fix,Weigh · Materials Products · Conveyors
+51-9021.00,1,10,-1,"Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders",Build & Fix,Weigh · Materials Products · Conveyors
+51-9022.00,1,3,-1,"Grinding and Polishing Workers, Hand",Build & Fix,Sharpen · Cuts · Workpieces
+51-9023.00,1,10,-1,"Mixing and Blending Machine Setters, Operators, and Tenders",Build & Fix,Weigh · Materials Products · Conveyors
+51-9031.00,1,3,-1,"Cutters and Trimmers, Hand",Build & Fix,Sharpen · Cuts · Workpieces
+51-9032.00,1,3,-1,"Cutting and Slicing Machine Setters, Operators, and Tenders",Build & Fix,Sharpen · Cuts · Workpieces
+51-9041.00,1,7,-1,"Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders",Build & Fix,Molds · Molten Metal · Ladles
+51-9051.00,1,10,-1,"Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders",Build & Fix,Weigh · Materials Products · Conveyors
+51-9061.00,1,10,-1,"Inspectors, Testers, Sorters, Samplers, and Weighers",Build & Fix,Weigh · Materials Products · Conveyors
+51-9071.00,1,-1,-1,Jewelers and Precious Stone and Metal Workers,Build & Fix,Unique roles
+51-9071.06,1,-1,-1,Gem and Diamond Workers,Build & Fix,Unique roles
 51-9081.00,1,-1,-1,Dental Laboratory Technicians,Build & Fix,Unique roles
-51-9111.00,1,11,-1,Packaging and Filling Machine Operators and Tenders,Build & Fix,Food · Dislodge · Weigh Measure
-51-9124.00,1,10,-1,"Coating, Painting, and Spraying Machine Setters, Operators, and Tenders",Build & Fix,Tenders · Setters Operators · Tend
-51-9141.00,1,10,-1,Semiconductor Processing Technicians,Build & Fix,Tenders · Setters Operators · Tend
-51-9151.00,1,10,-1,Photographic Process Workers and Processing Machine Operators,Build & Fix,Tenders · Setters Operators · Tend
-51-9161.00,1,8,-1,Computer Numerically Controlled Tool Operators,Build & Fix,Workpieces · Tooling · Cutting Tools
-51-9162.00,1,8,-1,Computer Numerically Controlled Tool Programmers,Build & Fix,Workpieces · Tooling · Cutting Tools
-51-9191.00,1,10,-1,Adhesive Bonding Machine Operators and Tenders,Build & Fix,Tenders · Setters Operators · Tend
-51-9193.00,1,11,-1,Cooling and Freezing Equipment Operators and Tenders,Build & Fix,Food · Dislodge · Weigh Measure
-51-9195.03,1,7,-1,"Stone Cutters and Carvers, Manufacturing",Build & Fix,Protractors · Blueprints Drawings · Fit
-51-9195.04,1,-1,-1,"Glass Blowers, Molders, Benders, and Finishers",Build & Fix,Unique roles
-51-9196.00,1,10,-1,"Paper Goods Machine Setters, Operators, and Tenders",Build & Fix,Tenders · Setters Operators · Tend
-53-2011.00,1,2,-1,"Airline Pilots, Copilots, and Flight Engineers",Build & Fix,Traffic · Delays · Routes
-53-3032.00,1,2,-1,Heavy and Tractor-Trailer Truck Drivers,Build & Fix,Traffic · Delays · Routes
-53-3033.00,1,2,-1,Light Truck Drivers,Build & Fix,Traffic · Delays · Routes
-53-3051.00,1,2,-1,"Bus Drivers, School",Build & Fix,Traffic · Delays · Routes
-53-3052.00,1,2,-1,"Bus Drivers, Transit and Intercity",Build & Fix,Traffic · Delays · Routes
-53-3053.00,1,2,-1,Shuttle Drivers and Chauffeurs,Build & Fix,Traffic · Delays · Routes
-53-3054.00,1,2,-1,Taxi Drivers,Build & Fix,Traffic · Delays · Routes
-53-4011.00,1,2,-1,Locomotive Engineers,Build & Fix,Traffic · Delays · Routes
-53-4013.00,1,2,-1,"Rail Yard Engineers, Dinkey Operators, and Hostlers",Build & Fix,Traffic · Delays · Routes
-53-4022.00,1,2,-1,"Railroad Brake, Signal, and Switch Operators and Locomotive Firers",Build & Fix,Traffic · Delays · Routes
-53-4031.00,1,2,-1,Railroad Conductors and Yardmasters,Build & Fix,Traffic · Delays · Routes
-53-4041.00,1,2,-1,Subway and Streetcar Operators,Build & Fix,Traffic · Delays · Routes
-53-5011.00,1,1,-1,Sailors and Marine Oilers,Build & Fix,Tow · Marine · Vessels
-53-5021.00,1,1,-1,"Captains, Mates, and Pilots of Water Vessels",Build & Fix,Tow · Marine · Vessels
-53-5022.00,1,1,-1,Motorboat Operators,Build & Fix,Tow · Marine · Vessels
-53-5031.00,1,1,-1,Ship Engineers,Build & Fix,Tow · Marine · Vessels
-53-6031.00,1,2,-1,Automotive and Watercraft Service Attendants,Build & Fix,Traffic · Delays · Routes
-53-6032.00,1,1,-1,Aircraft Service Attendants,Build & Fix,Tow · Marine · Vessels
-53-6051.07,1,2,-1,"Transportation Vehicle, Equipment and Systems Inspectors, Except Aviation",Build & Fix,Traffic · Delays · Routes
-53-7011.00,1,-1,-1,Conveyor Operators and Tenders,Build & Fix,Unique roles
-53-7021.00,1,0,-1,Crane and Tower Operators,Build & Fix,Trucks · Drive · Levers
-53-7031.00,1,0,-1,Dredge Operators,Build & Fix,Trucks · Drive · Levers
-53-7041.00,1,0,-1,Hoist and Winch Operators,Build & Fix,Trucks · Drive · Levers
-53-7051.00,1,0,-1,Industrial Truck and Tractor Operators,Build & Fix,Trucks · Drive · Levers
-53-7062.04,1,-1,-1,Recycling and Reclamation Workers,Build & Fix,Unique roles
-53-7071.00,1,9,-1,Gas Compressor and Gas Pumping Station Operators,Build & Fix,Instrument · Readings · Chemical
-53-7072.00,1,9,-1,"Pump Operators, Except Wellhead Pumpers",Build & Fix,Instrument · Readings · Chemical
-53-7073.00,1,0,-1,Wellhead Pumpers,Build & Fix,Trucks · Drive · Levers
-53-7121.00,1,9,-1,"Tank Car, Truck, and Ship Loaders",Build & Fix,Instrument · Readings · Chemical
-11-1011.00,2,-1,-1,Chief Executives,Teach & Lead,Unique roles
-11-1011.03,2,3,-1,Chief Sustainability Officers,Teach & Lead,Political · Legislative · Energy
-11-1021.00,2,9,-1,General and Operations Managers,Teach & Lead,Product · Sales · Material
-11-1031.00,2,3,-1,Legislators,Teach & Lead,Political · Legislative · Energy
-11-2011.00,2,9,-1,Advertising and Promotions Managers,Teach & Lead,Product · Sales · Material
-11-2021.00,2,9,-1,Marketing Managers,Teach & Lead,Product · Sales · Material
-11-2022.00,2,9,-1,Sales Managers,Teach & Lead,Product · Sales · Material
-11-2032.00,2,9,-1,Public Relations Managers,Teach & Lead,Product · Sales · Material
-11-2033.00,2,9,-1,Fundraising Managers,Teach & Lead,Product · Sales · Material
-11-3031.00,2,6,-1,Financial Managers,Teach & Lead,Securities · Investment · Transactions
-11-3031.01,2,6,-1,Treasurers and Controllers,Teach & Lead,Securities · Investment · Transactions
-11-3031.03,2,6,-1,Investment Fund Managers,Teach & Lead,Securities · Investment · Transactions
-11-3061.00,2,9,-1,Purchasing Managers,Teach & Lead,Product · Sales · Material
-11-3071.00,2,9,-1,"Transportation, Storage, and Distribution Managers",Teach & Lead,Product · Sales · Material
-11-3071.04,2,9,-1,Supply Chain Managers,Teach & Lead,Product · Sales · Material
-11-3111.00,2,7,-1,Compensation and Benefits Managers,Teach & Lead,Opportunity · Equal · Bargaining
-11-3121.00,2,7,-1,Human Resources Managers,Teach & Lead,Opportunity · Equal · Bargaining
-11-3131.00,2,8,-1,Training and Development Managers,Teach & Lead,Curriculum · District · Teachers Administrators
-11-9031.00,2,8,-1,"Education and Childcare Administrators, Preschool and Daycare",Teach & Lead,Curriculum · District · Teachers Administrators
-11-9032.00,2,8,-1,"Education Administrators, Kindergarten through Secondary",Teach & Lead,Curriculum · District · Teachers Administrators
-11-9033.00,2,2,-1,"Education Administrators, Postsecondary",Teach & Lead,Student Recruitment · Campus · Procure
-11-9071.00,2,10,-1,Gambling Managers,Teach & Lead,Resolve Customer · Interview Hire · Schedules
-11-9072.00,2,10,-1,"Entertainment and Recreation Managers, Except Gambling",Teach & Lead,Resolve Customer · Interview Hire · Schedules
-11-9111.00,2,7,-1,Medical and Health Services Managers,Teach & Lead,Opportunity · Equal · Bargaining
-11-9121.01,2,1,-1,Clinical Research Coordinators,Teach & Lead,Patients · Physicians · Medical
-11-9131.00,2,10,-1,Postmasters and Mail Superintendents,Teach & Lead,Resolve Customer · Interview Hire · Schedules
-11-9141.00,2,4,-1,"Property, Real Estate, and Community Association Managers",Teach & Lead,Workshops · Collections · Classification
-11-9151.00,2,-1,-1,Social and Community Service Managers,Teach & Lead,Unique roles
-11-9161.00,2,-1,-1,Emergency Management Directors,Teach & Lead,Unique roles
-11-9179.02,2,10,-1,Spa Managers,Teach & Lead,Resolve Customer · Interview Hire · Schedules
-11-9199.01,2,6,-1,Regulatory Affairs Managers,Teach & Lead,Securities · Investment · Transactions
-11-9199.02,2,6,-1,Compliance Managers,Teach & Lead,Securities · Investment · Transactions
-13-1022.00,2,9,-1,"Wholesale and Retail Buyers, Except Farm Products",Teach & Lead,Product · Sales · Material
-13-1023.00,2,9,-1,"Purchasing Agents, Except Wholesale, Retail, and Farm Products",Teach & Lead,Product · Sales · Material
-13-1031.00,2,5,-1,"Claims Adjusters, Examiners, and Investigators",Teach & Lead,Liability · Evidence · Court
-13-1041.03,2,7,-1,Equal Opportunity Representatives and Officers,Teach & Lead,Opportunity · Equal · Bargaining
-13-1041.07,2,6,-1,Regulatory Affairs Specialists,Teach & Lead,Securities · Investment · Transactions
-13-1041.08,2,9,-1,Customs Brokers,Teach & Lead,Product · Sales · Material
-13-1075.00,2,7,-1,Labor Relations Specialists,Teach & Lead,Opportunity · Equal · Bargaining
-13-1081.00,2,9,-1,Logisticians,Teach & Lead,Product · Sales · Material
-13-1082.00,2,9,-1,Project Management Specialists,Teach & Lead,Product · Sales · Material
-13-1111.00,2,10,-1,Management Analysts,Teach & Lead,Resolve Customer · Interview Hire · Schedules
-13-1131.00,2,9,-1,Fundraisers,Teach & Lead,Product · Sales · Material
-13-1151.00,2,8,-1,Training and Development Specialists,Teach & Lead,Curriculum · District · Teachers Administrators
-13-1161.00,2,9,-1,Market Research Analysts and Marketing Specialists,Teach & Lead,Product · Sales · Material
-13-1161.01,2,9,-1,Search Marketing Strategists,Teach & Lead,Product · Sales · Material
-13-1199.04,2,10,-1,Business Continuity Planners,Teach & Lead,Resolve Customer · Interview Hire · Schedules
-13-1199.05,2,3,-1,Sustainability Specialists,Teach & Lead,Political · Legislative · Energy
-13-2051.00,2,6,-1,Financial and Investment Analysts,Teach & Lead,Securities · Investment · Transactions
-13-2052.00,2,6,-1,Personal Financial Advisors,Teach & Lead,Securities · Investment · Transactions
-13-2061.00,2,6,-1,Financial Examiners,Teach & Lead,Securities · Investment · Transactions
-13-2071.00,2,6,-1,Credit Counselors,Teach & Lead,Securities · Investment · Transactions
-13-2099.04,2,5,-1,"Fraud Examiners, Investigators and Analysts",Teach & Lead,Liability · Evidence · Court
-15-1211.01,2,1,-1,Health Informatics Specialists,Teach & Lead,Patients · Physicians · Medical
-15-1299.03,2,4,-1,Document Management Specialists,Teach & Lead,Workshops · Collections · Classification
-15-1299.09,2,9,-1,Information Technology Project Managers,Teach & Lead,Product · Sales · Material
-19-1041.00,2,1,-1,Epidemiologists,Teach & Lead,Patients · Physicians · Medical
-19-2041.01,2,3,-1,Climate Change Policy Analysts,Teach & Lead,Political · Legislative · Energy
-19-3011.00,2,3,-1,Economists,Teach & Lead,Political · Legislative · Energy
-19-3022.00,2,3,-1,Survey Researchers,Teach & Lead,Political · Legislative · Energy
-19-3032.00,2,7,-1,Industrial-Organizational Psychologists,Teach & Lead,Opportunity · Equal · Bargaining
-19-3033.00,2,0,-1,Clinical and Counseling Psychologists,Teach & Lead,Family · Counseling · Patients
-19-3034.00,2,8,-1,School Psychologists,Teach & Lead,Curriculum · District · Teachers Administrators
-19-3039.02,2,0,-1,Neuropsychologists,Teach & Lead,Family · Counseling · Patients
-19-3039.03,2,0,-1,Clinical Neuropsychologists,Teach & Lead,Family · Counseling · Patients
-19-3041.00,2,3,-1,Sociologists,Teach & Lead,Political · Legislative · Energy
-19-3051.00,2,3,-1,Urban and Regional Planners,Teach & Lead,Political · Legislative · Energy
-19-3091.00,2,3,-1,Anthropologists and Archeologists,Teach & Lead,Political · Legislative · Energy
-19-3092.00,2,3,-1,Geographers,Teach & Lead,Political · Legislative · Energy
-19-3094.00,2,3,-1,Political Scientists,Teach & Lead,Political · Legislative · Energy
-19-3099.01,2,3,-1,Transportation Planners,Teach & Lead,Political · Legislative · Energy
-21-1011.00,2,0,-1,Substance Abuse and Behavioral Disorder Counselors,Teach & Lead,Family · Counseling · Patients
-21-1012.00,2,8,-1,"Educational, Guidance, and Career Counselors and Advisors",Teach & Lead,Curriculum · District · Teachers Administrators
-21-1013.00,2,0,-1,Marriage and Family Therapists,Teach & Lead,Family · Counseling · Patients
-21-1014.00,2,0,-1,Mental Health Counselors,Teach & Lead,Family · Counseling · Patients
-21-1015.00,2,0,-1,Rehabilitation Counselors,Teach & Lead,Family · Counseling · Patients
-21-1021.00,2,0,-1,"Child, Family, and School Social Workers",Teach & Lead,Family · Counseling · Patients
-21-1022.00,2,0,-1,Healthcare Social Workers,Teach & Lead,Family · Counseling · Patients
-21-1023.00,2,0,-1,Mental Health and Substance Abuse Social Workers,Teach & Lead,Family · Counseling · Patients
-21-1091.00,2,8,-1,Health Education Specialists,Teach & Lead,Curriculum · District · Teachers Administrators
-21-1093.00,2,0,-1,Social and Human Service Assistants,Teach & Lead,Family · Counseling · Patients
-21-1094.00,2,0,-1,Community Health Workers,Teach & Lead,Family · Counseling · Patients
-21-2011.00,2,2,-1,Clergy,Teach & Lead,Student Recruitment · Campus · Procure
-21-2021.00,2,2,-1,"Directors, Religious Activities and Education",Teach & Lead,Student Recruitment · Campus · Procure
-23-1011.00,2,5,-1,Lawyers,Teach & Lead,Liability · Evidence · Court
-23-1021.00,2,5,-1,"Administrative Law Judges, Adjudicators, and Hearing Officers",Teach & Lead,Liability · Evidence · Court
-23-1023.00,2,5,-1,"Judges, Magistrate Judges, and Magistrates",Teach & Lead,Liability · Evidence · Court
-25-1011.00,2,2,-1,"Business Teachers, Postsecondary",Teach & Lead,Student Recruitment · Campus · Procure
-25-1021.00,2,2,-1,"Computer Science Teachers, Postsecondary",Teach & Lead,Student Recruitment · Campus · Procure
-25-1022.00,2,2,-1,"Mathematical Science Teachers, Postsecondary",Teach & Lead,Student Recruitment · Campus · Procure
-25-1031.00,2,2,-1,"Architecture Teachers, Postsecondary",Teach & Lead,Student Recruitment · Campus · Procure
-25-1041.00,2,2,-1,"Agricultural Sciences Teachers, Postsecondary",Teach & Lead,Student Recruitment · Campus · Procure
-25-1042.00,2,2,-1,"Biological Science Teachers, Postsecondary",Teach & Lead,Student Recruitment · Campus · Procure
-25-1043.00,2,2,-1,"Forestry and Conservation Science Teachers, Postsecondary",Teach & Lead,Student Recruitment · Campus · Procure
-25-1051.00,2,2,-1,"Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary",Teach & Lead,Student Recruitment · Campus · Procure
-25-1052.00,2,2,-1,"Chemistry Teachers, Postsecondary",Teach & Lead,Student Recruitment · Campus · Procure
-25-1053.00,2,2,-1,"Environmental Science Teachers, Postsecondary",Teach & Lead,Student Recruitment · Campus · Procure
-25-1061.00,2,2,-1,"Anthropology and Archeology Teachers, Postsecondary",Teach & Lead,Student Recruitment · Campus · Procure
-25-1062.00,2,2,-1,"Area, Ethnic, and Cultural Studies Teachers, Postsecondary",Teach & Lead,Student Recruitment · Campus · Procure
-25-1063.00,2,2,-1,"Economics Teachers, Postsecondary",Teach & Lead,Student Recruitment · Campus · Procure
-25-1064.00,2,2,-1,"Geography Teachers, Postsecondary",Teach & Lead,Student Recruitment · Campus · Procure
-25-1065.00,2,2,-1,"Political Science Teachers, Postsecondary",Teach & Lead,Student Recruitment · Campus · Procure
-25-1066.00,2,2,-1,"Psychology Teachers, Postsecondary",Teach & Lead,Student Recruitment · Campus · Procure
-25-1067.00,2,2,-1,"Sociology Teachers, Postsecondary",Teach & Lead,Student Recruitment · Campus · Procure
-25-1071.00,2,2,-1,"Health Specialties Teachers, Postsecondary",Teach & Lead,Student Recruitment · Campus · Procure
-25-1072.00,2,2,-1,"Nursing Instructors and Teachers, Postsecondary",Teach & Lead,Student Recruitment · Campus · Procure
-25-1081.00,2,2,-1,"Education Teachers, Postsecondary",Teach & Lead,Student Recruitment · Campus · Procure
-25-1082.00,2,2,-1,"Library Science Teachers, Postsecondary",Teach & Lead,Student Recruitment · Campus · Procure
-25-1111.00,2,2,-1,"Criminal Justice and Law Enforcement Teachers, Postsecondary",Teach & Lead,Student Recruitment · Campus · Procure
-25-1112.00,2,2,-1,"Law Teachers, Postsecondary",Teach & Lead,Student Recruitment · Campus · Procure
-25-1113.00,2,2,-1,"Social Work Teachers, Postsecondary",Teach & Lead,Student Recruitment · Campus · Procure
-25-1121.00,2,2,-1,"Art, Drama, and Music Teachers, Postsecondary",Teach & Lead,Student Recruitment · Campus · Procure
-25-1122.00,2,2,-1,"Communications Teachers, Postsecondary",Teach & Lead,Student Recruitment · Campus · Procure
-25-1123.00,2,2,-1,"English Language and Literature Teachers, Postsecondary",Teach & Lead,Student Recruitment · Campus · Procure
-25-1124.00,2,2,-1,"Foreign Language and Literature Teachers, Postsecondary",Teach & Lead,Student Recruitment · Campus · Procure
-25-1125.00,2,2,-1,"History Teachers, Postsecondary",Teach & Lead,Student Recruitment · Campus · Procure
-25-1126.00,2,2,-1,"Philosophy and Religion Teachers, Postsecondary",Teach & Lead,Student Recruitment · Campus · Procure
-25-1192.00,2,2,-1,"Family and Consumer Sciences Teachers, Postsecondary",Teach & Lead,Student Recruitment · Campus · Procure
-25-1193.00,2,2,-1,"Recreation and Fitness Studies Teachers, Postsecondary",Teach & Lead,Student Recruitment · Campus · Procure
-25-2012.00,2,8,-1,"Kindergarten Teachers, Except Special Education",Teach & Lead,Curriculum · District · Teachers Administrators
-25-2021.00,2,8,-1,"Elementary School Teachers, Except Special Education",Teach & Lead,Curriculum · District · Teachers Administrators
-25-2022.00,2,8,-1,"Middle School Teachers, Except Special and Career/Technical Education",Teach & Lead,Curriculum · District · Teachers Administrators
-25-2023.00,2,8,-1,"Career/Technical Education Teachers, Middle School",Teach & Lead,Curriculum · District · Teachers Administrators
-25-2031.00,2,8,-1,"Secondary School Teachers, Except Special and Career/Technical Education",Teach & Lead,Curriculum · District · Teachers Administrators
-25-2051.00,2,8,-1,"Special Education Teachers, Preschool",Teach & Lead,Curriculum · District · Teachers Administrators
-25-2055.00,2,8,-1,"Special Education Teachers, Kindergarten",Teach & Lead,Curriculum · District · Teachers Administrators
-25-2056.00,2,8,-1,"Special Education Teachers, Elementary School",Teach & Lead,Curriculum · District · Teachers Administrators
-25-2057.00,2,8,-1,"Special Education Teachers, Middle School",Teach & Lead,Curriculum · District · Teachers Administrators
-25-2058.00,2,8,-1,"Special Education Teachers, Secondary School",Teach & Lead,Curriculum · District · Teachers Administrators
-25-3041.00,2,8,-1,Tutors,Teach & Lead,Curriculum · District · Teachers Administrators
-25-4011.00,2,4,-1,Archivists,Teach & Lead,Workshops · Collections · Classification
-25-4012.00,2,4,-1,Curators,Teach & Lead,Workshops · Collections · Classification
-25-4022.00,2,4,-1,Librarians and Media Collections Specialists,Teach & Lead,Workshops · Collections · Classification
-25-9021.00,2,0,-1,Farm and Home Management Educators,Teach & Lead,Family · Counseling · Patients
-25-9031.00,2,8,-1,Instructional Coordinators,Teach & Lead,Curriculum · District · Teachers Administrators
-27-1011.00,2,9,-1,Art Directors,Teach & Lead,Product · Sales · Material
-27-1025.00,2,-1,-1,Interior Designers,Teach & Lead,Unique roles
-27-2012.00,2,9,-1,Producers and Directors,Teach & Lead,Product · Sales · Material
-27-2012.03,2,9,-1,Media Programming Directors,Teach & Lead,Product · Sales · Material
-27-3023.00,2,9,-1,"News Analysts, Reporters, and Journalists",Teach & Lead,Product · Sales · Material
-27-3031.00,2,9,-1,Public Relations Specialists,Teach & Lead,Product · Sales · Material
-27-3041.00,2,9,-1,Editors,Teach & Lead,Product · Sales · Material
-29-1031.00,2,0,-1,Dietitians and Nutritionists,Teach & Lead,Family · Counseling · Patients
-29-1051.00,2,1,-1,Pharmacists,Teach & Lead,Patients · Physicians · Medical
-29-1127.00,2,0,-1,Speech-Language Pathologists,Teach & Lead,Family · Counseling · Patients
-29-1129.01,2,0,-1,Art Therapists,Teach & Lead,Family · Counseling · Patients
-29-1141.02,2,0,-1,Advanced Practice Psychiatric Nurses,Teach & Lead,Family · Counseling · Patients
-29-1213.00,2,1,-1,Dermatologists,Teach & Lead,Patients · Physicians · Medical
-29-1215.00,2,1,-1,Family Medicine Physicians,Teach & Lead,Patients · Physicians · Medical
-29-1216.00,2,1,-1,General Internal Medicine Physicians,Teach & Lead,Patients · Physicians · Medical
-29-1217.00,2,0,-1,Neurologists,Teach & Lead,Family · Counseling · Patients
-29-1221.00,2,1,-1,"Pediatricians, General",Teach & Lead,Patients · Physicians · Medical
-29-1223.00,2,0,-1,Psychiatrists,Teach & Lead,Family · Counseling · Patients
-29-1229.01,2,1,-1,Allergists and Immunologists,Teach & Lead,Patients · Physicians · Medical
-29-1229.02,2,1,-1,Hospitalists,Teach & Lead,Patients · Physicians · Medical
-29-1229.05,2,1,-1,Preventive Medicine Physicians,Teach & Lead,Patients · Physicians · Medical
-29-1229.06,2,1,-1,Sports Medicine Physicians,Teach & Lead,Patients · Physicians · Medical
-29-1299.01,2,1,-1,Naturopathic Physicians,Teach & Lead,Patients · Physicians · Medical
-29-2099.08,2,1,-1,Patient Representatives,Teach & Lead,Patients · Physicians · Medical
-29-9021.00,2,1,-1,Health Information Technologists and Medical Registrars,Teach & Lead,Patients · Physicians · Medical
-29-9092.00,2,1,-1,Genetic Counselors,Teach & Lead,Patients · Physicians · Medical
-33-3021.06,2,-1,-1,Intelligence Analysts,Teach & Lead,Unique roles
-41-1012.00,2,9,-1,First-Line Supervisors of Non-Retail Sales Workers,Teach & Lead,Product · Sales · Material
-41-3011.00,2,9,-1,Advertising Sales Agents,Teach & Lead,Product · Sales · Material
-43-1011.00,2,10,-1,First-Line Supervisors of Office and Administrative Support Workers,Teach & Lead,Resolve Customer · Interview Hire · Schedules
-43-4131.00,2,6,-1,Loan Interviewers and Clerks,Teach & Lead,Securities · Investment · Transactions
-11-3012.00,3,5,1,Administrative Services Managers,Help & Heal,Costs · Budgets · Requisition
-11-3013.00,3,5,1,Facilities Managers,Help & Heal,Costs · Budgets · Requisition
-11-3013.01,3,2,-1,Security Managers,Help & Heal,Criminal · Security · Crimes
-11-3051.00,3,5,1,Industrial Production Managers,Help & Heal,Costs · Budgets · Requisition
-11-3051.02,3,5,1,Geothermal Production Managers,Help & Heal,Costs · Budgets · Requisition
-11-3051.03,3,5,1,Biofuels Production Managers,Help & Heal,Costs · Budgets · Requisition
-11-3051.04,3,5,1,Biomass Power Plant Managers,Help & Heal,Costs · Budgets · Requisition
-11-3051.06,3,5,1,Hydroelectric Production Managers,Help & Heal,Costs · Budgets · Requisition
-11-9013.00,3,7,-1,"Farmers, Ranchers, and Other Agricultural Managers",Help & Heal,Survey · Soil · Land
-11-9021.00,3,5,1,Construction Managers,Help & Heal,Costs · Budgets · Requisition
-11-9051.00,3,5,1,Food Service Managers,Help & Heal,Costs · Budgets · Requisition
-11-9081.00,3,5,1,Lodging Managers,Help & Heal,Costs · Budgets · Requisition
-11-9171.00,3,1,-1,Funeral Home Managers,Help & Heal,Deceased · Funeral Home · Death
-11-9179.01,3,4,-1,Fitness and Wellness Coordinators,Help & Heal,Sports · Fitness · Teach
-11-9199.08,3,2,-1,Loss Prevention Managers,Help & Heal,Criminal · Security · Crimes
-11-9199.09,3,5,1,Wind Energy Operations Managers,Help & Heal,Costs · Budgets · Requisition
-13-1041.04,3,2,-1,Government Property Inspectors and Investigators,Help & Heal,Criminal · Security · Crimes
-13-1041.06,3,1,-1,Coroners,Help & Heal,Deceased · Funeral Home · Death
-13-1121.00,3,5,1,"Meeting, Convention, and Event Planners",Help & Heal,Costs · Budgets · Requisition
-13-1199.07,3,2,-1,Security Management Specialists,Help & Heal,Criminal · Security · Crimes
-17-1022.00,3,7,-1,Surveyors,Help & Heal,Survey · Soil · Land
-17-2111.00,3,6,-1,"Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",Help & Heal,Hazards · Building · Inspectors
-17-3029.01,3,6,-1,Non-Destructive Testing Specialists,Help & Heal,Hazards · Building · Inspectors
-19-1023.00,3,8,-1,Zoologists and Wildlife Biologists,Help & Heal,Animals · Pets · Spread
-19-1031.00,3,7,-1,Conservation Scientists,Help & Heal,Survey · Soil · Land
-19-1031.02,3,7,-1,Range Managers,Help & Heal,Survey · Soil · Land
-19-1031.03,3,7,-1,Park Naturalists,Help & Heal,Survey · Soil · Land
-19-1032.00,3,7,-1,Foresters,Help & Heal,Survey · Soil · Land
-19-4042.00,3,6,-1,"Environmental Science and Protection Technicians, Including Health",Help & Heal,Hazards · Building · Inspectors
-19-4071.00,3,7,-1,Forest and Conservation Technicians,Help & Heal,Survey · Soil · Land
-19-4092.00,3,2,-1,Forensic Science Technicians,Help & Heal,Criminal · Security · Crimes
-19-5011.00,3,6,-1,Occupational Health and Safety Specialists,Help & Heal,Hazards · Building · Inspectors
-19-5012.00,3,6,-1,Occupational Health and Safety Technicians,Help & Heal,Hazards · Building · Inspectors
-21-1092.00,3,2,-1,Probation Officers and Correctional Treatment Specialists,Help & Heal,Criminal · Security · Crimes
-25-1194.00,3,4,-1,"Career/Technical Education Teachers, Postsecondary",Help & Heal,Sports · Fitness · Teach
-25-2032.00,3,4,-1,"Career/Technical Education Teachers, Secondary School",Help & Heal,Sports · Fitness · Teach
-25-2059.01,3,4,-1,Adapted Physical Education Specialists,Help & Heal,Sports · Fitness · Teach
-25-4013.00,3,5,0,Museum Technicians and Conservators,Help & Heal,Costs · Budgets · Requisition
-25-9042.00,3,4,-1,"Teaching Assistants, Preschool, Elementary, Middle, and Secondary School, Except Special Education",Help & Heal,Sports · Fitness · Teach
-27-2012.05,3,5,0,Media Technical Directors/Managers,Help & Heal,Costs · Budgets · Requisition
-27-2021.00,3,4,-1,Athletes and Sports Competitors,Help & Heal,Sports · Fitness · Teach
-27-2022.00,3,4,-1,Coaches and Scouts,Help & Heal,Sports · Fitness · Teach
-27-2032.00,3,4,-1,Choreographers,Help & Heal,Sports · Fitness · Teach
-27-4011.00,3,5,0,Audio and Video Technicians,Help & Heal,Costs · Budgets · Requisition
-27-4014.00,3,5,0,Sound Engineering Technicians,Help & Heal,Costs · Budgets · Requisition
-27-4021.00,3,5,0,Photographers,Help & Heal,Costs · Budgets · Requisition
-29-1011.00,3,3,2,Chiropractors,Help & Heal,Patients · Physicians · Therapy
+51-9082.00,1,-1,-1,Medical Appliance Technicians,Build & Fix,Unique roles
+51-9083.00,1,9,-1,Ophthalmic Laboratory Technicians,Build & Fix,Assemblies · Subassemblies · Modify
+51-9111.00,1,10,-1,Packaging and Filling Machine Operators and Tenders,Build & Fix,Weigh · Materials Products · Conveyors
+51-9123.00,1,5,-1,"Painting, Coating, and Decorating Workers",Build & Fix,Surface · Brush · Grout
+51-9124.00,1,5,-1,"Coating, Painting, and Spraying Machine Setters, Operators, and Tenders",Build & Fix,Surface · Brush · Grout
+51-9141.00,1,7,-1,Semiconductor Processing Technicians,Build & Fix,Molds · Molten Metal · Ladles
+51-9151.00,1,6,-1,Photographic Process Workers and Processing Machine Operators,Build & Fix,Folding · Printed · Pages
+51-9161.00,1,3,-1,Computer Numerically Controlled Tool Operators,Build & Fix,Sharpen · Cuts · Workpieces
+51-9162.00,1,3,-1,Computer Numerically Controlled Tool Programmers,Build & Fix,Sharpen · Cuts · Workpieces
+51-9191.00,1,7,-1,Adhesive Bonding Machine Operators and Tenders,Build & Fix,Molds · Molten Metal · Ladles
+51-9192.00,1,10,-1,"Cleaning, Washing, and Metal Pickling Equipment Operators and Tenders",Build & Fix,Weigh · Materials Products · Conveyors
+51-9193.00,1,10,-1,Cooling and Freezing Equipment Operators and Tenders,Build & Fix,Weigh · Materials Products · Conveyors
+51-9194.00,1,-1,-1,Etchers and Engravers,Build & Fix,Unique roles
+51-9195.00,1,7,-1,"Molders, Shapers, and Casters, Except Metal and Plastic",Build & Fix,Molds · Molten Metal · Ladles
+51-9195.03,1,-1,-1,"Stone Cutters and Carvers, Manufacturing",Build & Fix,Unique roles
+51-9195.04,1,7,-1,"Glass Blowers, Molders, Benders, and Finishers",Build & Fix,Molds · Molten Metal · Ladles
+51-9195.05,1,7,-1,"Potters, Manufacturing",Build & Fix,Molds · Molten Metal · Ladles
+51-9196.00,1,6,-1,"Paper Goods Machine Setters, Operators, and Tenders",Build & Fix,Folding · Printed · Pages
+51-9197.00,1,-1,-1,Tire Builders,Build & Fix,Unique roles
+51-9198.00,1,10,-1,Helpers--Production Workers,Build & Fix,Weigh · Materials Products · Conveyors
+53-3032.00,1,2,0,Heavy and Tractor-Trailer Truck Drivers,Build & Fix,Drive · Equipment · Trucks
+53-4011.00,1,2,0,Locomotive Engineers,Build & Fix,Drive · Equipment · Trucks
+53-4013.00,1,2,0,"Rail Yard Engineers, Dinkey Operators, and Hostlers",Build & Fix,Drive · Equipment · Trucks
+53-4022.00,1,2,0,"Railroad Brake, Signal, and Switch Operators and Locomotive Firers",Build & Fix,Drive · Equipment · Trucks
+53-5011.00,1,1,-1,Sailors and Marine Oilers,Build & Fix,Decks · Crew · Marine
+53-5021.00,1,1,-1,"Captains, Mates, and Pilots of Water Vessels",Build & Fix,Decks · Crew · Marine
+53-5022.00,1,1,-1,Motorboat Operators,Build & Fix,Decks · Crew · Marine
+53-5031.00,1,1,-1,Ship Engineers,Build & Fix,Decks · Crew · Marine
+53-6011.00,1,1,-1,Bridge and Lock Tenders,Build & Fix,Decks · Crew · Marine
+53-6032.00,1,2,0,Aircraft Service Attendants,Build & Fix,Drive · Equipment · Trucks
+53-6051.07,1,14,-1,"Transportation Vehicle, Equipment and Systems Inspectors, Except Aviation",Build & Fix,Ignition · Pistons · Diagnose Adjust
+53-7011.00,1,10,-1,Conveyor Operators and Tenders,Build & Fix,Weigh · Materials Products · Conveyors
+53-7021.00,1,2,0,Crane and Tower Operators,Build & Fix,Drive · Equipment · Trucks
+53-7031.00,1,2,1,Dredge Operators,Build & Fix,Drive · Equipment · Trucks
+53-7041.00,1,2,0,Hoist and Winch Operators,Build & Fix,Drive · Equipment · Trucks
+53-7051.00,1,2,0,Industrial Truck and Tractor Operators,Build & Fix,Drive · Equipment · Trucks
+53-7061.00,1,-1,-1,Cleaners of Vehicles and Equipment,Build & Fix,Unique roles
+53-7062.00,1,-1,-1,"Laborers and Freight, Stock, and Material Movers, Hand",Build & Fix,Unique roles
+53-7062.04,1,10,-1,Recycling and Reclamation Workers,Build & Fix,Weigh · Materials Products · Conveyors
+53-7063.00,1,10,-1,Machine Feeders and Offbearers,Build & Fix,Weigh · Materials Products · Conveyors
+53-7064.00,1,10,-1,"Packers and Packagers, Hand",Build & Fix,Weigh · Materials Products · Conveyors
+53-7071.00,1,11,-1,Gas Compressor and Gas Pumping Station Operators,Build & Fix,Plant · Readings · Compressors
+53-7072.00,1,11,-1,"Pump Operators, Except Wellhead Pumpers",Build & Fix,Plant · Readings · Compressors
+53-7073.00,1,2,1,Wellhead Pumpers,Build & Fix,Drive · Equipment · Trucks
+53-7121.00,1,11,-1,"Tank Car, Truck, and Ship Loaders",Build & Fix,Plant · Readings · Compressors
+11-3131.00,2,1,1,Training and Development Managers,Teach & Guide,School · Meetings · Training
+11-9031.00,2,1,2,"Education and Childcare Administrators, Preschool and Daycare",Teach & Guide,School · Meetings · Training
+11-9032.00,2,1,2,"Education Administrators, Kindergarten through Secondary",Teach & Guide,School · Meetings · Training
+11-9033.00,2,0,0,"Education Administrators, Postsecondary",Teach & Guide,Findings · Funding · Events
+13-1151.00,2,1,1,Training and Development Specialists,Teach & Guide,School · Meetings · Training
+19-3032.00,2,1,1,Industrial-Organizational Psychologists,Teach & Guide,School · Meetings · Training
+19-3034.00,2,1,0,School Psychologists,Teach & Guide,School · Meetings · Training
+19-3041.00,2,0,1,Sociologists,Teach & Guide,Findings · Funding · Events
+19-3091.00,2,0,1,Anthropologists and Archeologists,Teach & Guide,Findings · Funding · Events
+19-3094.00,2,0,1,Political Scientists,Teach & Guide,Findings · Funding · Events
+21-1012.00,2,1,2,"Educational, Guidance, and Career Counselors and Advisors",Teach & Guide,School · Meetings · Training
+21-1091.00,2,1,2,Health Education Specialists,Teach & Guide,School · Meetings · Training
+21-2011.00,2,0,0,Clergy,Teach & Guide,Findings · Funding · Events
+21-2021.00,2,0,0,"Directors, Religious Activities and Education",Teach & Guide,Findings · Funding · Events
+25-1011.00,2,0,0,"Business Teachers, Postsecondary",Teach & Guide,Findings · Funding · Events
+25-1021.00,2,0,0,"Computer Science Teachers, Postsecondary",Teach & Guide,Findings · Funding · Events
+25-1022.00,2,0,0,"Mathematical Science Teachers, Postsecondary",Teach & Guide,Findings · Funding · Events
+25-1031.00,2,0,0,"Architecture Teachers, Postsecondary",Teach & Guide,Findings · Funding · Events
+25-1032.00,2,0,0,"Engineering Teachers, Postsecondary",Teach & Guide,Findings · Funding · Events
+25-1041.00,2,0,0,"Agricultural Sciences Teachers, Postsecondary",Teach & Guide,Findings · Funding · Events
+25-1042.00,2,0,0,"Biological Science Teachers, Postsecondary",Teach & Guide,Findings · Funding · Events
+25-1043.00,2,0,0,"Forestry and Conservation Science Teachers, Postsecondary",Teach & Guide,Findings · Funding · Events
+25-1051.00,2,0,0,"Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary",Teach & Guide,Findings · Funding · Events
+25-1052.00,2,0,0,"Chemistry Teachers, Postsecondary",Teach & Guide,Findings · Funding · Events
+25-1053.00,2,0,0,"Environmental Science Teachers, Postsecondary",Teach & Guide,Findings · Funding · Events
+25-1054.00,2,0,0,"Physics Teachers, Postsecondary",Teach & Guide,Findings · Funding · Events
+25-1061.00,2,0,0,"Anthropology and Archeology Teachers, Postsecondary",Teach & Guide,Findings · Funding · Events
+25-1062.00,2,0,0,"Area, Ethnic, and Cultural Studies Teachers, Postsecondary",Teach & Guide,Findings · Funding · Events
+25-1063.00,2,0,0,"Economics Teachers, Postsecondary",Teach & Guide,Findings · Funding · Events
+25-1064.00,2,0,0,"Geography Teachers, Postsecondary",Teach & Guide,Findings · Funding · Events
+25-1065.00,2,0,0,"Political Science Teachers, Postsecondary",Teach & Guide,Findings · Funding · Events
+25-1066.00,2,0,0,"Psychology Teachers, Postsecondary",Teach & Guide,Findings · Funding · Events
+25-1067.00,2,0,0,"Sociology Teachers, Postsecondary",Teach & Guide,Findings · Funding · Events
+25-1071.00,2,0,0,"Health Specialties Teachers, Postsecondary",Teach & Guide,Findings · Funding · Events
+25-1072.00,2,0,0,"Nursing Instructors and Teachers, Postsecondary",Teach & Guide,Findings · Funding · Events
+25-1081.00,2,0,0,"Education Teachers, Postsecondary",Teach & Guide,Findings · Funding · Events
+25-1082.00,2,0,0,"Library Science Teachers, Postsecondary",Teach & Guide,Findings · Funding · Events
+25-1111.00,2,0,0,"Criminal Justice and Law Enforcement Teachers, Postsecondary",Teach & Guide,Findings · Funding · Events
+25-1112.00,2,0,0,"Law Teachers, Postsecondary",Teach & Guide,Findings · Funding · Events
+25-1113.00,2,0,0,"Social Work Teachers, Postsecondary",Teach & Guide,Findings · Funding · Events
+25-1121.00,2,0,0,"Art, Drama, and Music Teachers, Postsecondary",Teach & Guide,Findings · Funding · Events
+25-1122.00,2,0,0,"Communications Teachers, Postsecondary",Teach & Guide,Findings · Funding · Events
+25-1123.00,2,0,0,"English Language and Literature Teachers, Postsecondary",Teach & Guide,Findings · Funding · Events
+25-1124.00,2,0,0,"Foreign Language and Literature Teachers, Postsecondary",Teach & Guide,Findings · Funding · Events
+25-1125.00,2,0,0,"History Teachers, Postsecondary",Teach & Guide,Findings · Funding · Events
+25-1126.00,2,0,0,"Philosophy and Religion Teachers, Postsecondary",Teach & Guide,Findings · Funding · Events
+25-1192.00,2,0,0,"Family and Consumer Sciences Teachers, Postsecondary",Teach & Guide,Findings · Funding · Events
+25-1193.00,2,0,0,"Recreation and Fitness Studies Teachers, Postsecondary",Teach & Guide,Findings · Funding · Events
+25-1194.00,2,1,0,"Career/Technical Education Teachers, Postsecondary",Teach & Guide,School · Meetings · Training
+25-2011.00,2,1,0,"Preschool Teachers, Except Special Education",Teach & Guide,School · Meetings · Training
+25-2012.00,2,1,0,"Kindergarten Teachers, Except Special Education",Teach & Guide,School · Meetings · Training
+25-2021.00,2,1,0,"Elementary School Teachers, Except Special Education",Teach & Guide,School · Meetings · Training
+25-2022.00,2,1,0,"Middle School Teachers, Except Special and Career/Technical Education",Teach & Guide,School · Meetings · Training
+25-2023.00,2,1,0,"Career/Technical Education Teachers, Middle School",Teach & Guide,School · Meetings · Training
+25-2031.00,2,1,0,"Secondary School Teachers, Except Special and Career/Technical Education",Teach & Guide,School · Meetings · Training
+25-2032.00,2,1,0,"Career/Technical Education Teachers, Secondary School",Teach & Guide,School · Meetings · Training
+25-2051.00,2,1,0,"Special Education Teachers, Preschool",Teach & Guide,School · Meetings · Training
+25-2055.00,2,1,0,"Special Education Teachers, Kindergarten",Teach & Guide,School · Meetings · Training
+25-2056.00,2,1,0,"Special Education Teachers, Elementary School",Teach & Guide,School · Meetings · Training
+25-2057.00,2,1,0,"Special Education Teachers, Middle School",Teach & Guide,School · Meetings · Training
+25-2058.00,2,1,0,"Special Education Teachers, Secondary School",Teach & Guide,School · Meetings · Training
+25-2059.01,2,1,0,Adapted Physical Education Specialists,Teach & Guide,School · Meetings · Training
+25-3011.00,2,1,0,"Adult Basic Education, Adult Secondary Education, and English as a Second Language Instructors",Teach & Guide,School · Meetings · Training
+25-3021.00,2,1,0,Self-Enrichment Teachers,Teach & Guide,School · Meetings · Training
+25-3031.00,2,1,0,"Substitute Teachers, Short-Term",Teach & Guide,School · Meetings · Training
+25-3041.00,2,1,0,Tutors,Teach & Guide,School · Meetings · Training
+25-9031.00,2,1,0,Instructional Coordinators,Teach & Guide,School · Meetings · Training
+25-9042.00,2,1,0,"Teaching Assistants, Preschool, Elementary, Middle, and Secondary School, Except Special Education",Teach & Guide,School · Meetings · Training
+25-9043.00,2,1,0,"Teaching Assistants, Special Education",Teach & Guide,School · Meetings · Training
+25-9044.00,2,0,0,"Teaching Assistants, Postsecondary",Teach & Guide,Findings · Funding · Events
+27-2022.00,2,1,2,Coaches and Scouts,Teach & Guide,School · Meetings · Training
+39-9041.00,2,1,2,Residential Advisors,Teach & Guide,School · Meetings · Training
+11-9121.01,3,3,5,Clinical Research Coordinators,Help & Heal,Physical · Care · Patients
+11-9179.01,3,3,6,Fitness and Wellness Coordinators,Help & Heal,Physical · Care · Patients
+13-1041.06,3,3,2,Coroners,Help & Heal,Physical · Care · Patients
+15-1211.01,3,3,5,Health Informatics Specialists,Help & Heal,Physical · Care · Patients
+19-1041.00,3,3,5,Epidemiologists,Help & Heal,Physical · Care · Patients
+19-1042.00,3,2,-1,"Medical Scientists, Except Epidemiologists",Help & Heal,Samples · Cell · Laboratory Equipment
+19-3033.00,3,3,0,Clinical and Counseling Psychologists,Help & Heal,Physical · Care · Patients
+19-3039.02,3,3,0,Neuropsychologists,Help & Heal,Physical · Care · Patients
+19-3039.03,3,3,0,Clinical Neuropsychologists,Help & Heal,Physical · Care · Patients
+21-1011.00,3,3,0,Substance Abuse and Behavioral Disorder Counselors,Help & Heal,Physical · Care · Patients
+21-1013.00,3,3,0,Marriage and Family Therapists,Help & Heal,Physical · Care · Patients
+21-1014.00,3,3,0,Mental Health Counselors,Help & Heal,Physical · Care · Patients
+21-1021.00,3,3,0,"Child, Family, and School Social Workers",Help & Heal,Physical · Care · Patients
+21-1022.00,3,3,0,Healthcare Social Workers,Help & Heal,Physical · Care · Patients
+21-1023.00,3,3,0,Mental Health and Substance Abuse Social Workers,Help & Heal,Physical · Care · Patients
+21-1094.00,3,3,5,Community Health Workers,Help & Heal,Physical · Care · Patients
+29-1011.00,3,3,1,Chiropractors,Help & Heal,Physical · Care · Patients
 29-1021.00,3,0,-1,"Dentists, General",Help & Heal,Dental · Teeth · Jaw
 29-1022.00,3,0,-1,Oral and Maxillofacial Surgeons,Help & Heal,Dental · Teeth · Jaw
 29-1023.00,3,0,-1,Orthodontists,Help & Heal,Dental · Teeth · Jaw
 29-1024.00,3,0,-1,Prosthodontists,Help & Heal,Dental · Teeth · Jaw
-29-1041.00,3,3,0,Optometrists,Help & Heal,Patients · Physicians · Therapy
-29-1071.00,3,3,2,Physician Assistants,Help & Heal,Patients · Physicians · Therapy
-29-1071.01,3,3,2,Anesthesiologist Assistants,Help & Heal,Patients · Physicians · Therapy
-29-1081.00,3,3,2,Podiatrists,Help & Heal,Patients · Physicians · Therapy
-29-1122.00,3,3,1,Occupational Therapists,Help & Heal,Patients · Physicians · Therapy
-29-1122.01,3,3,1,"Low Vision Therapists, Orientation and Mobility Specialists, and Vision Rehabilitation Therapists",Help & Heal,Patients · Physicians · Therapy
-29-1123.00,3,3,1,Physical Therapists,Help & Heal,Patients · Physicians · Therapy
-29-1124.00,3,3,3,Radiation Therapists,Help & Heal,Patients · Physicians · Therapy
-29-1125.00,3,3,1,Recreational Therapists,Help & Heal,Patients · Physicians · Therapy
-29-1126.00,3,3,2,Respiratory Therapists,Help & Heal,Patients · Physicians · Therapy
-29-1128.00,3,4,-1,Exercise Physiologists,Help & Heal,Sports · Fitness · Teach
-29-1129.02,3,3,1,Music Therapists,Help & Heal,Patients · Physicians · Therapy
-29-1131.00,3,8,-1,Veterinarians,Help & Heal,Animals · Pets · Spread
-29-1141.00,3,3,2,Registered Nurses,Help & Heal,Patients · Physicians · Therapy
-29-1141.01,3,3,2,Acute Care Nurses,Help & Heal,Patients · Physicians · Therapy
-29-1141.03,3,3,2,Critical Care Nurses,Help & Heal,Patients · Physicians · Therapy
-29-1141.04,3,3,1,Clinical Nurse Specialists,Help & Heal,Patients · Physicians · Therapy
-29-1151.00,3,3,2,Nurse Anesthetists,Help & Heal,Patients · Physicians · Therapy
-29-1161.00,3,3,2,Nurse Midwives,Help & Heal,Patients · Physicians · Therapy
-29-1171.00,3,3,2,Nurse Practitioners,Help & Heal,Patients · Physicians · Therapy
-29-1181.00,3,3,1,Audiologists,Help & Heal,Patients · Physicians · Therapy
-29-1211.00,3,3,2,Anesthesiologists,Help & Heal,Patients · Physicians · Therapy
-29-1212.00,3,3,2,Cardiologists,Help & Heal,Patients · Physicians · Therapy
-29-1214.00,3,3,2,Emergency Medicine Physicians,Help & Heal,Patients · Physicians · Therapy
-29-1218.00,3,3,2,Obstetricians and Gynecologists,Help & Heal,Patients · Physicians · Therapy
-29-1224.00,3,3,3,Radiologists,Help & Heal,Patients · Physicians · Therapy
-29-1229.03,3,3,2,Urologists,Help & Heal,Patients · Physicians · Therapy
-29-1229.04,3,3,1,Physical Medicine and Rehabilitation Physicians,Help & Heal,Patients · Physicians · Therapy
-29-1241.00,3,3,0,"Ophthalmologists, Except Pediatric",Help & Heal,Patients · Physicians · Therapy
-29-1242.00,3,3,2,"Orthopedic Surgeons, Except Pediatric",Help & Heal,Patients · Physicians · Therapy
-29-1243.00,3,3,2,Pediatric Surgeons,Help & Heal,Patients · Physicians · Therapy
+29-1031.00,3,3,5,Dietitians and Nutritionists,Help & Heal,Physical · Care · Patients
+29-1041.00,3,1,-1,Optometrists,Help & Heal,Visual · Eye · Lenses
+29-1051.00,3,3,5,Pharmacists,Help & Heal,Physical · Care · Patients
+29-1071.00,3,3,5,Physician Assistants,Help & Heal,Physical · Care · Patients
+29-1071.01,3,3,2,Anesthesiologist Assistants,Help & Heal,Physical · Care · Patients
+29-1081.00,3,3,1,Podiatrists,Help & Heal,Physical · Care · Patients
+29-1122.00,3,3,6,Occupational Therapists,Help & Heal,Physical · Care · Patients
+29-1122.01,3,3,4,"Low Vision Therapists, Orientation and Mobility Specialists, and Vision Rehabilitation Therapists",Help & Heal,Physical · Care · Patients
+29-1123.00,3,3,6,Physical Therapists,Help & Heal,Physical · Care · Patients
+29-1124.00,3,3,3,Radiation Therapists,Help & Heal,Physical · Care · Patients
+29-1125.00,3,3,0,Recreational Therapists,Help & Heal,Physical · Care · Patients
+29-1126.00,3,3,2,Respiratory Therapists,Help & Heal,Physical · Care · Patients
+29-1127.00,3,3,4,Speech-Language Pathologists,Help & Heal,Physical · Care · Patients
+29-1128.00,3,3,6,Exercise Physiologists,Help & Heal,Physical · Care · Patients
+29-1129.01,3,3,0,Art Therapists,Help & Heal,Physical · Care · Patients
+29-1129.02,3,3,0,Music Therapists,Help & Heal,Physical · Care · Patients
+29-1131.00,3,3,5,Veterinarians,Help & Heal,Physical · Care · Patients
+29-1141.00,3,3,5,Registered Nurses,Help & Heal,Physical · Care · Patients
+29-1141.01,3,3,5,Acute Care Nurses,Help & Heal,Physical · Care · Patients
+29-1141.02,3,3,0,Advanced Practice Psychiatric Nurses,Help & Heal,Physical · Care · Patients
+29-1141.03,3,3,5,Critical Care Nurses,Help & Heal,Physical · Care · Patients
+29-1141.04,3,3,5,Clinical Nurse Specialists,Help & Heal,Physical · Care · Patients
+29-1151.00,3,3,2,Nurse Anesthetists,Help & Heal,Physical · Care · Patients
+29-1161.00,3,3,5,Nurse Midwives,Help & Heal,Physical · Care · Patients
+29-1171.00,3,3,5,Nurse Practitioners,Help & Heal,Physical · Care · Patients
+29-1181.00,3,3,4,Audiologists,Help & Heal,Physical · Care · Patients
+29-1211.00,3,3,2,Anesthesiologists,Help & Heal,Physical · Care · Patients
+29-1212.00,3,3,3,Cardiologists,Help & Heal,Physical · Care · Patients
+29-1213.00,3,3,1,Dermatologists,Help & Heal,Physical · Care · Patients
+29-1214.00,3,3,5,Emergency Medicine Physicians,Help & Heal,Physical · Care · Patients
+29-1215.00,3,3,5,Family Medicine Physicians,Help & Heal,Physical · Care · Patients
+29-1216.00,3,3,5,General Internal Medicine Physicians,Help & Heal,Physical · Care · Patients
+29-1217.00,3,3,5,Neurologists,Help & Heal,Physical · Care · Patients
+29-1218.00,3,3,5,Obstetricians and Gynecologists,Help & Heal,Physical · Care · Patients
+29-1221.00,3,3,5,"Pediatricians, General",Help & Heal,Physical · Care · Patients
+29-1222.00,3,2,-1,"Physicians, Pathologists",Help & Heal,Samples · Cell · Laboratory Equipment
+29-1223.00,3,3,0,Psychiatrists,Help & Heal,Physical · Care · Patients
+29-1224.00,3,3,3,Radiologists,Help & Heal,Physical · Care · Patients
+29-1229.01,3,3,5,Allergists and Immunologists,Help & Heal,Physical · Care · Patients
+29-1229.02,3,3,5,Hospitalists,Help & Heal,Physical · Care · Patients
+29-1229.03,3,3,1,Urologists,Help & Heal,Physical · Care · Patients
+29-1229.04,3,3,6,Physical Medicine and Rehabilitation Physicians,Help & Heal,Physical · Care · Patients
+29-1229.05,3,3,5,Preventive Medicine Physicians,Help & Heal,Physical · Care · Patients
+29-1229.06,3,3,6,Sports Medicine Physicians,Help & Heal,Physical · Care · Patients
+29-1241.00,3,1,-1,"Ophthalmologists, Except Pediatric",Help & Heal,Visual · Eye · Lenses
+29-1242.00,3,3,1,"Orthopedic Surgeons, Except Pediatric",Help & Heal,Physical · Care · Patients
+29-1243.00,3,3,1,Pediatric Surgeons,Help & Heal,Physical · Care · Patients
+29-1291.00,3,3,1,Acupuncturists,Help & Heal,Physical · Care · Patients
 29-1292.00,3,0,-1,Dental Hygienists,Help & Heal,Dental · Teeth · Jaw
-29-2011.00,3,3,3,Medical and Clinical Laboratory Technologists,Help & Heal,Patients · Physicians · Therapy
-29-2012.00,3,3,3,Medical and Clinical Laboratory Technicians,Help & Heal,Patients · Physicians · Therapy
-29-2031.00,3,3,3,Cardiovascular Technologists and Technicians,Help & Heal,Patients · Physicians · Therapy
-29-2032.00,3,3,3,Diagnostic Medical Sonographers,Help & Heal,Patients · Physicians · Therapy
-29-2033.00,3,3,3,Nuclear Medicine Technologists,Help & Heal,Patients · Physicians · Therapy
-29-2034.00,3,3,3,Radiologic Technologists and Technicians,Help & Heal,Patients · Physicians · Therapy
-29-2035.00,3,3,3,Magnetic Resonance Imaging Technologists,Help & Heal,Patients · Physicians · Therapy
-29-2042.00,3,3,2,Emergency Medical Technicians,Help & Heal,Patients · Physicians · Therapy
-29-2043.00,3,3,2,Paramedics,Help & Heal,Patients · Physicians · Therapy
-29-2051.00,3,5,1,Dietetic Technicians,Help & Heal,Costs · Budgets · Requisition
-29-2053.00,3,3,1,Psychiatric Technicians,Help & Heal,Patients · Physicians · Therapy
-29-2055.00,3,3,3,Surgical Technologists,Help & Heal,Patients · Physicians · Therapy
-29-2056.00,3,8,-1,Veterinary Technologists and Technicians,Help & Heal,Animals · Pets · Spread
-29-2061.00,3,3,2,Licensed Practical and Licensed Vocational Nurses,Help & Heal,Patients · Physicians · Therapy
-29-2081.00,3,3,0,"Opticians, Dispensing",Help & Heal,Patients · Physicians · Therapy
-29-2091.00,3,3,3,Orthotists and Prosthetists,Help & Heal,Patients · Physicians · Therapy
-29-2092.00,3,3,1,Hearing Aid Specialists,Help & Heal,Patients · Physicians · Therapy
-29-2099.01,3,3,3,Neurodiagnostic Technologists,Help & Heal,Patients · Physicians · Therapy
-29-9091.00,3,4,-1,Athletic Trainers,Help & Heal,Sports · Fitness · Teach
-29-9093.00,3,3,3,Surgical Assistants,Help & Heal,Patients · Physicians · Therapy
-29-9099.01,3,3,2,Midwives,Help & Heal,Patients · Physicians · Therapy
-31-1121.00,3,3,1,Home Health Aides,Help & Heal,Patients · Physicians · Therapy
-31-1122.00,3,3,1,Personal Care Aides,Help & Heal,Patients · Physicians · Therapy
-31-1133.00,3,3,1,Psychiatric Aides,Help & Heal,Patients · Physicians · Therapy
-31-2011.00,3,3,1,Occupational Therapy Assistants,Help & Heal,Patients · Physicians · Therapy
-31-2012.00,3,3,1,Occupational Therapy Aides,Help & Heal,Patients · Physicians · Therapy
-31-2021.00,3,3,1,Physical Therapist Assistants,Help & Heal,Patients · Physicians · Therapy
+29-1299.01,3,3,5,Naturopathic Physicians,Help & Heal,Physical · Care · Patients
+29-1299.02,3,1,-1,Orthoptists,Help & Heal,Visual · Eye · Lenses
+29-2011.00,3,2,-1,Medical and Clinical Laboratory Technologists,Help & Heal,Samples · Cell · Laboratory Equipment
+29-2011.01,3,2,-1,Cytogenetic Technologists,Help & Heal,Samples · Cell · Laboratory Equipment
+29-2011.02,3,2,-1,Cytotechnologists,Help & Heal,Samples · Cell · Laboratory Equipment
+29-2011.04,3,2,-1,Histotechnologists,Help & Heal,Samples · Cell · Laboratory Equipment
+29-2012.00,3,2,-1,Medical and Clinical Laboratory Technicians,Help & Heal,Samples · Cell · Laboratory Equipment
+29-2012.01,3,2,-1,Histology Technicians,Help & Heal,Samples · Cell · Laboratory Equipment
+29-2031.00,3,3,3,Cardiovascular Technologists and Technicians,Help & Heal,Physical · Care · Patients
+29-2032.00,3,3,3,Diagnostic Medical Sonographers,Help & Heal,Physical · Care · Patients
+29-2033.00,3,3,3,Nuclear Medicine Technologists,Help & Heal,Physical · Care · Patients
+29-2034.00,3,3,3,Radiologic Technologists and Technicians,Help & Heal,Physical · Care · Patients
+29-2035.00,3,3,3,Magnetic Resonance Imaging Technologists,Help & Heal,Physical · Care · Patients
+29-2036.00,3,3,3,Medical Dosimetrists,Help & Heal,Physical · Care · Patients
+29-2042.00,3,3,2,Emergency Medical Technicians,Help & Heal,Physical · Care · Patients
+29-2043.00,3,3,2,Paramedics,Help & Heal,Physical · Care · Patients
+29-2051.00,3,3,5,Dietetic Technicians,Help & Heal,Physical · Care · Patients
+29-2052.00,3,3,2,Pharmacy Technicians,Help & Heal,Physical · Care · Patients
+29-2053.00,3,3,0,Psychiatric Technicians,Help & Heal,Physical · Care · Patients
+29-2055.00,3,3,2,Surgical Technologists,Help & Heal,Physical · Care · Patients
+29-2056.00,3,3,2,Veterinary Technologists and Technicians,Help & Heal,Physical · Care · Patients
+29-2057.00,3,1,-1,Ophthalmic Medical Technicians,Help & Heal,Visual · Eye · Lenses
+29-2061.00,3,3,2,Licensed Practical and Licensed Vocational Nurses,Help & Heal,Physical · Care · Patients
+29-2072.00,3,3,5,Medical Records Specialists,Help & Heal,Physical · Care · Patients
+29-2081.00,3,1,-1,"Opticians, Dispensing",Help & Heal,Visual · Eye · Lenses
+29-2091.00,3,3,6,Orthotists and Prosthetists,Help & Heal,Physical · Care · Patients
+29-2092.00,3,3,4,Hearing Aid Specialists,Help & Heal,Physical · Care · Patients
+29-2099.01,3,3,3,Neurodiagnostic Technologists,Help & Heal,Physical · Care · Patients
+29-2099.05,3,1,-1,Ophthalmic Medical Technologists,Help & Heal,Visual · Eye · Lenses
+29-2099.08,3,3,5,Patient Representatives,Help & Heal,Physical · Care · Patients
+29-9021.00,3,3,5,Health Information Technologists and Medical Registrars,Help & Heal,Physical · Care · Patients
+29-9091.00,3,3,6,Athletic Trainers,Help & Heal,Physical · Care · Patients
+29-9092.00,3,3,5,Genetic Counselors,Help & Heal,Physical · Care · Patients
+29-9093.00,3,3,2,Surgical Assistants,Help & Heal,Physical · Care · Patients
+29-9099.01,3,3,5,Midwives,Help & Heal,Physical · Care · Patients
+31-1121.00,3,3,2,Home Health Aides,Help & Heal,Physical · Care · Patients
+31-1122.00,3,3,2,Personal Care Aides,Help & Heal,Physical · Care · Patients
+31-1131.00,3,3,2,Nursing Assistants,Help & Heal,Physical · Care · Patients
+31-1133.00,3,3,2,Psychiatric Aides,Help & Heal,Physical · Care · Patients
+31-2011.00,3,3,0,Occupational Therapy Assistants,Help & Heal,Physical · Care · Patients
+31-2012.00,3,3,6,Occupational Therapy Aides,Help & Heal,Physical · Care · Patients
+31-2021.00,3,3,6,Physical Therapist Assistants,Help & Heal,Physical · Care · Patients
+31-2022.00,3,3,6,Physical Therapist Aides,Help & Heal,Physical · Care · Patients
+31-9011.00,3,3,6,Massage Therapists,Help & Heal,Physical · Care · Patients
 31-9091.00,3,0,-1,Dental Assistants,Help & Heal,Dental · Teeth · Jaw
-31-9092.00,3,3,2,Medical Assistants,Help & Heal,Patients · Physicians · Therapy
-31-9097.00,3,3,3,Phlebotomists,Help & Heal,Patients · Physicians · Therapy
-31-9099.02,3,3,3,Endoscopy Technicians,Help & Heal,Patients · Physicians · Therapy
-33-1011.00,3,2,-1,First-Line Supervisors of Correctional Officers,Help & Heal,Criminal · Security · Crimes
-33-1012.00,3,2,-1,First-Line Supervisors of Police and Detectives,Help & Heal,Criminal · Security · Crimes
-33-1021.00,3,6,-1,First-Line Supervisors of Firefighting and Prevention Workers,Help & Heal,Hazards · Building · Inspectors
-33-1091.00,3,2,-1,First-Line Supervisors of Security Workers,Help & Heal,Criminal · Security · Crimes
-33-2021.00,3,6,-1,Fire Inspectors and Investigators,Help & Heal,Hazards · Building · Inspectors
-33-2022.00,3,6,-1,Forest Fire Inspectors and Prevention Specialists,Help & Heal,Hazards · Building · Inspectors
-33-3012.00,3,2,-1,Correctional Officers and Jailers,Help & Heal,Criminal · Security · Crimes
-33-3021.00,3,2,-1,Detectives and Criminal Investigators,Help & Heal,Criminal · Security · Crimes
-33-3021.02,3,2,-1,Police Identification and Records Officers,Help & Heal,Criminal · Security · Crimes
-33-3031.00,3,7,-1,Fish and Game Wardens,Help & Heal,Survey · Soil · Land
-33-3051.00,3,2,-1,Police and Sheriff's Patrol Officers,Help & Heal,Criminal · Security · Crimes
-33-3051.04,3,2,-1,Customs and Border Protection Officers,Help & Heal,Criminal · Security · Crimes
-33-3052.00,3,2,-1,Transit and Railroad Police,Help & Heal,Criminal · Security · Crimes
-33-9011.00,3,8,-1,Animal Control Workers,Help & Heal,Animals · Pets · Spread
-33-9021.00,3,2,-1,Private Detectives and Investigators,Help & Heal,Criminal · Security · Crimes
-33-9031.00,3,2,-1,Gambling Surveillance Officers and Gambling Investigators,Help & Heal,Criminal · Security · Crimes
-33-9032.00,3,2,-1,Security Guards,Help & Heal,Criminal · Security · Crimes
-33-9099.02,3,2,-1,Retail Loss Prevention Specialists,Help & Heal,Criminal · Security · Crimes
-35-1011.00,3,5,1,Chefs and Head Cooks,Help & Heal,Costs · Budgets · Requisition
-35-1012.00,3,5,1,First-Line Supervisors of Food Preparation and Serving Workers,Help & Heal,Costs · Budgets · Requisition
-37-1011.00,3,5,1,First-Line Supervisors of Housekeeping and Janitorial Workers,Help & Heal,Costs · Budgets · Requisition
-37-1012.00,3,5,1,"First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers",Help & Heal,Costs · Budgets · Requisition
-37-2021.00,3,6,-1,Pest Control Workers,Help & Heal,Hazards · Building · Inspectors
-39-1013.00,3,5,1,First-Line Supervisors of Gambling Services Workers,Help & Heal,Costs · Budgets · Requisition
-39-1022.00,3,5,1,First-Line Supervisors of Personal Service Workers,Help & Heal,Costs · Budgets · Requisition
-39-2011.00,3,8,-1,Animal Trainers,Help & Heal,Animals · Pets · Spread
-39-4011.00,3,1,-1,Embalmers,Help & Heal,Deceased · Funeral Home · Death
-39-4012.00,3,1,-1,Crematory Operators,Help & Heal,Deceased · Funeral Home · Death
-39-4031.00,3,1,-1,"Morticians, Undertakers, and Funeral Arrangers",Help & Heal,Deceased · Funeral Home · Death
-39-5091.00,3,5,0,"Makeup Artists, Theatrical and Performance",Help & Heal,Costs · Budgets · Requisition
-39-9011.01,3,4,-1,Nannies,Help & Heal,Sports · Fitness · Teach
-39-9032.00,3,4,-1,Recreation Workers,Help & Heal,Sports · Fitness · Teach
-39-9041.00,3,4,-1,Residential Advisors,Help & Heal,Sports · Fitness · Teach
-41-2022.00,3,5,1,Parts Salespersons,Help & Heal,Costs · Budgets · Requisition
-43-5011.01,3,5,2,Freight Forwarders,Help & Heal,Costs · Budgets · Requisition
-43-5031.00,3,2,-1,Public Safety Telecommunicators,Help & Heal,Criminal · Security · Crimes
-45-1011.00,3,5,1,"First-Line Supervisors of Farming, Fishing, and Forestry Workers",Help & Heal,Costs · Budgets · Requisition
-45-2011.00,3,6,-1,Agricultural Inspectors,Help & Heal,Hazards · Building · Inspectors
-47-1011.00,3,5,1,First-Line Supervisors of Construction Trades and Extraction Workers,Help & Heal,Costs · Budgets · Requisition
-47-1011.03,3,5,1,Solar Energy Installation Managers,Help & Heal,Costs · Budgets · Requisition
-47-4011.00,3,6,-1,Construction and Building Inspectors,Help & Heal,Hazards · Building · Inspectors
-49-1011.00,3,5,1,"First-Line Supervisors of Mechanics, Installers, and Repairers",Help & Heal,Costs · Budgets · Requisition
-51-1011.00,3,5,1,First-Line Supervisors of Production and Operating Workers,Help & Heal,Costs · Budgets · Requisition
-51-9082.00,3,3,3,Medical Appliance Technicians,Help & Heal,Patients · Physicians · Therapy
-53-1041.00,3,5,2,Aircraft Cargo Handling Supervisors,Help & Heal,Costs · Budgets · Requisition
-53-1042.00,3,5,1,"First-Line Supervisors of Helpers, Laborers, and Material Movers, Hand",Help & Heal,Costs · Budgets · Requisition
-53-1042.01,3,5,1,Recycling Coordinators,Help & Heal,Costs · Budgets · Requisition
-53-1043.00,3,5,1,First-Line Supervisors of Material-Moving Machine and Vehicle Operators,Help & Heal,Costs · Budgets · Requisition
-53-1044.00,3,5,1,First-Line Supervisors of Passenger Attendants,Help & Heal,Costs · Budgets · Requisition
-53-2012.00,3,5,2,Commercial Pilots,Help & Heal,Costs · Budgets · Requisition
-53-2022.00,3,5,2,Airfield Operations Specialists,Help & Heal,Costs · Budgets · Requisition
-53-2031.00,3,5,2,Flight Attendants,Help & Heal,Costs · Budgets · Requisition
-53-3011.00,3,3,2,"Ambulance Drivers and Attendants, Except Emergency Medical Technicians",Help & Heal,Patients · Physicians · Therapy
-53-6051.00,3,5,2,Transportation Inspectors,Help & Heal,Costs · Budgets · Requisition
-53-6051.01,3,5,2,Aviation Inspectors,Help & Heal,Costs · Budgets · Requisition
-27-1012.00,4,3,3,Craft Artists,Hands-On Work,Replace · Machine · Adjust
-27-1013.00,4,-1,-1,"Fine Artists, Including Painters, Sculptors, and Illustrators",Hands-On Work,Unique roles
-27-1026.00,4,5,-1,Merchandise Displayers and Window Trimmers,Hands-On Work,Collaborate · Stage · Productions
-27-2031.00,4,5,-1,Dancers,Hands-On Work,Collaborate · Stage · Productions
-27-2042.00,4,5,-1,Musicians and Singers,Hands-On Work,Collaborate · Stage · Productions
-29-2012.01,4,6,-1,Histology Technicians,Hands-On Work,Emergency · Personnel · Wheelchairs
-31-1131.00,4,6,-1,Nursing Assistants,Hands-On Work,Emergency · Personnel · Wheelchairs
-31-1132.00,4,6,-1,Orderlies,Hands-On Work,Emergency · Personnel · Wheelchairs
-31-9011.00,4,6,-1,Massage Therapists,Hands-On Work,Emergency · Personnel · Wheelchairs
-33-3041.00,4,6,-1,Parking Enforcement Workers,Hands-On Work,Emergency · Personnel · Wheelchairs
-33-9091.00,4,6,-1,Crossing Guards and Flaggers,Hands-On Work,Emergency · Personnel · Wheelchairs
-33-9092.00,4,6,-1,"Lifeguards, Ski Patrol, and Other Recreational Protective Service Workers",Hands-On Work,Emergency · Personnel · Wheelchairs
-33-9094.00,4,6,-1,School Bus Monitors,Hands-On Work,Emergency · Personnel · Wheelchairs
-35-2011.00,4,4,-1,"Cooks, Fast Food",Hands-On Work,Serving · Kitchen · Dishes
-35-2012.00,4,4,-1,"Cooks, Institution and Cafeteria",Hands-On Work,Serving · Kitchen · Dishes
-35-2013.00,4,4,-1,"Cooks, Private Household",Hands-On Work,Serving · Kitchen · Dishes
-35-2014.00,4,4,-1,"Cooks, Restaurant",Hands-On Work,Serving · Kitchen · Dishes
-35-2015.00,4,4,-1,"Cooks, Short Order",Hands-On Work,Serving · Kitchen · Dishes
-35-2021.00,4,4,-1,Food Preparation Workers,Hands-On Work,Serving · Kitchen · Dishes
-35-3023.00,4,4,-1,Fast Food and Counter Workers,Hands-On Work,Serving · Kitchen · Dishes
-35-3023.01,4,4,-1,Baristas,Hands-On Work,Serving · Kitchen · Dishes
-35-3031.00,4,4,-1,Waiters and Waitresses,Hands-On Work,Serving · Kitchen · Dishes
-35-3041.00,4,4,-1,"Food Servers, Nonrestaurant",Hands-On Work,Serving · Kitchen · Dishes
-35-9011.00,4,4,-1,Dining Room and Cafeteria Attendants and Bartender Helpers,Hands-On Work,Serving · Kitchen · Dishes
-35-9021.00,4,4,-1,Dishwashers,Hands-On Work,Serving · Kitchen · Dishes
-35-9031.00,4,4,-1,"Hosts and Hostesses, Restaurant, Lounge, and Coffee Shop",Hands-On Work,Serving · Kitchen · Dishes
-37-2011.00,4,2,-1,"Janitors and Cleaners, Except Maids and Housekeeping Cleaners",Hands-On Work,Walls · Surfaces · Tools
-37-2012.00,4,6,-1,Maids and Housekeeping Cleaners,Hands-On Work,Emergency · Personnel · Wheelchairs
-37-3011.00,4,2,-1,Landscaping and Groundskeeping Workers,Hands-On Work,Walls · Surfaces · Tools
-37-3012.00,4,2,-1,"Pesticide Handlers, Sprayers, and Applicators, Vegetation",Hands-On Work,Walls · Surfaces · Tools
-39-2021.00,4,1,-1,Animal Caretakers,Hands-On Work,Animal · Cut Trim · Meats
-39-3011.00,4,4,-1,Gambling Dealers,Hands-On Work,Serving · Kitchen · Dishes
-39-3021.00,4,3,2,Motion Picture Projectionists,Hands-On Work,Replace · Machine · Adjust
-39-3031.00,4,6,-1,"Ushers, Lobby Attendants, and Ticket Takers",Hands-On Work,Emergency · Personnel · Wheelchairs
-39-3091.00,4,6,-1,Amusement and Recreation Attendants,Hands-On Work,Emergency · Personnel · Wheelchairs
-39-3092.00,4,5,-1,Costume Attendants,Hands-On Work,Collaborate · Stage · Productions
-39-3093.00,4,6,-1,"Locker Room, Coatroom, and Dressing Room Attendants",Hands-On Work,Emergency · Personnel · Wheelchairs
-39-4021.00,4,6,-1,Funeral Attendants,Hands-On Work,Emergency · Personnel · Wheelchairs
-39-5011.00,4,6,-1,Barbers,Hands-On Work,Emergency · Personnel · Wheelchairs
-39-5092.00,4,2,-1,Manicurists and Pedicurists,Hands-On Work,Walls · Surfaces · Tools
-39-5093.00,4,6,-1,Shampooers,Hands-On Work,Emergency · Personnel · Wheelchairs
-39-6011.00,4,6,-1,Baggage Porters and Bellhops,Hands-On Work,Emergency · Personnel · Wheelchairs
-39-9031.00,4,6,-1,Exercise Trainers and Group Fitness Instructors,Hands-On Work,Emergency · Personnel · Wheelchairs
-41-2011.00,4,4,-1,Cashiers,Hands-On Work,Serving · Kitchen · Dishes
-41-2012.00,4,4,-1,Gambling Change Persons and Booth Cashiers,Hands-On Work,Serving · Kitchen · Dishes
-41-9012.00,4,5,-1,Models,Hands-On Work,Collaborate · Stage · Productions
-43-5021.00,4,0,-1,Couriers and Messengers,Hands-On Work,Route · Computer · Mail
-43-5041.00,4,3,1,"Meter Readers, Utilities",Hands-On Work,Replace · Machine · Adjust
-43-5052.00,4,0,-1,Postal Service Mail Carriers,Hands-On Work,Route · Computer · Mail
-43-5053.00,4,0,-1,"Postal Service Mail Sorters, Processors, and Processing Machine Operators",Hands-On Work,Route · Computer · Mail
-43-5071.00,4,0,-1,"Shipping, Receiving, and Inventory Clerks",Hands-On Work,Route · Computer · Mail
-43-9051.00,4,0,-1,"Mail Clerks and Mail Machine Operators, Except Postal Service",Hands-On Work,Route · Computer · Mail
-43-9071.00,4,3,2,"Office Machine Operators, Except Computer",Hands-On Work,Replace · Machine · Adjust
-45-2021.00,4,1,-1,Animal Breeders,Hands-On Work,Animal · Cut Trim · Meats
-45-2041.00,4,3,0,"Graders and Sorters, Agricultural Products",Hands-On Work,Replace · Machine · Adjust
-47-2042.00,4,2,-1,"Floor Layers, Except Carpet, Wood, and Hard Tiles",Hands-On Work,Walls · Surfaces · Tools
-47-2044.00,4,2,-1,Tile and Stone Setters,Hands-On Work,Walls · Surfaces · Tools
-47-2082.00,4,2,-1,Tapers,Hands-On Work,Walls · Surfaces · Tools
-47-2131.00,4,2,-1,"Insulation Workers, Floor, Ceiling, and Wall",Hands-On Work,Walls · Surfaces · Tools
-47-2141.00,4,2,-1,"Painters, Construction and Maintenance",Hands-On Work,Walls · Surfaces · Tools
-47-2142.00,4,2,-1,Paperhangers,Hands-On Work,Walls · Surfaces · Tools
-47-2151.00,4,3,1,Pipelayers,Hands-On Work,Replace · Machine · Adjust
-47-3014.00,4,2,-1,"Helpers--Painters, Paperhangers, Plasterers, and Stucco Masons",Hands-On Work,Walls · Surfaces · Tools
-47-3015.00,4,3,1,"Helpers--Pipelayers, Plumbers, Pipefitters, and Steamfitters",Hands-On Work,Replace · Machine · Adjust
-47-3016.00,4,2,-1,Helpers--Roofers,Hands-On Work,Walls · Surfaces · Tools
-47-4031.00,4,3,1,Fence Erectors,Hands-On Work,Replace · Machine · Adjust
-47-5044.00,4,3,1,"Loading and Moving Machine Operators, Underground Mining",Hands-On Work,Replace · Machine · Adjust
-47-5051.00,4,3,3,"Rock Splitters, Quarry",Hands-On Work,Replace · Machine · Adjust
-49-3022.00,4,-1,-1,Automotive Glass Installers and Repairers,Hands-On Work,Unique roles
-49-3093.00,4,3,1,Tire Repairers and Changers,Hands-On Work,Replace · Machine · Adjust
-49-9045.00,4,3,3,"Refractory Materials Repairers, Except Brickmasons",Hands-On Work,Replace · Machine · Adjust
-49-9061.00,4,3,2,Camera and Photographic Equipment Repairers,Hands-On Work,Replace · Machine · Adjust
-49-9064.00,4,3,2,Watch and Clock Repairers,Hands-On Work,Replace · Machine · Adjust
-49-9091.00,4,3,2,"Coin, Vending, and Amusement Machine Servicers and Repairers",Hands-On Work,Replace · Machine · Adjust
-51-2021.00,4,3,2,"Coil Winders, Tapers, and Finishers",Hands-On Work,Replace · Machine · Adjust
-51-2022.00,4,3,2,Electrical and Electronic Equipment Assemblers,Hands-On Work,Replace · Machine · Adjust
-51-2023.00,4,3,2,Electromechanical Equipment Assemblers,Hands-On Work,Replace · Machine · Adjust
-51-2041.00,4,3,2,Structural Metal Fabricators and Fitters,Hands-On Work,Replace · Machine · Adjust
-51-2061.00,4,3,2,Timing Device Assemblers and Adjusters,Hands-On Work,Replace · Machine · Adjust
-51-3011.00,4,4,-1,Bakers,Hands-On Work,Serving · Kitchen · Dishes
-51-3021.00,4,1,-1,Butchers and Meat Cutters,Hands-On Work,Animal · Cut Trim · Meats
-51-3022.00,4,1,-1,"Meat, Poultry, and Fish Cutters and Trimmers",Hands-On Work,Animal · Cut Trim · Meats
-51-3023.00,4,1,-1,Slaughterers and Meat Packers,Hands-On Work,Animal · Cut Trim · Meats
-51-3093.00,4,3,2,Food Cooking Machine Operators and Tenders,Hands-On Work,Replace · Machine · Adjust
-51-4022.00,4,3,2,"Forging Machine Setters, Operators, and Tenders, Metal and Plastic",Hands-On Work,Replace · Machine · Adjust
-51-4031.00,4,3,2,"Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic",Hands-On Work,Replace · Machine · Adjust
-51-4052.00,4,3,3,"Pourers and Casters, Metal",Hands-On Work,Replace · Machine · Adjust
-51-4071.00,4,3,3,Foundry Mold and Coremakers,Hands-On Work,Replace · Machine · Adjust
-51-4121.00,4,3,2,"Welders, Cutters, Solderers, and Brazers",Hands-On Work,Replace · Machine · Adjust
-51-6011.00,4,3,0,Laundry and Dry-Cleaning Workers,Hands-On Work,Replace · Machine · Adjust
-51-6021.00,4,3,0,"Pressers, Textile, Garment, and Related Materials",Hands-On Work,Replace · Machine · Adjust
-51-6031.00,4,3,0,Sewing Machine Operators,Hands-On Work,Replace · Machine · Adjust
-51-6041.00,4,3,0,Shoe and Leather Workers and Repairers,Hands-On Work,Replace · Machine · Adjust
-51-6042.00,4,3,0,Shoe Machine Operators and Tenders,Hands-On Work,Replace · Machine · Adjust
-51-6051.00,4,3,0,"Sewers, Hand",Hands-On Work,Replace · Machine · Adjust
-51-6052.00,4,3,0,"Tailors, Dressmakers, and Custom Sewers",Hands-On Work,Replace · Machine · Adjust
-51-6061.00,4,3,2,Textile Bleaching and Dyeing Machine Operators and Tenders,Hands-On Work,Replace · Machine · Adjust
-51-6063.00,4,3,2,"Textile Knitting and Weaving Machine Setters, Operators, and Tenders",Hands-On Work,Replace · Machine · Adjust
-51-6064.00,4,3,2,"Textile Winding, Twisting, and Drawing Out Machine Setters, Operators, and Tenders",Hands-On Work,Replace · Machine · Adjust
-51-7041.00,4,3,2,"Sawing Machine Setters, Operators, and Tenders, Wood",Hands-On Work,Replace · Machine · Adjust
-51-7042.00,4,3,2,"Woodworking Machine Setters, Operators, and Tenders, Except Sawing",Hands-On Work,Replace · Machine · Adjust
-51-9031.00,4,3,2,"Cutters and Trimmers, Hand",Hands-On Work,Replace · Machine · Adjust
-51-9051.00,4,3,2,"Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders",Hands-On Work,Replace · Machine · Adjust
-51-9071.00,4,3,3,Jewelers and Precious Stone and Metal Workers,Hands-On Work,Replace · Machine · Adjust
-51-9083.00,4,3,2,Ophthalmic Laboratory Technicians,Hands-On Work,Replace · Machine · Adjust
-51-9123.00,4,2,-1,"Painting, Coating, and Decorating Workers",Hands-On Work,Walls · Surfaces · Tools
-51-9192.00,4,3,2,"Cleaning, Washing, and Metal Pickling Equipment Operators and Tenders",Hands-On Work,Replace · Machine · Adjust
-51-9194.00,4,3,3,Etchers and Engravers,Hands-On Work,Replace · Machine · Adjust
-51-9195.00,4,3,3,"Molders, Shapers, and Casters, Except Metal and Plastic",Hands-On Work,Replace · Machine · Adjust
-51-9195.05,4,3,3,"Potters, Manufacturing",Hands-On Work,Replace · Machine · Adjust
-51-9197.00,4,3,3,Tire Builders,Hands-On Work,Replace · Machine · Adjust
-51-9198.00,4,3,2,Helpers--Production Workers,Hands-On Work,Replace · Machine · Adjust
-53-3031.00,4,4,-1,Driver/Sales Workers,Hands-On Work,Serving · Kitchen · Dishes
-53-6011.00,4,3,1,Bridge and Lock Tenders,Hands-On Work,Replace · Machine · Adjust
-53-6021.00,4,6,-1,Parking Attendants,Hands-On Work,Emergency · Personnel · Wheelchairs
-53-6061.00,4,6,-1,Passenger Attendants,Hands-On Work,Emergency · Personnel · Wheelchairs
-53-7061.00,4,2,-1,Cleaners of Vehicles and Equipment,Hands-On Work,Walls · Surfaces · Tools
-53-7062.00,4,3,2,"Laborers and Freight, Stock, and Material Movers, Hand",Hands-On Work,Replace · Machine · Adjust
-53-7063.00,4,3,2,Machine Feeders and Offbearers,Hands-On Work,Replace · Machine · Adjust
-53-7064.00,4,3,2,"Packers and Packagers, Hand",Hands-On Work,Replace · Machine · Adjust
-53-7065.00,4,0,-1,Stockers and Order Fillers,Hands-On Work,Route · Computer · Mail
-53-7081.00,4,3,1,Refuse and Recyclable Material Collectors,Hands-On Work,Replace · Machine · Adjust
-13-1011.00,5,8,-1,"Agents and Business Managers of Artists, Performers, and Athletes",Organize & Serve,Trade · Prospective Customers · Prices
-13-1021.00,5,7,-1,"Buyers and Purchasing Agents, Farm Products",Organize & Serve,Expedite · Movement · Shortages
-13-1032.00,5,2,-1,"Insurance Appraisers, Auto Damage",Organize & Serve,Policy · Insurance Company · Repair
-13-1041.00,5,10,-1,Compliance Officers,Organize & Serve,Trial · Witnesses · Court
-13-1071.00,5,11,-1,Human Resources Specialists,Organize & Serve,Benefits · Job · Compensation
-13-1074.00,5,9,-1,Farm Labor Contractors,Organize & Serve,Word · Messages · Callers
-13-1141.00,5,11,-1,"Compensation, Benefits, and Job Analysis Specialists",Organize & Serve,Benefits · Job · Compensation
-13-1199.06,5,8,-1,Online Merchants,Organize & Serve,Trade · Prospective Customers · Prices
-13-2011.00,5,3,-1,Accountants and Auditors,Organize & Serve,Discrepancies · Bank · Statements
-13-2022.00,5,4,-1,Appraisers of Personal and Business Property,Organize & Serve,Buyers Sellers · Real Estate · Properties
-13-2023.00,5,4,-1,Appraisers and Assessors of Real Estate,Organize & Serve,Buyers Sellers · Real Estate · Properties
-13-2031.00,5,3,-1,Budget Analysts,Organize & Serve,Discrepancies · Bank · Statements
-13-2041.00,5,3,-1,Credit Analysts,Organize & Serve,Discrepancies · Bank · Statements
-13-2053.00,5,2,-1,Insurance Underwriters,Organize & Serve,Policy · Insurance Company · Repair
-13-2072.00,5,3,-1,Loan Officers,Organize & Serve,Discrepancies · Bank · Statements
-13-2081.00,5,3,-1,"Tax Examiners and Collectors, and Revenue Agents",Organize & Serve,Discrepancies · Bank · Statements
-13-2082.00,5,3,-1,Tax Preparers,Organize & Serve,Discrepancies · Bank · Statements
-19-3093.00,5,1,-1,Historians,Organize & Serve,Scripts · Style · Layout
-19-4013.00,5,5,-1,Food Science Technicians,Organize & Serve,Patients · Physicians · Treatment
-19-4061.00,5,11,-1,Social Science Research Assistants,Organize & Serve,Benefits · Job · Compensation
-23-1012.00,5,10,-1,Judicial Law Clerks,Organize & Serve,Trial · Witnesses · Court
-23-1022.00,5,10,-1,"Arbitrators, Mediators, and Conciliators",Organize & Serve,Trial · Witnesses · Court
-23-2011.00,5,10,-1,Paralegals and Legal Assistants,Organize & Serve,Trial · Witnesses · Court
-23-2093.00,5,4,-1,"Title Examiners, Abstractors, and Searchers",Organize & Serve,Buyers Sellers · Real Estate · Properties
-25-2011.00,5,0,-1,"Preschool Teachers, Except Special Education",Organize & Serve,Field Trips · Teaching · Class
-25-3011.00,5,0,-1,"Adult Basic Education, Adult Secondary Education, and English as a Second Language Instructors",Organize & Serve,Field Trips · Teaching · Class
-25-3021.00,5,0,-1,Self-Enrichment Teachers,Organize & Serve,Field Trips · Teaching · Class
-25-3031.00,5,0,-1,"Substitute Teachers, Short-Term",Organize & Serve,Field Trips · Teaching · Class
-25-4031.00,5,1,-1,Library Technicians,Organize & Serve,Scripts · Style · Layout
-25-9043.00,5,0,-1,"Teaching Assistants, Special Education",Organize & Serve,Field Trips · Teaching · Class
-25-9044.00,5,0,-1,"Teaching Assistants, Postsecondary",Organize & Serve,Field Trips · Teaching · Class
-27-1014.00,5,1,-1,Special Effects Artists and Animators,Organize & Serve,Scripts · Style · Layout
-27-1023.00,5,8,-1,Floral Designers,Organize & Serve,Trade · Prospective Customers · Prices
-27-1024.00,5,1,-1,Graphic Designers,Organize & Serve,Scripts · Style · Layout
-27-2011.00,5,1,-1,Actors,Organize & Serve,Scripts · Style · Layout
-27-2012.04,5,1,-1,Talent Directors,Organize & Serve,Scripts · Style · Layout
-27-2023.00,5,-1,-1,"Umpires, Referees, and Other Sports Officials",Organize & Serve,Unique roles
-27-2041.00,5,1,-1,Music Directors and Composers,Organize & Serve,Scripts · Style · Layout
-27-2091.00,5,1,-1,"Disc Jockeys, Except Radio",Organize & Serve,Scripts · Style · Layout
-27-3011.00,5,1,-1,Broadcast Announcers and Radio Disc Jockeys,Organize & Serve,Scripts · Style · Layout
-27-3042.00,5,1,-1,Technical Writers,Organize & Serve,Scripts · Style · Layout
-27-3043.00,5,1,-1,Writers and Authors,Organize & Serve,Scripts · Style · Layout
-27-3043.05,5,1,-1,"Poets, Lyricists and Creative Writers",Organize & Serve,Scripts · Style · Layout
-27-3091.00,5,1,-1,Interpreters and Translators,Organize & Serve,Scripts · Style · Layout
-27-3092.00,5,10,-1,Court Reporters and Simultaneous Captioners,Organize & Serve,Trial · Witnesses · Court
-27-4032.00,5,1,-1,Film and Video Editors,Organize & Serve,Scripts · Style · Layout
-29-1291.00,5,5,-1,Acupuncturists,Organize & Serve,Patients · Physicians · Treatment
-29-1299.02,5,5,-1,Orthoptists,Organize & Serve,Patients · Physicians · Treatment
-29-2011.02,5,5,-1,Cytotechnologists,Organize & Serve,Patients · Physicians · Treatment
-29-2052.00,5,5,-1,Pharmacy Technicians,Organize & Serve,Patients · Physicians · Treatment
-29-2057.00,5,5,-1,Ophthalmic Medical Technicians,Organize & Serve,Patients · Physicians · Treatment
-29-2072.00,5,5,-1,Medical Records Specialists,Organize & Serve,Patients · Physicians · Treatment
-29-2099.05,5,5,-1,Ophthalmic Medical Technologists,Organize & Serve,Patients · Physicians · Treatment
-31-2022.00,5,5,-1,Physical Therapist Aides,Organize & Serve,Patients · Physicians · Treatment
-31-9094.00,5,5,-1,Medical Transcriptionists,Organize & Serve,Patients · Physicians · Treatment
-31-9095.00,5,5,-1,Pharmacy Aides,Organize & Serve,Patients · Physicians · Treatment
-31-9096.00,5,5,-1,Veterinary Assistants and Laboratory Animal Caretakers,Organize & Serve,Patients · Physicians · Treatment
-31-9099.01,5,-1,-1,Speech-Language Pathology Assistants,Organize & Serve,Unique roles
-33-3011.00,5,10,-1,Bailiffs,Organize & Serve,Trial · Witnesses · Court
-35-3011.00,5,6,-1,Bartenders,Organize & Serve,Tour · Hotel · Travel
-39-1014.00,5,9,-1,"First-Line Supervisors of Entertainment and Recreation Workers, Except Gambling Services",Organize & Serve,Word · Messages · Callers
-39-3012.00,5,3,-1,Gambling and Sports Book Writers and Runners,Organize & Serve,Discrepancies · Bank · Statements
-39-5012.00,5,-1,-1,"Hairdressers, Hairstylists, and Cosmetologists",Organize & Serve,Unique roles
-39-5094.00,5,-1,-1,Skincare Specialists,Organize & Serve,Unique roles
-39-6012.00,5,6,-1,Concierges,Organize & Serve,Tour · Hotel · Travel
-39-7011.00,5,6,-1,Tour Guides and Escorts,Organize & Serve,Tour · Hotel · Travel
-39-7012.00,5,6,-1,Travel Guides,Organize & Serve,Tour · Hotel · Travel
-39-9011.00,5,0,-1,Childcare Workers,Organize & Serve,Field Trips · Teaching · Class
-41-1011.00,5,8,-1,First-Line Supervisors of Retail Sales Workers,Organize & Serve,Trade · Prospective Customers · Prices
-41-2021.00,5,8,-1,Counter and Rental Clerks,Organize & Serve,Trade · Prospective Customers · Prices
-41-2031.00,5,8,-1,Retail Salespersons,Organize & Serve,Trade · Prospective Customers · Prices
-41-3021.00,5,2,-1,Insurance Sales Agents,Organize & Serve,Policy · Insurance Company · Repair
-41-3031.00,5,8,-1,"Securities, Commodities, and Financial Services Sales Agents",Organize & Serve,Trade · Prospective Customers · Prices
-41-3041.00,5,6,-1,Travel Agents,Organize & Serve,Tour · Hotel · Travel
-41-3091.00,5,8,-1,"Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel",Organize & Serve,Trade · Prospective Customers · Prices
-41-4011.00,5,8,-1,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",Organize & Serve,Trade · Prospective Customers · Prices
-41-4011.07,5,8,-1,Solar Sales Representatives and Assessors,Organize & Serve,Trade · Prospective Customers · Prices
-41-4012.00,5,8,-1,"Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",Organize & Serve,Trade · Prospective Customers · Prices
-41-9011.00,5,8,-1,Demonstrators and Product Promoters,Organize & Serve,Trade · Prospective Customers · Prices
-41-9021.00,5,4,-1,Real Estate Brokers,Organize & Serve,Buyers Sellers · Real Estate · Properties
-41-9022.00,5,4,-1,Real Estate Sales Agents,Organize & Serve,Buyers Sellers · Real Estate · Properties
-41-9041.00,5,8,-1,Telemarketers,Organize & Serve,Trade · Prospective Customers · Prices
-41-9091.00,5,8,-1,"Door-to-Door Sales Workers, News and Street Vendors, and Related Workers",Organize & Serve,Trade · Prospective Customers · Prices
-43-2011.00,5,9,-1,"Switchboard Operators, Including Answering Service",Organize & Serve,Word · Messages · Callers
-43-2021.00,5,9,-1,Telephone Operators,Organize & Serve,Word · Messages · Callers
-43-3011.00,5,3,-1,Bill and Account Collectors,Organize & Serve,Discrepancies · Bank · Statements
-43-3021.00,5,3,-1,Billing and Posting Clerks,Organize & Serve,Discrepancies · Bank · Statements
-43-3031.00,5,3,-1,"Bookkeeping, Accounting, and Auditing Clerks",Organize & Serve,Discrepancies · Bank · Statements
-43-3041.00,5,3,-1,Gambling Cage Workers,Organize & Serve,Discrepancies · Bank · Statements
-43-3051.00,5,3,-1,Payroll and Timekeeping Clerks,Organize & Serve,Discrepancies · Bank · Statements
-43-3061.00,5,7,-1,Procurement Clerks,Organize & Serve,Expedite · Movement · Shortages
-43-3071.00,5,3,-1,Tellers,Organize & Serve,Discrepancies · Bank · Statements
-43-4011.00,5,3,-1,Brokerage Clerks,Organize & Serve,Discrepancies · Bank · Statements
-43-4021.00,5,3,-1,Correspondence Clerks,Organize & Serve,Discrepancies · Bank · Statements
-43-4031.00,5,10,-1,"Court, Municipal, and License Clerks",Organize & Serve,Trial · Witnesses · Court
-43-4041.00,5,3,-1,"Credit Authorizers, Checkers, and Clerks",Organize & Serve,Discrepancies · Bank · Statements
-43-4051.00,5,2,-1,Customer Service Representatives,Organize & Serve,Policy · Insurance Company · Repair
-43-4061.00,5,11,-1,"Eligibility Interviewers, Government Programs",Organize & Serve,Benefits · Job · Compensation
-43-4071.00,5,1,-1,File Clerks,Organize & Serve,Scripts · Style · Layout
-43-4081.00,5,6,-1,"Hotel, Motel, and Resort Desk Clerks",Organize & Serve,Tour · Hotel · Travel
-43-4111.00,5,11,-1,"Interviewers, Except Eligibility and Loan",Organize & Serve,Benefits · Job · Compensation
-43-4121.00,5,1,-1,"Library Assistants, Clerical",Organize & Serve,Scripts · Style · Layout
-43-4141.00,5,3,-1,New Accounts Clerks,Organize & Serve,Discrepancies · Bank · Statements
-43-4151.00,5,7,-1,Order Clerks,Organize & Serve,Expedite · Movement · Shortages
-43-4161.00,5,11,-1,"Human Resources Assistants, Except Payroll and Timekeeping",Organize & Serve,Benefits · Job · Compensation
-43-4171.00,5,9,-1,Receptionists and Information Clerks,Organize & Serve,Word · Messages · Callers
-43-4181.00,5,6,-1,Reservation and Transportation Ticket Agents and Travel Clerks,Organize & Serve,Tour · Hotel · Travel
-43-5011.00,5,7,-1,Cargo and Freight Agents,Organize & Serve,Expedite · Movement · Shortages
-43-5032.00,5,9,-1,"Dispatchers, Except Police, Fire, and Ambulance",Organize & Serve,Word · Messages · Callers
-43-5051.00,5,-1,-1,Postal Service Clerks,Organize & Serve,Unique roles
-43-5061.00,5,7,-1,"Production, Planning, and Expediting Clerks",Organize & Serve,Expedite · Movement · Shortages
-43-6011.00,5,9,-1,Executive Secretaries and Executive Administrative Assistants,Organize & Serve,Word · Messages · Callers
-43-6012.00,5,10,-1,Legal Secretaries and Administrative Assistants,Organize & Serve,Trial · Witnesses · Court
-43-6013.00,5,5,-1,Medical Secretaries and Administrative Assistants,Organize & Serve,Patients · Physicians · Treatment
-43-6014.00,5,9,-1,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive",Organize & Serve,Word · Messages · Callers
-43-9021.00,5,1,-1,Data Entry Keyers,Organize & Serve,Scripts · Style · Layout
-43-9022.00,5,1,-1,Word Processors and Typists,Organize & Serve,Scripts · Style · Layout
-43-9031.00,5,1,-1,Desktop Publishers,Organize & Serve,Scripts · Style · Layout
-43-9041.00,5,2,-1,Insurance Claims and Policy Processing Clerks,Organize & Serve,Policy · Insurance Company · Repair
-43-9061.00,5,9,-1,"Office Clerks, General",Organize & Serve,Word · Messages · Callers
-43-9081.00,5,1,-1,Proofreaders and Copy Markers,Organize & Serve,Scripts · Style · Layout
-51-5111.00,5,1,-1,Prepress Technicians and Workers,Organize & Serve,Scripts · Style · Layout
-51-9071.06,5,1,-1,Gem and Diamond Workers,Organize & Serve,Scripts · Style · Layout
+31-9092.00,3,3,2,Medical Assistants,Help & Heal,Physical · Care · Patients
+31-9094.00,3,3,5,Medical Transcriptionists,Help & Heal,Physical · Care · Patients
+31-9097.00,3,2,-1,Phlebotomists,Help & Heal,Samples · Cell · Laboratory Equipment
+31-9099.01,3,3,4,Speech-Language Pathology Assistants,Help & Heal,Physical · Care · Patients
+31-9099.02,3,3,2,Endoscopy Technicians,Help & Heal,Physical · Care · Patients
+39-5094.00,3,3,1,Skincare Specialists,Help & Heal,Physical · Care · Patients
+43-6013.00,3,3,2,Medical Secretaries and Administrative Assistants,Help & Heal,Physical · Care · Patients
+53-3011.00,3,3,2,"Ambulance Drivers and Attendants, Except Emergency Medical Technicians",Help & Heal,Physical · Care · Patients
+11-1011.03,4,10,-1,Chief Sustainability Officers,Tech & Analysis,Funding · Environmental Management · Resource
+11-3021.00,4,4,-1,Computer and Information Systems Managers,Tech & Analysis,Hardware Software · User · Operating Systems
+11-3051.00,4,11,-1,Industrial Production Managers,Tech & Analysis,Directly · Costs · Tools Equipment
+11-3051.01,4,13,-1,Quality Control Systems Managers,Tech & Analysis,Laboratory Equipment · Cell · Graduate
+11-3051.02,4,8,-1,Geothermal Production Managers,Tech & Analysis,Wells · Drilling · Hydrologic
+11-3051.03,4,-1,-1,Biofuels Production Managers,Tech & Analysis,Unique roles
+11-3051.04,4,-1,-1,Biomass Power Plant Managers,Tech & Analysis,Unique roles
+11-3051.06,4,-1,-1,Hydroelectric Production Managers,Tech & Analysis,Unique roles
+11-3071.04,4,11,-1,Supply Chain Managers,Tech & Analysis,Directly · Costs · Tools Equipment
+11-9013.00,4,9,-1,"Farmers, Ranchers, and Other Agricultural Managers",Tech & Analysis,Planting · Yield · Harvesting
+11-9021.00,4,2,-1,Construction Managers,Tech & Analysis,Projects · Cost · Managers Plan
+11-9041.00,4,2,-1,Architectural and Engineering Managers,Tech & Analysis,Projects · Cost · Managers Plan
+11-9041.01,4,-1,-1,Biofuels/Biodiesel Technology and Product Development Managers,Tech & Analysis,Unique roles
+11-9121.00,4,2,-1,Natural Sciences Managers,Tech & Analysis,Projects · Cost · Managers Plan
+11-9121.02,4,8,-1,Water Resource Specialists,Tech & Analysis,Wells · Drilling · Hydrologic
+11-9199.09,4,11,-1,Wind Energy Operations Managers,Tech & Analysis,Directly · Costs · Tools Equipment
+11-9199.10,4,11,-1,Wind Energy Development Managers,Tech & Analysis,Directly · Costs · Tools Equipment
+11-9199.11,4,10,-1,Brownfield Redevelopment Specialists and Site Managers,Tech & Analysis,Funding · Environmental Management · Resource
+13-1041.01,4,5,-1,Environmental Compliance Inspectors,Tech & Analysis,Radiation · Hazards · Radioactive
+13-1051.00,4,2,-1,Cost Estimators,Tech & Analysis,Projects · Cost · Managers Plan
+13-1081.00,4,11,-1,Logisticians,Tech & Analysis,Directly · Costs · Tools Equipment
+13-1081.01,4,11,-1,Logistics Engineers,Tech & Analysis,Directly · Costs · Tools Equipment
+13-1081.02,4,11,-1,Logistics Analysts,Tech & Analysis,Directly · Costs · Tools Equipment
+13-1199.05,4,10,-1,Sustainability Specialists,Tech & Analysis,Funding · Environmental Management · Resource
+13-1199.07,4,3,-1,Security Management Specialists,Tech & Analysis,Vulnerabilities · Security Measures · Risk
+13-2099.01,4,14,-1,Financial Quantitative Analysts,Tech & Analysis,Data Statistical · Computational · Apply Mathematical
+15-1211.00,4,4,-1,Computer Systems Analysts,Tech & Analysis,Hardware Software · User · Operating Systems
+15-1212.00,4,3,-1,Information Security Analysts,Tech & Analysis,Vulnerabilities · Security Measures · Risk
+15-1221.00,4,-1,-1,Computer and Information Research Scientists,Tech & Analysis,Unique roles
+15-1231.00,4,4,-1,Computer Network Support Specialists,Tech & Analysis,Hardware Software · User · Operating Systems
+15-1232.00,4,4,-1,Computer User Support Specialists,Tech & Analysis,Hardware Software · User · Operating Systems
+15-1241.00,4,4,-1,Computer Network Architects,Tech & Analysis,Hardware Software · User · Operating Systems
+15-1241.01,4,4,-1,Telecommunications Engineering Specialists,Tech & Analysis,Hardware Software · User · Operating Systems
+15-1242.00,4,14,-1,Database Administrators,Tech & Analysis,Data Statistical · Computational · Apply Mathematical
+15-1243.00,4,14,-1,Database Architects,Tech & Analysis,Data Statistical · Computational · Apply Mathematical
+15-1243.01,4,14,-1,Data Warehousing Specialists,Tech & Analysis,Data Statistical · Computational · Apply Mathematical
+15-1244.00,4,4,-1,Network and Computer Systems Administrators,Tech & Analysis,Hardware Software · User · Operating Systems
+15-1251.00,4,4,-1,Computer Programmers,Tech & Analysis,Hardware Software · User · Operating Systems
+15-1252.00,4,4,-1,Software Developers,Tech & Analysis,Hardware Software · User · Operating Systems
+15-1253.00,4,4,-1,Software Quality Assurance Analysts and Testers,Tech & Analysis,Hardware Software · User · Operating Systems
+15-1254.00,4,4,-1,Web Developers,Tech & Analysis,Hardware Software · User · Operating Systems
+15-1255.00,4,4,-1,Web and Digital Interface Designers,Tech & Analysis,Hardware Software · User · Operating Systems
+15-1255.01,4,1,-1,Video Game Designers,Tech & Analysis,Design Ideas · Sketches · Furniture
+15-1299.01,4,4,-1,Web Administrators,Tech & Analysis,Hardware Software · User · Operating Systems
+15-1299.02,4,7,-1,Geographic Information Systems Technologists and Technicians,Tech & Analysis,Aerial · Remote Sensing · Earth
+15-1299.04,4,3,-1,Penetration Testers,Tech & Analysis,Vulnerabilities · Security Measures · Risk
+15-1299.05,4,3,-1,Information Security Engineers,Tech & Analysis,Vulnerabilities · Security Measures · Risk
+15-1299.06,4,3,-1,Digital Forensics Analysts,Tech & Analysis,Vulnerabilities · Security Measures · Risk
+15-1299.07,4,4,-1,Blockchain Engineers,Tech & Analysis,Hardware Software · User · Operating Systems
+15-1299.08,4,4,-1,Computer Systems Engineers/Architects,Tech & Analysis,Hardware Software · User · Operating Systems
+15-1299.09,4,2,-1,Information Technology Project Managers,Tech & Analysis,Projects · Cost · Managers Plan
+15-2021.00,4,14,-1,Mathematicians,Tech & Analysis,Data Statistical · Computational · Apply Mathematical
+15-2031.00,4,14,-1,Operations Research Analysts,Tech & Analysis,Data Statistical · Computational · Apply Mathematical
+15-2041.00,4,14,-1,Statisticians,Tech & Analysis,Data Statistical · Computational · Apply Mathematical
+15-2041.01,4,14,-1,Biostatisticians,Tech & Analysis,Data Statistical · Computational · Apply Mathematical
+15-2051.00,4,14,-1,Data Scientists,Tech & Analysis,Data Statistical · Computational · Apply Mathematical
+15-2051.02,4,14,-1,Clinical Data Managers,Tech & Analysis,Data Statistical · Computational · Apply Mathematical
+15-2099.01,4,14,-1,Bioinformatics Technicians,Tech & Analysis,Data Statistical · Computational · Apply Mathematical
+17-1011.00,4,2,-1,"Architects, Except Landscape and Naval",Tech & Analysis,Projects · Cost · Managers Plan
+17-1012.00,4,2,-1,Landscape Architects,Tech & Analysis,Projects · Cost · Managers Plan
+17-1021.00,4,7,-1,Cartographers and Photogrammetrists,Tech & Analysis,Aerial · Remote Sensing · Earth
+17-1022.00,4,7,-1,Surveyors,Tech & Analysis,Aerial · Remote Sensing · Earth
+17-1022.01,4,7,-1,Geodetic Surveyors,Tech & Analysis,Aerial · Remote Sensing · Earth
+17-2011.00,4,12,-1,Aerospace Engineers,Tech & Analysis,Electrical · Components · Mechanical
+17-2021.00,4,9,-1,Agricultural Engineers,Tech & Analysis,Planting · Yield · Harvesting
+17-2031.00,4,13,-1,Bioengineers and Biomedical Engineers,Tech & Analysis,Laboratory Equipment · Cell · Graduate
+17-2041.00,4,-1,-1,Chemical Engineers,Tech & Analysis,Unique roles
+17-2051.00,4,2,-1,Civil Engineers,Tech & Analysis,Projects · Cost · Managers Plan
+17-2051.01,4,2,-1,Transportation Engineers,Tech & Analysis,Projects · Cost · Managers Plan
+17-2051.02,4,8,-1,Water/Wastewater Engineers,Tech & Analysis,Wells · Drilling · Hydrologic
+17-2061.00,4,4,-1,Computer Hardware Engineers,Tech & Analysis,Hardware Software · User · Operating Systems
+17-2071.00,4,12,-1,Electrical Engineers,Tech & Analysis,Electrical · Components · Mechanical
+17-2072.00,4,12,-1,"Electronics Engineers, Except Computer",Tech & Analysis,Electrical · Components · Mechanical
+17-2072.01,4,4,-1,Radio Frequency Identification Device Specialists,Tech & Analysis,Hardware Software · User · Operating Systems
+17-2081.00,4,10,-1,Environmental Engineers,Tech & Analysis,Funding · Environmental Management · Resource
+17-2111.00,4,5,-1,"Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",Tech & Analysis,Radiation · Hazards · Radioactive
+17-2111.02,4,5,-1,Fire-Prevention and Protection Engineers,Tech & Analysis,Radiation · Hazards · Radioactive
+17-2112.00,4,11,-1,Industrial Engineers,Tech & Analysis,Directly · Costs · Tools Equipment
+17-2112.01,4,-1,-1,Human Factors Engineers and Ergonomists,Tech & Analysis,Unique roles
+17-2112.02,4,13,-1,Validation Engineers,Tech & Analysis,Laboratory Equipment · Cell · Graduate
+17-2112.03,4,11,-1,Manufacturing Engineers,Tech & Analysis,Directly · Costs · Tools Equipment
+17-2121.00,4,12,-1,Marine Engineers and Naval Architects,Tech & Analysis,Electrical · Components · Mechanical
+17-2131.00,4,12,-1,Materials Engineers,Tech & Analysis,Electrical · Components · Mechanical
+17-2141.00,4,12,-1,Mechanical Engineers,Tech & Analysis,Electrical · Components · Mechanical
+17-2141.01,4,12,-1,Fuel Cell Engineers,Tech & Analysis,Electrical · Components · Mechanical
+17-2141.02,4,12,-1,Automotive Engineers,Tech & Analysis,Electrical · Components · Mechanical
+17-2151.00,4,8,-1,"Mining and Geological Engineers, Including Mining Safety Engineers",Tech & Analysis,Wells · Drilling · Hydrologic
+17-2161.00,4,5,-1,Nuclear Engineers,Tech & Analysis,Radiation · Hazards · Radioactive
+17-2171.00,4,8,-1,Petroleum Engineers,Tech & Analysis,Wells · Drilling · Hydrologic
+17-2199.03,4,12,-1,"Energy Engineers, Except Wind and Solar",Tech & Analysis,Electrical · Components · Mechanical
+17-2199.05,4,12,-1,Mechatronics Engineers,Tech & Analysis,Electrical · Components · Mechanical
+17-2199.06,4,12,-1,Microsystems Engineers,Tech & Analysis,Electrical · Components · Mechanical
+17-2199.07,4,12,-1,Photonics Engineers,Tech & Analysis,Electrical · Components · Mechanical
+17-2199.08,4,12,-1,Robotics Engineers,Tech & Analysis,Electrical · Components · Mechanical
+17-2199.09,4,-1,-1,Nanosystems Engineers,Tech & Analysis,Unique roles
+17-2199.10,4,11,-1,Wind Energy Engineers,Tech & Analysis,Directly · Costs · Tools Equipment
+17-2199.11,4,12,-1,Solar Energy Systems Engineers,Tech & Analysis,Electrical · Components · Mechanical
+17-3011.00,4,1,-1,Architectural and Civil Drafters,Tech & Analysis,Design Ideas · Sketches · Furniture
+17-3012.00,4,1,-1,Electrical and Electronics Drafters,Tech & Analysis,Design Ideas · Sketches · Furniture
+17-3013.00,4,1,-1,Mechanical Drafters,Tech & Analysis,Design Ideas · Sketches · Furniture
+17-3021.00,4,12,-1,Aerospace Engineering and Operations Technologists and Technicians,Tech & Analysis,Electrical · Components · Mechanical
+17-3022.00,4,2,-1,Civil Engineering Technologists and Technicians,Tech & Analysis,Projects · Cost · Managers Plan
+17-3023.00,4,12,-1,Electrical and Electronic Engineering Technologists and Technicians,Tech & Analysis,Electrical · Components · Mechanical
+17-3025.00,4,5,-1,Environmental Engineering Technologists and Technicians,Tech & Analysis,Radiation · Hazards · Radioactive
+17-3026.00,4,11,-1,Industrial Engineering Technologists and Technicians,Tech & Analysis,Directly · Costs · Tools Equipment
+17-3026.01,4,-1,-1,Nanotechnology Engineering Technologists and Technicians,Tech & Analysis,Unique roles
+17-3027.00,4,12,-1,Mechanical Engineering Technologists and Technicians,Tech & Analysis,Electrical · Components · Mechanical
+17-3027.01,4,12,-1,Automotive Engineering Technicians,Tech & Analysis,Electrical · Components · Mechanical
+17-3028.00,4,12,-1,Calibration Technologists and Technicians,Tech & Analysis,Electrical · Components · Mechanical
+17-3029.01,4,12,-1,Non-Destructive Testing Specialists,Tech & Analysis,Electrical · Components · Mechanical
+17-3031.00,4,7,-1,Surveying and Mapping Technicians,Tech & Analysis,Aerial · Remote Sensing · Earth
+19-1011.00,4,9,-1,Animal Scientists,Tech & Analysis,Planting · Yield · Harvesting
+19-1012.00,4,13,-1,Food Scientists and Technologists,Tech & Analysis,Laboratory Equipment · Cell · Graduate
+19-1013.00,4,9,-1,Soil and Plant Scientists,Tech & Analysis,Planting · Yield · Harvesting
+19-1021.00,4,13,-1,Biochemists and Biophysicists,Tech & Analysis,Laboratory Equipment · Cell · Graduate
+19-1022.00,4,13,-1,Microbiologists,Tech & Analysis,Laboratory Equipment · Cell · Graduate
+19-1023.00,4,9,-1,Zoologists and Wildlife Biologists,Tech & Analysis,Planting · Yield · Harvesting
+19-1029.01,4,14,-1,Bioinformatics Scientists,Tech & Analysis,Data Statistical · Computational · Apply Mathematical
+19-1029.02,4,13,-1,Molecular and Cellular Biologists,Tech & Analysis,Laboratory Equipment · Cell · Graduate
+19-1029.03,4,13,-1,Geneticists,Tech & Analysis,Laboratory Equipment · Cell · Graduate
+19-1029.04,4,9,-1,Biologists,Tech & Analysis,Planting · Yield · Harvesting
+19-1031.00,4,10,-1,Conservation Scientists,Tech & Analysis,Funding · Environmental Management · Resource
+19-1031.02,4,9,-1,Range Managers,Tech & Analysis,Planting · Yield · Harvesting
+19-1032.00,4,9,-1,Foresters,Tech & Analysis,Planting · Yield · Harvesting
+19-2011.00,4,13,-1,Astronomers,Tech & Analysis,Laboratory Equipment · Cell · Graduate
+19-2012.00,4,13,-1,Physicists,Tech & Analysis,Laboratory Equipment · Cell · Graduate
+19-2021.00,4,7,-1,Atmospheric and Space Scientists,Tech & Analysis,Aerial · Remote Sensing · Earth
+19-2031.00,4,13,-1,Chemists,Tech & Analysis,Laboratory Equipment · Cell · Graduate
+19-2032.00,4,12,-1,Materials Scientists,Tech & Analysis,Electrical · Components · Mechanical
+19-2041.00,4,10,-1,"Environmental Scientists and Specialists, Including Health",Tech & Analysis,Funding · Environmental Management · Resource
+19-2041.01,4,10,-1,Climate Change Policy Analysts,Tech & Analysis,Funding · Environmental Management · Resource
+19-2041.02,4,10,-1,Environmental Restoration Planners,Tech & Analysis,Funding · Environmental Management · Resource
+19-2041.03,4,10,-1,Industrial Ecologists,Tech & Analysis,Funding · Environmental Management · Resource
+19-2042.00,4,8,-1,"Geoscientists, Except Hydrologists and Geographers",Tech & Analysis,Wells · Drilling · Hydrologic
+19-2043.00,4,8,-1,Hydrologists,Tech & Analysis,Wells · Drilling · Hydrologic
+19-2099.01,4,7,-1,Remote Sensing Scientists and Technologists,Tech & Analysis,Aerial · Remote Sensing · Earth
+19-3011.01,4,10,-1,Environmental Economists,Tech & Analysis,Funding · Environmental Management · Resource
+19-3051.00,4,-1,-1,Urban and Regional Planners,Tech & Analysis,Unique roles
+19-3092.00,4,7,-1,Geographers,Tech & Analysis,Aerial · Remote Sensing · Earth
+19-3099.01,4,2,-1,Transportation Planners,Tech & Analysis,Projects · Cost · Managers Plan
+19-4012.00,4,9,-1,Agricultural Technicians,Tech & Analysis,Planting · Yield · Harvesting
+19-4012.01,4,9,-1,Precision Agriculture Technicians,Tech & Analysis,Planting · Yield · Harvesting
+19-4013.00,4,13,-1,Food Science Technicians,Tech & Analysis,Laboratory Equipment · Cell · Graduate
+19-4021.00,4,13,-1,Biological Technicians,Tech & Analysis,Laboratory Equipment · Cell · Graduate
+19-4031.00,4,13,-1,Chemical Technicians,Tech & Analysis,Laboratory Equipment · Cell · Graduate
+19-4042.00,4,5,-1,"Environmental Science and Protection Technicians, Including Health",Tech & Analysis,Radiation · Hazards · Radioactive
+19-4043.00,4,8,-1,"Geological Technicians, Except Hydrologic Technicians",Tech & Analysis,Wells · Drilling · Hydrologic
+19-4044.00,4,8,-1,Hydrologic Technicians,Tech & Analysis,Wells · Drilling · Hydrologic
+19-4051.00,4,5,-1,Nuclear Technicians,Tech & Analysis,Radiation · Hazards · Radioactive
+19-4051.02,4,5,-1,Nuclear Monitoring Technicians,Tech & Analysis,Radiation · Hazards · Radioactive
+19-4061.00,4,14,-1,Social Science Research Assistants,Tech & Analysis,Data Statistical · Computational · Apply Mathematical
+19-4071.00,4,9,-1,Forest and Conservation Technicians,Tech & Analysis,Planting · Yield · Harvesting
+19-4092.00,4,-1,-1,Forensic Science Technicians,Tech & Analysis,Unique roles
+19-4099.01,4,13,-1,Quality Control Analysts,Tech & Analysis,Laboratory Equipment · Cell · Graduate
+19-4099.03,4,7,-1,Remote Sensing Technicians,Tech & Analysis,Aerial · Remote Sensing · Earth
+19-5011.00,4,5,-1,Occupational Health and Safety Specialists,Tech & Analysis,Radiation · Hazards · Radioactive
+19-5012.00,4,5,-1,Occupational Health and Safety Technicians,Tech & Analysis,Radiation · Hazards · Radioactive
+25-4013.00,4,1,-1,Museum Technicians and Conservators,Tech & Analysis,Design Ideas · Sketches · Furniture
+27-1014.00,4,0,-1,Special Effects Artists and Animators,Tech & Analysis,Editing · Film · Studio
+27-1021.00,4,1,-1,Commercial and Industrial Designers,Tech & Analysis,Design Ideas · Sketches · Furniture
+27-1022.00,4,1,-1,Fashion Designers,Tech & Analysis,Design Ideas · Sketches · Furniture
+27-1025.00,4,1,-1,Interior Designers,Tech & Analysis,Design Ideas · Sketches · Furniture
+27-1027.00,4,1,-1,Set and Exhibit Designers,Tech & Analysis,Design Ideas · Sketches · Furniture
+27-2012.05,4,0,-1,Media Technical Directors/Managers,Tech & Analysis,Editing · Film · Studio
+27-3042.00,4,1,-1,Technical Writers,Tech & Analysis,Design Ideas · Sketches · Furniture
+27-4011.00,4,0,-1,Audio and Video Technicians,Tech & Analysis,Editing · Film · Studio
+27-4012.00,4,0,-1,Broadcast Technicians,Tech & Analysis,Editing · Film · Studio
+27-4014.00,4,0,-1,Sound Engineering Technicians,Tech & Analysis,Editing · Film · Studio
+27-4021.00,4,0,-1,Photographers,Tech & Analysis,Editing · Film · Studio
+27-4031.00,4,0,-1,"Camera Operators, Television, Video, and Film",Tech & Analysis,Editing · Film · Studio
+33-1021.00,4,5,-1,First-Line Supervisors of Firefighting and Prevention Workers,Tech & Analysis,Radiation · Hazards · Radioactive
+33-2021.00,4,5,-1,Fire Inspectors and Investigators,Tech & Analysis,Radiation · Hazards · Radioactive
+33-2022.00,4,5,-1,Forest Fire Inspectors and Prevention Specialists,Tech & Analysis,Radiation · Hazards · Radioactive
+37-1012.00,4,11,-1,"First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers",Tech & Analysis,Directly · Costs · Tools Equipment
+41-4011.07,4,12,-1,Solar Sales Representatives and Assessors,Tech & Analysis,Electrical · Components · Mechanical
+43-9031.00,4,0,-1,Desktop Publishers,Tech & Analysis,Editing · Film · Studio
+43-9111.00,4,14,-1,Statistical Assistants,Tech & Analysis,Data Statistical · Computational · Apply Mathematical
+45-1011.00,4,11,-1,"First-Line Supervisors of Farming, Fishing, and Forestry Workers",Tech & Analysis,Directly · Costs · Tools Equipment
+45-2011.00,4,-1,-1,Agricultural Inspectors,Tech & Analysis,Unique roles
+47-1011.00,4,11,-1,First-Line Supervisors of Construction Trades and Extraction Workers,Tech & Analysis,Directly · Costs · Tools Equipment
+47-1011.03,4,12,-1,Solar Energy Installation Managers,Tech & Analysis,Electrical · Components · Mechanical
+47-4011.00,4,2,-1,Construction and Building Inspectors,Tech & Analysis,Projects · Cost · Managers Plan
+47-4011.01,4,12,-1,Energy Auditors,Tech & Analysis,Electrical · Components · Mechanical
+49-1011.00,4,11,-1,"First-Line Supervisors of Mechanics, Installers, and Repairers",Tech & Analysis,Directly · Costs · Tools Equipment
+51-1011.00,4,11,-1,First-Line Supervisors of Production and Operating Workers,Tech & Analysis,Directly · Costs · Tools Equipment
+51-8011.00,4,5,-1,Nuclear Power Reactor Operators,Tech & Analysis,Radiation · Hazards · Radioactive
+51-8012.00,4,-1,-1,Power Distributors and Dispatchers,Tech & Analysis,Unique roles
+53-1041.00,4,6,-1,Aircraft Cargo Handling Supervisors,Tech & Analysis,Air Traffic · Flight · Arrival
+53-2011.00,4,6,-1,"Airline Pilots, Copilots, and Flight Engineers",Tech & Analysis,Air Traffic · Flight · Arrival
+53-2012.00,4,6,-1,Commercial Pilots,Tech & Analysis,Air Traffic · Flight · Arrival
+53-2021.00,4,6,-1,Air Traffic Controllers,Tech & Analysis,Air Traffic · Flight · Arrival
+53-2022.00,4,6,-1,Airfield Operations Specialists,Tech & Analysis,Air Traffic · Flight · Arrival
+53-6041.00,4,2,-1,Traffic Technicians,Tech & Analysis,Projects · Cost · Managers Plan
+53-6051.00,4,11,-1,Transportation Inspectors,Tech & Analysis,Directly · Costs · Tools Equipment
+53-6051.01,4,6,-1,Aviation Inspectors,Tech & Analysis,Air Traffic · Flight · Arrival
+13-1074.00,5,3,-1,Farm Labor Contractors,Hands-On Service,Rules · Housekeeping · Equipment
+25-4031.00,5,6,-1,Library Technicians,Hands-On Service,Prices · Merchandise · Sales
+27-1013.00,5,5,-1,"Fine Artists, Including Painters, Sculptors, and Illustrators",Hands-On Service,Study · Productions · Stage
+27-1023.00,5,-1,-1,Floral Designers,Hands-On Service,Unique roles
+27-1026.00,5,6,-1,Merchandise Displayers and Window Trimmers,Hands-On Service,Prices · Merchandise · Sales
+27-2011.00,5,5,-1,Actors,Hands-On Service,Study · Productions · Stage
+27-2021.00,5,3,-1,Athletes and Sports Competitors,Hands-On Service,Rules · Housekeeping · Equipment
+27-2023.00,5,3,-1,"Umpires, Referees, and Other Sports Officials",Hands-On Service,Rules · Housekeeping · Equipment
+27-2031.00,5,5,-1,Dancers,Hands-On Service,Study · Productions · Stage
+27-2032.00,5,5,-1,Choreographers,Hands-On Service,Study · Productions · Stage
+27-2042.00,5,5,-1,Musicians and Singers,Hands-On Service,Study · Productions · Stage
+27-2091.00,5,3,-1,"Disc Jockeys, Except Radio",Hands-On Service,Rules · Housekeeping · Equipment
+31-1132.00,5,3,-1,Orderlies,Hands-On Service,Rules · Housekeeping · Equipment
+31-9095.00,5,6,-1,Pharmacy Aides,Hands-On Service,Prices · Merchandise · Sales
+31-9096.00,5,2,-1,Veterinary Assistants and Laboratory Animal Caretakers,Hands-On Service,Animal · Treatment · Bathe
+33-3011.00,5,3,-1,Bailiffs,Hands-On Service,Rules · Housekeeping · Equipment
+33-3041.00,5,1,-1,Parking Enforcement Workers,Hands-On Service,Traffic · Passenger · Delays
+33-9011.00,5,2,-1,Animal Control Workers,Hands-On Service,Animal · Treatment · Bathe
+33-9032.00,5,3,-1,Security Guards,Hands-On Service,Rules · Housekeeping · Equipment
+33-9091.00,5,1,-1,Crossing Guards and Flaggers,Hands-On Service,Traffic · Passenger · Delays
+33-9092.00,5,3,-1,"Lifeguards, Ski Patrol, and Other Recreational Protective Service Workers",Hands-On Service,Rules · Housekeeping · Equipment
+33-9093.00,5,1,-1,Transportation Security Screeners,Hands-On Service,Traffic · Passenger · Delays
+33-9094.00,5,1,-1,School Bus Monitors,Hands-On Service,Traffic · Passenger · Delays
+35-2011.00,5,0,-1,"Cooks, Fast Food",Hands-On Service,Foods · Cooking · Dishes
+35-2012.00,5,0,-1,"Cooks, Institution and Cafeteria",Hands-On Service,Foods · Cooking · Dishes
+35-2013.00,5,0,-1,"Cooks, Private Household",Hands-On Service,Foods · Cooking · Dishes
+35-2014.00,5,0,-1,"Cooks, Restaurant",Hands-On Service,Foods · Cooking · Dishes
+35-2015.00,5,0,-1,"Cooks, Short Order",Hands-On Service,Foods · Cooking · Dishes
+35-2021.00,5,0,-1,Food Preparation Workers,Hands-On Service,Foods · Cooking · Dishes
+35-3011.00,5,0,-1,Bartenders,Hands-On Service,Foods · Cooking · Dishes
+35-3023.00,5,0,-1,Fast Food and Counter Workers,Hands-On Service,Foods · Cooking · Dishes
+35-3023.01,5,0,-1,Baristas,Hands-On Service,Foods · Cooking · Dishes
+35-3031.00,5,0,-1,Waiters and Waitresses,Hands-On Service,Foods · Cooking · Dishes
+35-3041.00,5,0,-1,"Food Servers, Nonrestaurant",Hands-On Service,Foods · Cooking · Dishes
+35-9011.00,5,0,-1,Dining Room and Cafeteria Attendants and Bartender Helpers,Hands-On Service,Foods · Cooking · Dishes
+35-9021.00,5,0,-1,Dishwashers,Hands-On Service,Foods · Cooking · Dishes
+35-9031.00,5,3,-1,"Hosts and Hostesses, Restaurant, Lounge, and Coffee Shop",Hands-On Service,Rules · Housekeeping · Equipment
+37-2011.00,5,3,-1,"Janitors and Cleaners, Except Maids and Housekeeping Cleaners",Hands-On Service,Rules · Housekeeping · Equipment
+37-2012.00,5,3,-1,Maids and Housekeeping Cleaners,Hands-On Service,Rules · Housekeeping · Equipment
+37-3011.00,5,3,-1,Landscaping and Groundskeeping Workers,Hands-On Service,Rules · Housekeeping · Equipment
+39-2011.00,5,2,-1,Animal Trainers,Hands-On Service,Animal · Treatment · Bathe
+39-2021.00,5,2,-1,Animal Caretakers,Hands-On Service,Animal · Treatment · Bathe
+39-3011.00,5,-1,-1,Gambling Dealers,Hands-On Service,Unique roles
+39-3012.00,5,-1,-1,Gambling and Sports Book Writers and Runners,Hands-On Service,Unique roles
+39-3021.00,5,3,-1,Motion Picture Projectionists,Hands-On Service,Rules · Housekeeping · Equipment
+39-3031.00,5,3,-1,"Ushers, Lobby Attendants, and Ticket Takers",Hands-On Service,Rules · Housekeeping · Equipment
+39-3091.00,5,3,-1,Amusement and Recreation Attendants,Hands-On Service,Rules · Housekeeping · Equipment
+39-3092.00,5,5,-1,Costume Attendants,Hands-On Service,Study · Productions · Stage
+39-3093.00,5,3,-1,"Locker Room, Coatroom, and Dressing Room Attendants",Hands-On Service,Rules · Housekeeping · Equipment
+39-4011.00,5,-1,-1,Embalmers,Hands-On Service,Unique roles
+39-4012.00,5,-1,-1,Crematory Operators,Hands-On Service,Unique roles
+39-4021.00,5,-1,-1,Funeral Attendants,Hands-On Service,Unique roles
+39-4031.00,5,-1,-1,"Morticians, Undertakers, and Funeral Arrangers",Hands-On Service,Unique roles
+39-5011.00,5,-1,-1,Barbers,Hands-On Service,Unique roles
+39-5012.00,5,-1,-1,"Hairdressers, Hairstylists, and Cosmetologists",Hands-On Service,Unique roles
+39-5091.00,5,5,-1,"Makeup Artists, Theatrical and Performance",Hands-On Service,Study · Productions · Stage
+39-5092.00,5,-1,-1,Manicurists and Pedicurists,Hands-On Service,Unique roles
+39-5093.00,5,-1,-1,Shampooers,Hands-On Service,Unique roles
+39-6011.00,5,3,-1,Baggage Porters and Bellhops,Hands-On Service,Rules · Housekeeping · Equipment
+39-6012.00,5,3,-1,Concierges,Hands-On Service,Rules · Housekeeping · Equipment
+39-7011.00,5,3,-1,Tour Guides and Escorts,Hands-On Service,Rules · Housekeeping · Equipment
+39-7012.00,5,3,-1,Travel Guides,Hands-On Service,Rules · Housekeeping · Equipment
+39-9011.00,5,3,-1,Childcare Workers,Hands-On Service,Rules · Housekeeping · Equipment
+39-9011.01,5,3,-1,Nannies,Hands-On Service,Rules · Housekeeping · Equipment
+39-9031.00,5,3,-1,Exercise Trainers and Group Fitness Instructors,Hands-On Service,Rules · Housekeeping · Equipment
+41-2011.00,5,6,-1,Cashiers,Hands-On Service,Prices · Merchandise · Sales
+41-2012.00,5,-1,-1,Gambling Change Persons and Booth Cashiers,Hands-On Service,Unique roles
+41-2021.00,5,6,-1,Counter and Rental Clerks,Hands-On Service,Prices · Merchandise · Sales
+41-2022.00,5,6,-1,Parts Salespersons,Hands-On Service,Prices · Merchandise · Sales
+41-2031.00,5,6,-1,Retail Salespersons,Hands-On Service,Prices · Merchandise · Sales
+41-9011.00,5,6,-1,Demonstrators and Product Promoters,Hands-On Service,Prices · Merchandise · Sales
+41-9012.00,5,5,-1,Models,Hands-On Service,Study · Productions · Stage
+41-9091.00,5,6,-1,"Door-to-Door Sales Workers, News and Street Vendors, and Related Workers",Hands-On Service,Prices · Merchandise · Sales
+43-2011.00,5,-1,-1,"Switchboard Operators, Including Answering Service",Hands-On Service,Unique roles
+43-2021.00,5,-1,-1,Telephone Operators,Hands-On Service,Unique roles
+43-3041.00,5,-1,-1,Gambling Cage Workers,Hands-On Service,Unique roles
+43-4081.00,5,3,-1,"Hotel, Motel, and Resort Desk Clerks",Hands-On Service,Rules · Housekeeping · Equipment
+43-4121.00,5,6,-1,"Library Assistants, Clerical",Hands-On Service,Prices · Merchandise · Sales
+43-5011.00,5,4,-1,Cargo and Freight Agents,Hands-On Service,Route · Outgoing · Postal
+43-5021.00,5,4,-1,Couriers and Messengers,Hands-On Service,Route · Outgoing · Postal
+43-5051.00,5,4,-1,Postal Service Clerks,Hands-On Service,Route · Outgoing · Postal
+43-5052.00,5,4,-1,Postal Service Mail Carriers,Hands-On Service,Route · Outgoing · Postal
+43-5053.00,5,4,-1,"Postal Service Mail Sorters, Processors, and Processing Machine Operators",Hands-On Service,Route · Outgoing · Postal
+43-5071.00,5,4,-1,"Shipping, Receiving, and Inventory Clerks",Hands-On Service,Route · Outgoing · Postal
+43-9051.00,5,4,-1,"Mail Clerks and Mail Machine Operators, Except Postal Service",Hands-On Service,Route · Outgoing · Postal
+45-2021.00,5,2,-1,Animal Breeders,Hands-On Service,Animal · Treatment · Bathe
+45-2041.00,5,0,-1,"Graders and Sorters, Agricultural Products",Hands-On Service,Foods · Cooking · Dishes
+45-2093.00,5,2,-1,"Farmworkers, Farm, Ranch, and Aquacultural Animals",Hands-On Service,Animal · Treatment · Bathe
+51-3011.00,5,0,-1,Bakers,Hands-On Service,Foods · Cooking · Dishes
+51-3021.00,5,0,-1,Butchers and Meat Cutters,Hands-On Service,Foods · Cooking · Dishes
+51-3022.00,5,0,-1,"Meat, Poultry, and Fish Cutters and Trimmers",Hands-On Service,Foods · Cooking · Dishes
+51-3023.00,5,0,-1,Slaughterers and Meat Packers,Hands-On Service,Foods · Cooking · Dishes
+53-2031.00,5,1,-1,Flight Attendants,Hands-On Service,Traffic · Passenger · Delays
+53-3031.00,5,6,-1,Driver/Sales Workers,Hands-On Service,Prices · Merchandise · Sales
+53-3033.00,5,1,-1,Light Truck Drivers,Hands-On Service,Traffic · Passenger · Delays
+53-3051.00,5,1,-1,"Bus Drivers, School",Hands-On Service,Traffic · Passenger · Delays
+53-3052.00,5,1,-1,"Bus Drivers, Transit and Intercity",Hands-On Service,Traffic · Passenger · Delays
+53-3053.00,5,1,-1,Shuttle Drivers and Chauffeurs,Hands-On Service,Traffic · Passenger · Delays
+53-3054.00,5,1,-1,Taxi Drivers,Hands-On Service,Traffic · Passenger · Delays
+53-4031.00,5,1,-1,Railroad Conductors and Yardmasters,Hands-On Service,Traffic · Passenger · Delays
+53-4041.00,5,1,-1,Subway and Streetcar Operators,Hands-On Service,Traffic · Passenger · Delays
+53-6021.00,5,1,-1,Parking Attendants,Hands-On Service,Traffic · Passenger · Delays
+53-6031.00,5,1,-1,Automotive and Watercraft Service Attendants,Hands-On Service,Traffic · Passenger · Delays
+53-6061.00,5,1,-1,Passenger Attendants,Hands-On Service,Traffic · Passenger · Delays
+53-7065.00,5,6,-1,Stockers and Order Fillers,Hands-On Service,Prices · Merchandise · Sales
+53-7081.00,5,1,-1,Refuse and Recyclable Material Collectors,Hands-On Service,Traffic · Passenger · Delays
