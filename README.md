@@ -1,83 +1,73 @@
-# Bubbles
-This project is a tool that uses unsupervised machine learning to automatically cluster thousands of O*NET occupations by semantic similarity, then presents them as a zoomable, nested bubble interface so someone can start broad from a category like "I want to help people" and drill down.
+# Bubbles — Project 2: Clustering by numeric attributes (data science)
 
+> This branch contains **only Project 2**. The full project (Project 1, the named top-level groups and the
+> bubble UI) lives on `main`; Project 1 alone is on `project-1-text-clustering`.
 
-For Project 1: Clustering text-based task statement (NLP approach)
+Bubbles uses unsupervised machine learning to cluster O*NET occupations. Project 2 groups jobs by their **numeric
+attribute scores**: how important each ability, skill, knowledge area and work activity is to the job.
 
-Extract and embed: Vectorize the text data into dense, fixed-length vectors using a transformer model optimized for semantic text similarity
-Dimension Reduction: High-dimensional embeddings can degrade distance metrics (the curse of dimensionality). Apply UMAP (Uniform Manifold Approximation and Projection) or PCA to reduce vectors to a manageable scale while preserving local and global structures.
-Density-Based Clustering: Use HDBSCAN(research it) and K-Means and compare. 
+## The plan (from the project brief)
 
-For Project 2: Clustering by Numeric Attributes (Data Science Approach)
+- **Pivot and matrix construction:** a feature matrix where each row is an O*NET-SOC code and each column a specific
+  attribute score (e.g. Level of Active Listening, Importance of Mathematics).
+- **Feature standardization:** scale the data with StandardScaler to handle variance differences across descriptor types.
+- **Partitioning optimization:** K-Means++ or Agglomerative Hierarchical Clustering, using the Silhouette or Elbow
+  (Inertia) method to determine the optimal number of clusters (K).
+- **Niche roles:** set a silhouette threshold to flag jobs that don't fit any cluster.
 
-Pivot and Matrix Construction: Create a feature matrix where each row represents an O*NET-SOC code and each column represents a specific attribute score (e.g., Level of Active Listening, Importance of Mathematics)
-Feature Standardization: Scale the numeric data using StandardScaler to handle any variance differences across distinct descriptor types
-Partitioning Optimization: Since the numeric feature space is dense and continuous, K-Means++ or Agglomerative Hierarchical Clustering works remarkably well. Use the Silhouette Method or Elbow Method (Inertia) to automatically determine the mathematical optimal number of clusters (K)
+## What's here
 
-O*NET data contains highly niche roles. Rely on density algorithms like HDBSCAN or set a strict silhouette distance threshold to capture unclassifiable job elements as independent vectors. Use TF-IDF on the text fields within each finalized cluster group to automatically pull out the top 5 distinguishing words. This provides an instant label or name for your newly generated job cluster.
-
----
+| File | What it does |
+|---|---|
+| `src/load_onet.py` | Reads the O*NET 31.0 text files and pivots Abilities, Knowledge, Work Activities, Essential Skills and Transferable Skills into occupation × attribute matrices (importance `IM` and level `LV`) |
+| `src/numeric_clustering.py` | StandardScaler, K-Means++ and Ward agglomerative sweeps, defining attributes per cluster, silhouette-based niche detection |
+| `src/evaluation.py` | Shared seed and scoring: silhouette, agreement with O*NET job families and RIASEC interests |
+| `notebooks/03_numeric_clustering.ipynb` | The full analysis, with plots |
 
 ## Quick start
 
-Requires Python 3.12 (3.14 isn't supported by all the libraries yet).
+Requires Python 3.12.
 
 ```powershell
 python -m venv .venv
 .venv\Scripts\pip install -r requirements.txt
 ```
 
-**1. Get the data.** Download the O*NET 31.0 database (text format) from
-https://www.onetcenter.org/database.html and unzip it to `data/raw/onet_31_0/`.
-
-**2. Run the pipeline** (from the project root):
+1. Download the O*NET 31.0 database (text format) from https://www.onetcenter.org/database.html and unzip it to
+   `data/raw/onet_31_0/`.
+2. Run:
 
 ```powershell
-.venv\Scripts\python src\load_onet.py        # build tables in data/processed/
-.venv\Scripts\python src\embed.py            # sentence embeddings (~10 min on CPU, cached after)
-.venv\Scripts\jupyter nbconvert --to notebook --execute --inplace notebooks\02_text_clustering.ipynb
+.venv\Scripts\python src\load_onet.py   # build tables in data/processed/
 .venv\Scripts\jupyter nbconvert --to notebook --execute --inplace notebooks\03_numeric_clustering.ipynb
-.venv\Scripts\python src\build_hierarchy.py  # writes web/data/hierarchy.json
 ```
-
-**3. Open the bubble UI:**
-
-```powershell
-cd web
-..\.venv\Scripts\python -m http.server 8000
-```
-
-Then visit http://localhost:8000. Link straight to a job with `#Job Title`, e.g. `http://localhost:8000/#Registered Nurses`.
-
-## How it works
-
-| Step | Code | What it does |
-|---|---|---|
-| Load | `src/load_onet.py` | Text corpus, attribute matrices (161 attributes), RIASEC interests |
-| Project 1 | `src/embed.py`, `notebooks/02_text_clustering.ipynb` | Embed each task with `all-mpnet-base-v2`, average per job → UMAP → HDBSCAN vs. K-Means |
-| Project 2 | `notebooks/03_numeric_clustering.ipynb` | StandardScaler → K-Means++ vs. Ward agglomerative, elbow + silhouette |
-| Labels | `src/labeling.py`, `notebooks/04_cluster_labels.ipynb` | TF-IDF top terms per cluster; plain-language names for top groups |
-| Top groups | `src/top_groups.py`, `notebooks/06_top_groups.ipynb` | 9 named groups (Care, Guide, Protect, Build, Invent, Discover, Create, Connect, Organize) assigned by similarity to example tasks |
-| Hierarchy | `src/build_hierarchy.py`, `notebooks/05_hierarchy.ipynb` | 9 top groups → HDBSCAN subclusters → jobs |
-| UI | `web/` | D3 zoomable circle packing |
 
 ## Findings
 
-- **Text clustering (Project 1):** HDBSCAN (silhouette 0.60, 31 clusters) beat K-Means (0.54) and flagged ~9% of jobs
-  as niche. Clusters capture the *field* (legal, culinary, IT, trades).
-- **Numeric clustering (Project 2):** the attribute space is a continuum, not separate islands (silhouette ≤ 0.24 for any K),
-  so the "mathematically optimal" K=2 is too coarse. K=6 gives nameable groups that capture *how* work is done
-  (physical, social, analytical) and match RIASEC interests better than text clusters.
-- **Combined:** mixing both (70% text, 30% numeric) kept fields together (80% vs. 64% for numeric only) and matched
-  career interests better (ARI 0.35 vs. 0.24). See `notebooks/05_hierarchy.ipynb`.
-- **Named top level:** the bubbles now start from 9 fixed groups. Each is described by example tasks; jobs are assigned
-  by embedding similarity, then refined with a seeded K-Means that stays anchored to the descriptions. This matches
-  career interests best of all versions (ARI 0.38) and passes all hand-checked placements. See `notebooks/06_top_groups.ipynb`.
-- **Labels:** plain TF-IDF on merged cluster text let one jargon-heavy job dominate a cluster's label. Using the share of
-  jobs that mention a term as the TF fixed this.
+- **Matrix:** 910 occupations × 161 attributes (52 abilities, 41 work activities, 33 knowledge areas,
+  25 transferable + 10 essential skills). Importance and level scores correlate at 0.96, so importance alone is used.
+- **The space is a continuum.** The first principal component alone explains 34% of the variance (roughly physical ↔
+  cognitive work), and silhouette scores stay **at or below 0.24 for every K**. Jobs shift gradually rather than
+  forming separate islands.
+- **Choosing K:** the silhouette method's optimum is K=2 (physical vs. non-physical), which is too coarse to use, and
+  the elbow is smooth. **K=6** was chosen for interpretability:
+
+  | Group | Defining attributes |
+  |---|---|
+  | Tech & analysis | Programming, Mathematics, Technology Design |
+  | Mechanical & repair | Equipment Maintenance, Repairing |
+  | Teaching & social | Instructing, Speaking, Learning Strategies |
+  | Healthcare & caregiving | Assisting and Caring for Others, Medicine |
+  | Physical labor | Stamina, Strength, Handling Objects |
+  | Business & admin | Administrative, Customer Service, Sales |
+
+- **K-Means++ vs. Ward agglomerative:** K-Means scores higher on silhouette at almost every K; Ward gives a full tree
+  (dendrogram), useful for building a hierarchy.
+- Numeric groups describe **how** work is done, so they match RIASEC career interests (ARI ≈ 0.26) better than
+  text clusters do.
+- **Niche roles:** 38 jobs (4%) have a negative silhouette (closer to another cluster than their own) and are flagged.
 
 ## Data credit
 
 This project uses the O*NET 31.0 Database by the U.S. Department of Labor, Employment and Training Administration
 (USDOL/ETA), under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. O*NET® is a trademark of USDOL/ETA.
-The groupings were generated by this project and are not part of O*NET.
