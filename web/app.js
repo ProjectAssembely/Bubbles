@@ -50,15 +50,28 @@ const isJob = d => !d.children;
 const countJobs = d => d.leaves().length;
 const cssVar = name => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
 
-fetch("data/hierarchy.json")
-  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
-  .then(init)
-  .catch(() => {
-    panel.innerHTML = `<h2>Couldn't load the data</h2>
-      <p>Open this page through a local web server so it can read <code>data/hierarchy.json</code>:</p>
-      <pre>cd web\npython -m http.server 8000</pre>
-      <p>then visit <a href="http://localhost:8000">localhost:8000</a>.</p>`;
-  });
+fetch("data/hierarchy.json", { cache: "no-cache" })
+  .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+  .then(
+    data => {
+      try {
+        init(data);
+      } catch (err) {
+        // The data loaded, but drawing failed (e.g. a stale cached page): say so instead of blaming the server
+        console.error(err);
+        panel.innerHTML = `<h2>Something went wrong drawing the bubbles</h2>
+          <p class="meta">${esc(err.message)}</p>
+          <p>Try a hard refresh (<b>Ctrl+F5</b>, or <b>Cmd+Shift+R</b> on Mac) to load the latest version of the page.</p>`;
+      }
+    },
+    err => {
+      console.error(err);
+      panel.innerHTML = `<h2>Couldn't load the data</h2>
+        <p class="meta">${esc(err.message)}</p>
+        <p>Open this page through a local web server so it can read <code>data/hierarchy.json</code>:</p>
+        <pre>cd web\npython -m http.server 8000</pre>
+        <p>then visit <a href="http://localhost:8000">localhost:8000</a>.</p>`;
+    });
 
 function init(data) {
   const root = d3.pack()
