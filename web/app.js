@@ -127,6 +127,7 @@ function init(data) {
 
   let focus = root;
   let view;
+  let lastSearch = null; // { query, hits, semantic } while search results are active
 
   // ---------- labels ----------
   const unitsPerPx = () => SIZE / Math.max(1, Math.min(chartEl.clientWidth, chartEl.clientHeight));
@@ -180,7 +181,7 @@ function init(data) {
     node.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`).attr("r", d => d.r * k);
   }
 
-  function zoom(d, jobToShow = null) {
+  function zoom(d, jobToShow = null, showPanel = null) {
     focus = d;
     svg.classed("overview", d === root);
     const target = viewFor(d);
@@ -197,7 +198,9 @@ function init(data) {
       .on("end", function (l) { if (l.parent !== focus) this.style.display = "none"; });
     renderBreadcrumb();
     renderGroupNav();
-    jobToShow ? showJob(jobToShow) : showCluster(d);
+    if (showPanel) showPanel();
+    else if (jobToShow) showJob(jobToShow);
+    else showCluster(d);
   }
 
   // ---------- navigation ----------
@@ -288,24 +291,125 @@ function init(data) {
       ${j.tasks?.length ? `<h3>Typical tasks</h3><ul>${j.tasks.map(t => `<li>${esc(t)}</li>`).join("")}</ul>` : ""}
       <a class="link-out" href="${esc(j.url)}" target="_blank" rel="noopener">Full profile on O*NET OnLine ↗</a>
       ${siblings.length ? `<h3>Similar jobs</h3><div class="list">${siblings.map(row).join("")}</div>` : ""}
-      <button class="back" id="back">← Back to ${esc(d.parent.data.name)}</button>`;
+      <button class="back" id="back">← Back to ${esc(d.parent.data.name)}</button>
+      ${lastSearch ? `<br><button class="back" id="back-results">← Back to results for “${esc(lastSearch.query)}”</button>` : ""}`;
     panel.querySelectorAll(".row").forEach(b => b.addEventListener("click", () => showJob(siblings[+b.dataset.i])));
     panel.querySelector("#back").addEventListener("click", () => showCluster(d.parent));
+    panel.querySelector("#back-results")?.addEventListener("click", () => zoom(root, null, showResults));
     panel.scrollTop = 0;
   }
 
   // ---------- search & deep links ----------
+  // Exact job titles open directly. Anything else goes to the semantic search API (src/serve.py),
+  // which returns the jobs closest in meaning, or nothing if the query is out of scope.
   const search = document.getElementById("search");
+  const jobsByCode = new Map(root.leaves().map(d => [d.data.code, d]));
   document.getElementById("job-list").innerHTML = root.leaves()
     .map(d => d.data.name).sort().map(n => `<option value="${esc(n)}">`).join("");
+
   const openJob = name => {
     const hit = jobsByName.get(name.trim().toLowerCase());
     if (hit) zoom(hit.parent, hit);
+    return Boolean(hit);
   };
-  search.addEventListener("change", () => openJob(search.value));
-  search.addEventListener("keydown", e => e.key === "Enter" && openJob(search.value));
+
+  const highlight = codes => {
+    const set = new Set(codes);
+    node.classed("match", d => isJob(d) && set.has(d.data.code));
+    svg.classed("searching", set.size > 0);
+  };
+  const clearSearch = () => { lastSearch = null; highlight([]); };
+
+  // Fallback when the search API isn't running (e.g. the site is hosted as static files)
+  function keywordSearch(query) {
+    const words = query.toLowerCase().split(/\W+/).filter(w => w.length > 2);
+    if (!words.length) return [];
+    return root.leaves()
+      .map(d => ({ d, hits: words.filter(w => d.data.name.toLowerCase().includes(w)).length }))
+      .filter(r => r.hits > 0)
+      .sort((a, b) => b.hits - a.hits)
+      .slice(0, 10)
+      .map(r => ({ code: r.d.data.code, score: null }));
+  }
+
+  let searchSeq = 0;
+  async function runSearch(query) {
+    query = query.trim();
+    if (!query) { clearSearch(); if (focus === root) showCluster(root); return; }
+    if (openJob(query)) return;
+    const seq = ++searchSeq;
+    let results;
+    let semantic = true;
+    try {
+      const r = await fetch(`/api/search?q=${encodeURIComponent(query)}`);
+      if (!r.ok) throw new Error(r.status);
+      results = (await r.json()).results;
+    } catch {
+      semantic = false;
+      results = keywordSearch(query);
+    }
+    if (seq !== searchSeq) return; // a newer search started while this one was running
+    const hits = results.map(r => ({ ...r, d: jobsByCode.get(r.code) })).filter(r => r.d);
+    lastSearch = { query, hits, semantic };
+    highlight(hits.map(h => h.d.data.code));
+    if (focus !== root) zoom(root, null, showResults);
+    else showResults();
+  }
+
+  // Short queries score lower than long ones, so these bands are set from real searches (see src/search.py)
+  const strength = s => (s == null ? "" : s >= 0.45 ? "Strong match" : s >= 0.34 ? "Good match" : "Possible match");
+
+  function showResults() {
+    if (!lastSearch) return;
+    select(null);
+    const { query, hits, semantic } = lastSearch;
+    panel.style.removeProperty("--swatch");
+    if (!hits.length) {
+      panel.innerHTML = `
+        <p class="eyebrow">Search</p>
+        <h2>No results</h2>
+        <p class="meta">Nothing is close enough to “${esc(query)}”. Try describing the kind of work, e.g.
+        “working with animals”, “fixing cars” or “helping people”.</p>`;
+      return;
+    }
+    panel.innerHTML = `
+      <p class="eyebrow">${semantic ? "Closest matches" : "Title matches"}</p>
+      <h2>Results for “${esc(query)}”</h2>
+      <p class="meta">${hits.length} jobs${semantic ? ", ranked by how close their work is to your search" : ""}.
+      Matches are outlined on the chart.</p>
+      <div class="list" style="margin-top:12px">${hits.map((h, i) => `
+        <button class="row" data-i="${i}" style="--swatch:${colorOf(h.d)}">
+          <span class="name"><span class="dot"></span><span>${esc(h.d.data.name)}
+            <small>${esc(groupOf(h.d).data.name)} · ${esc(h.d.parent.data.name)}</small></span></span>
+          <span class="n">${esc(strength(h.score))}</span>
+        </button>`).join("")}
+      </div>`;
+    panel.querySelectorAll(".row").forEach(b => b.addEventListener("click", () => {
+      const d = hits[+b.dataset.i].d;
+      zoom(d.parent, d);
+    }));
+    panel.scrollTop = 0;
+  }
+
+  let typingTimer;
+  search.addEventListener("input", () => {
+    clearTimeout(typingTimer);
+    if (jobsByName.has(search.value.trim().toLowerCase())) return runSearch(search.value); // picked a suggestion
+    typingTimer = setTimeout(() => {
+      if (search.value.trim().length >= 3 || !search.value.trim()) runSearch(search.value);
+    }, 450);
+  });
+  search.addEventListener("keydown", e => {
+    if (e.key === "Enter") { clearTimeout(typingTimer); runSearch(search.value); }
+    if (e.key === "Escape") { search.value = ""; runSearch(""); }
+  });
   // index.html#Registered%20Nurses opens that job
-  const openFromHash = () => openJob(decodeURIComponent(location.hash.slice(1)));
+  // index.html#search=I%20like%20animals runs a search
+  const openFromHash = () => {
+    const h = decodeURIComponent(location.hash.slice(1));
+    if (h.startsWith("search=")) { search.value = h.slice(7); runSearch(search.value); }
+    else openJob(h);
+  };
   window.addEventListener("hashchange", openFromHash);
 
   // ---------- misc ----------

@@ -43,11 +43,14 @@ https://www.onetcenter.org/database.html and unzip it to `data/raw/onet_31_0/`.
 **3. Open the bubble UI:**
 
 ```powershell
-cd web
-..\.venv\Scripts\python -m http.server 8000
+.venv\Scripts\python src\serve.py
 ```
 
-Then visit http://localhost:8000. Link straight to a job with `#Job Title`, e.g. `http://localhost:8000/#Registered Nurses`.
+Then visit http://localhost:8000. This serves the site plus a semantic search API (`/api/search?q=...`):
+typing "I like animals" or "fixing cars" finds the closest jobs by meaning, and nonsense queries return "No results".
+(Serving `web/` with any static server also works, but search then falls back to matching words in job titles.)
+
+Link straight to a job with `#Job Title` (e.g. `#Registered Nurses`) or to a search with `#search=...`.
 
 ## How it works
 
@@ -59,6 +62,7 @@ Then visit http://localhost:8000. Link straight to a job with `#Job Title`, e.g.
 | Labels | `src/labeling.py`, `notebooks/04_cluster_labels.ipynb` | TF-IDF top terms per cluster; plain-language names for top groups |
 | Top groups | `src/top_groups.py`, `notebooks/06_top_groups.ipynb` | 9 named groups (Care, Guide, Protect, Build, Invent, Discover, Create, Connect, Organize) assigned by similarity to example tasks |
 | Hierarchy | `src/build_hierarchy.py`, `notebooks/05_hierarchy.ipynb` | 9 top groups → HDBSCAN subclusters → jobs |
+| Search | `src/search.py`, `src/serve.py` | Embeds the query with the same model; scores jobs by profile (60%) + title (40%); below 0.28 = no results |
 | UI | `web/` | D3 zoomable circle packing |
 
 ## Findings

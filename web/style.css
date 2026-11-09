@@ -140,6 +140,9 @@ circle.cluster:hover { stroke: var(--swatch); stroke-width: 2px; }
 circle.job:hover { filter: brightness(1.08) saturate(1.1); stroke: var(--surface); stroke-width: 2px; }
 circle.niche { stroke: var(--swatch); stroke-width: 1.5px; stroke-dasharray: 5 4; }
 circle.selected { stroke: var(--text); stroke-width: 3px; }
+/* Search: matching jobs stand out, everything else recedes */
+svg.searching circle.job { opacity: 0.25; }
+svg.searching circle.job.match { opacity: 1; stroke: var(--text); stroke-width: 2px; }
 
 .labels text {
   pointer-events: none;
