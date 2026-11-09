@@ -1,83 +1,72 @@
-# Bubbles
-This project is a tool that uses unsupervised machine learning to automatically cluster thousands of O*NET occupations by semantic similarity, then presents them as a zoomable, nested bubble interface so someone can start broad from a category like "I want to help people" and drill down.
+# Bubbles — Project 1: Clustering by task text (NLP)
 
+> This branch contains **only Project 1**. The full project (Project 2, the named top-level groups and the
+> bubble UI) lives on `main`; Project 2 alone is on `project-2-numeric-clustering`.
 
-For Project 1: Clustering text-based task statement (NLP approach)
+Bubbles uses unsupervised machine learning to cluster O*NET occupations by semantic similarity. Project 1 groups
+jobs by **what their task statements say**.
 
-Extract and embed: Vectorize the text data into dense, fixed-length vectors using a transformer model optimized for semantic text similarity
-Dimension Reduction: High-dimensional embeddings can degrade distance metrics (the curse of dimensionality). Apply UMAP (Uniform Manifold Approximation and Projection) or PCA to reduce vectors to a manageable scale while preserving local and global structures.
-Density-Based Clustering: Use HDBSCAN(research it) and K-Means and compare. 
+## The plan (from the project brief)
 
-For Project 2: Clustering by Numeric Attributes (Data Science Approach)
+- **Extract and embed:** vectorize the text into dense, fixed-length vectors using a transformer model optimized
+  for semantic text similarity.
+- **Dimension reduction:** high-dimensional embeddings can degrade distance metrics (the curse of dimensionality).
+  Apply UMAP or PCA to reduce vectors while preserving local and global structure.
+- **Density-based clustering:** use HDBSCAN and K-Means and compare.
 
-Pivot and Matrix Construction: Create a feature matrix where each row represents an O*NET-SOC code and each column represents a specific attribute score (e.g., Level of Active Listening, Importance of Mathematics)
-Feature Standardization: Scale the numeric data using StandardScaler to handle any variance differences across distinct descriptor types
-Partitioning Optimization: Since the numeric feature space is dense and continuous, K-Means++ or Agglomerative Hierarchical Clustering works remarkably well. Use the Silhouette Method or Elbow Method (Inertia) to automatically determine the mathematical optimal number of clusters (K)
+## What's here
 
-O*NET data contains highly niche roles. Rely on density algorithms like HDBSCAN or set a strict silhouette distance threshold to capture unclassifiable job elements as independent vectors. Use TF-IDF on the text fields within each finalized cluster group to automatically pull out the top 5 distinguishing words. This provides an instant label or name for your newly generated job cluster.
-
----
+| File | What it does |
+|---|---|
+| `src/load_onet.py` | Reads the O*NET 31.0 text files and builds one text block per occupation (title + description + tasks) |
+| `src/embed.py` | Embeds every task statement with `all-mpnet-base-v2` and averages them into one 768-number vector per job (avoids the model cutting off long task lists); caches results |
+| `src/text_clustering.py` | UMAP reduction, HDBSCAN and K-Means runs and parameter sweeps, cluster summaries |
+| `src/evaluation.py` | Shared seed and scoring: silhouette, noise %, agreement with O*NET job families and RIASEC interests |
+| `notebooks/02_text_clustering.ipynb` | The full analysis, with plots |
 
 ## Quick start
 
-Requires Python 3.12 (3.14 isn't supported by all the libraries yet).
+Requires Python 3.12.
 
 ```powershell
 python -m venv .venv
 .venv\Scripts\pip install -r requirements.txt
 ```
 
-**1. Get the data.** Download the O*NET 31.0 database (text format) from
-https://www.onetcenter.org/database.html and unzip it to `data/raw/onet_31_0/`.
-
-**2. Run the pipeline** (from the project root):
+1. Download the O*NET 31.0 database (text format) from https://www.onetcenter.org/database.html and unzip it to
+   `data/raw/onet_31_0/`.
+2. Run:
 
 ```powershell
-.venv\Scripts\python src\load_onet.py        # build tables in data/processed/
-.venv\Scripts\python src\embed.py            # sentence embeddings (~10 min on CPU, cached after)
+.venv\Scripts\python src\load_onet.py   # build tables in data/processed/
+.venv\Scripts\python src\embed.py       # sentence embeddings (~10 min on CPU, cached after)
 .venv\Scripts\jupyter nbconvert --to notebook --execute --inplace notebooks\02_text_clustering.ipynb
-.venv\Scripts\jupyter nbconvert --to notebook --execute --inplace notebooks\03_numeric_clustering.ipynb
-.venv\Scripts\python src\build_hierarchy.py  # writes web/data/hierarchy.json
 ```
-
-**3. Open the bubble UI:**
-
-```powershell
-cd web
-..\.venv\Scripts\python -m http.server 8000
-```
-
-Then visit http://localhost:8000. Link straight to a job with `#Job Title`, e.g. `http://localhost:8000/#Registered Nurses`.
-
-## How it works
-
-| Step | Code | What it does |
-|---|---|---|
-| Load | `src/load_onet.py` | Text corpus, attribute matrices (161 attributes), RIASEC interests |
-| Project 1 | `src/embed.py`, `notebooks/02_text_clustering.ipynb` | Embed each task with `all-mpnet-base-v2`, average per job → UMAP → HDBSCAN vs. K-Means |
-| Project 2 | `notebooks/03_numeric_clustering.ipynb` | StandardScaler → K-Means++ vs. Ward agglomerative, elbow + silhouette |
-| Labels | `src/labeling.py`, `notebooks/04_cluster_labels.ipynb` | TF-IDF top terms per cluster; plain-language names for top groups |
-| Top groups | `src/top_groups.py`, `notebooks/06_top_groups.ipynb` | 9 named groups (Care, Guide, Protect, Build, Invent, Discover, Create, Connect, Organize) assigned by similarity to example tasks |
-| Hierarchy | `src/build_hierarchy.py`, `notebooks/05_hierarchy.ipynb` | 9 top groups → HDBSCAN subclusters → jobs |
-| UI | `web/` | D3 zoomable circle packing |
 
 ## Findings
 
-- **Text clustering (Project 1):** HDBSCAN (silhouette 0.60, 31 clusters) beat K-Means (0.54) and flagged ~9% of jobs
-  as niche. Clusters capture the *field* (legal, culinary, IT, trades).
-- **Numeric clustering (Project 2):** the attribute space is a continuum, not separate islands (silhouette ≤ 0.24 for any K),
-  so the "mathematically optimal" K=2 is too coarse. K=6 gives nameable groups that capture *how* work is done
-  (physical, social, analytical) and match RIASEC interests better than text clusters.
-- **Combined:** mixing both (70% text, 30% numeric) kept fields together (80% vs. 64% for numeric only) and matched
-  career interests better (ARI 0.35 vs. 0.24). See `notebooks/05_hierarchy.ipynb`.
-- **Named top level:** the bubbles now start from 9 fixed groups. Each is described by example tasks; jobs are assigned
-  by embedding similarity, then refined with a seeded K-Means that stays anchored to the descriptions. This matches
-  career interests best of all versions (ARI 0.38) and passes all hand-checked placements. See `notebooks/06_top_groups.ipynb`.
-- **Labels:** plain TF-IDF on merged cluster text let one jargon-heavy job dominate a cluster's label. Using the share of
-  jobs that mention a term as the TF fixed this.
+- **Embedding:** 923 occupations (those with task statements) → 768-dimensional vectors.
+- **Dimension reduction (raw vs. PCA vs. UMAP, all scored in the original space):**
+  - In raw 768d, the farthest job is only ~2.5× farther than the nearest: the curse of dimensionality.
+    After UMAP the contrast is ~200×.
+  - HDBSCAN labels **38–66% of jobs as noise** on raw or PCA vectors at any setting, versus **~9% after UMAP**.
+  - PCA preserves neighborhoods best (trustworthiness up to 0.999) but doesn't create the density contrast HDBSCAN
+    needs. UMAP is the right choice here.
+- **HDBSCAN vs. K-Means (on UMAP 10d):**
+
+  | | HDBSCAN | K-Means (K=30) |
+  |---|---|---|
+  | Clusters | 31, found automatically | 30, chosen |
+  | Noise | 8.6% flagged as niche | none: every job forced into a cluster |
+  | Silhouette | **0.60** | 0.54 |
+  | Agreement with each other | ARI 0.71 | |
+
+- Clusters capture a job's **field** (legal, culinary, IT, construction trades). HDBSCAN's outlier scores flag
+  unusual groups, e.g. the six funeral-related jobs form a tight group too small to be its own cluster.
+- The notebook also explains **how HDBSCAN works** (core distance, mutual reachability, condensed tree,
+  stability-based selection) and shows the condensed tree, membership probabilities and outlier scores.
 
 ## Data credit
 
 This project uses the O*NET 31.0 Database by the U.S. Department of Labor, Employment and Training Administration
 (USDOL/ETA), under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. O*NET® is a trademark of USDOL/ETA.
-The groupings were generated by this project and are not part of O*NET.
