@@ -57,7 +57,8 @@ Then visit http://localhost:8000. Link straight to a job with `#Job Title`, e.g.
 | Project 1 | `src/embed.py`, `notebooks/02_text_clustering.ipynb` | Embed each task with `all-mpnet-base-v2`, average per job → UMAP → HDBSCAN vs. K-Means |
 | Project 2 | `notebooks/03_numeric_clustering.ipynb` | StandardScaler → K-Means++ vs. Ward agglomerative, elbow + silhouette |
 | Labels | `src/labeling.py`, `notebooks/04_cluster_labels.ipynb` | TF-IDF top terms per cluster; plain-language names for top groups |
-| Hierarchy | `src/hybrid_groups.py`, `src/build_hierarchy.py`, `notebooks/05_hierarchy.ipynb` | 6 top groups (text + numeric) → HDBSCAN subclusters → jobs |
+| Top groups | `src/top_groups.py`, `notebooks/06_top_groups.ipynb` | 9 named groups (Care, Guide, Protect, Build, Invent, Discover, Create, Connect, Organize) assigned by similarity to example tasks |
+| Hierarchy | `src/build_hierarchy.py`, `notebooks/05_hierarchy.ipynb` | 9 top groups → HDBSCAN subclusters → jobs |
 | UI | `web/` | D3 zoomable circle packing |
 
 ## Findings
@@ -67,8 +68,11 @@ Then visit http://localhost:8000. Link straight to a job with `#Job Title`, e.g.
 - **Numeric clustering (Project 2):** the attribute space is a continuum, not separate islands (silhouette ≤ 0.24 for any K),
   so the "mathematically optimal" K=2 is too coarse. K=6 gives nameable groups that capture *how* work is done
   (physical, social, analytical) and match RIASEC interests better than text clusters.
-- **Combined:** the bubble top level mixes both (70% text, 30% numeric). That keeps fields together (80% vs. 64% for
-  numeric only) and matches career interests best (ARI 0.35 vs. 0.24).
+- **Combined:** mixing both (70% text, 30% numeric) kept fields together (80% vs. 64% for numeric only) and matched
+  career interests better (ARI 0.35 vs. 0.24). See `notebooks/05_hierarchy.ipynb`.
+- **Named top level:** the bubbles now start from 9 fixed groups. Each is described by example tasks; jobs are assigned
+  by embedding similarity, then refined with a seeded K-Means that stays anchored to the descriptions. This matches
+  career interests best of all versions (ARI 0.38) and passes all hand-checked placements. See `notebooks/06_top_groups.ipynb`.
 - **Labels:** plain TF-IDF on merged cluster text let one jargon-heavy job dominate a cluster's label. Using the share of
   jobs that mention a term as the TF fixed this.
 

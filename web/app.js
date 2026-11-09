@@ -3,7 +3,11 @@
 
 const SIZE = 1000;            // layout coordinate space (the SVG viewBox is SIZE x SIZE)
 const LABEL_PX = 13;          // on-screen label size in pixels
-const PALETTE = ["#2f6fdf", "#e0702a", "#2a9d6f", "#c2417a", "#7a5af0", "#b8901c"];
+const GROUP_COLORS = {
+  Care: "#e15759", Guide: "#f28e2b", Protect: "#4e79a7", Build: "#9c755f", Invent: "#3fa7a0",
+  Discover: "#59a14f", Create: "#b07aa1", Connect: "#e377a8", Organize: "#d4ac1d",
+};
+const PALETTE = Object.values(GROUP_COLORS); // fallback for any other group name
 const FILL_STRENGTH = [0, 0.16, 0.3, 0.44, 0.44]; // how strongly cluster circles are tinted, by depth
 
 const JOB_ZONES = {
@@ -47,8 +51,13 @@ function init(data) {
     .padding(d => (d.depth === 0 ? 14 : 3))(
       d3.hierarchy(data).sum(d => d.value || 0).sort((a, b) => b.value - a.value));
 
-  root.children.forEach((group, i) => group.descendants().forEach(d => (d.color = PALETTE[i % PALETTE.length])));
+  root.children.forEach((group, i) => {
+    const color = GROUP_COLORS[group.data.name] || PALETTE[i % PALETTE.length];
+    group.descendants().forEach(d => (d.color = color));
+  });
   const jobsByName = new Map(root.leaves().map(d => [d.data.name.toLowerCase(), d]));
+  // The layout sorts bubbles by size; the side panel lists groups in the order the data defines them
+  const groupsInOrder = data.children.map(c => root.children.find(g => g.data === c));
 
   const fill = d => {
     const bg = getComputedStyle(document.documentElement).getPropertyValue("--bg").trim();
@@ -168,17 +177,17 @@ function init(data) {
       panel.innerHTML = `
         <h2>What kind of work appeals to you?</h2>
         <p class="meta">Pick a starting point, or click any bubble.</p>
-        <ul class="choices">${root.children.map((g, i) => `
+        <ul class="choices">${groupsInOrder.map((g, i) => `
           <li><button data-i="${i}" style="--swatch:${g.color}">
             <strong>${esc(g.data.name)}</strong><small>${esc(g.data.tagline)} · ${countJobs(g)} jobs</small>
           </button></li>`).join("")}
         </ul>
         <h3>How this works</h3>
-        <p class="meta">Jobs were grouped automatically: by what their tasks say (language model embeddings)
-        and by the skills, knowledge and abilities they need. Bubbles with a dashed outline hold
-        <em>unique roles</em> that didn't fit neatly into any group.</p>`;
+        <p class="meta">Each job is placed in the group whose example tasks are closest in meaning to its own
+        tasks (compared with a language model). Inside each group, similar jobs were clustered automatically.
+        Bubbles with a dashed outline hold <em>unique roles</em> that didn't fit neatly into any cluster.</p>`;
       panel.querySelectorAll("button[data-i]").forEach(b =>
-        b.addEventListener("click", () => zoom(root.children[+b.dataset.i])));
+        b.addEventListener("click", () => zoom(groupsInOrder[+b.dataset.i])));
       return;
     }
     const kids = d.children;

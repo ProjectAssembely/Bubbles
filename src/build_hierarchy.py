@@ -1,7 +1,7 @@
 """Phase 5: combine the clustering results into one nested hierarchy for the bubble UI.
 
-    Level 1  6 broad groups from text + numeric features combined (hybrid_groups.py),
-             with plain-language names (labeling.py)
+    Level 1  9 named groups (Care, Guide, Protect, Build, Invent, Discover, Create, Connect,
+             Organize), assigned by similarity to example tasks (top_groups.py)
     Level 2  text subclusters found inside each group (embeddings -> UMAP -> HDBSCAN)
     Level 3  large subclusters (> MAX_LEAF_CLUSTER jobs) are split once more with K-Means
     Leaves   individual occupations
@@ -24,11 +24,10 @@ import pandas as pd
 import umap
 from sklearn.cluster import KMeans
 
-from hybrid_groups import hybrid_groups
-from labeling import load_job_text, name_groups, top_terms
+from labeling import load_job_text, top_terms
 from load_onet import CODE, PROCESSED, ROOT, load_table
-from numeric_clustering import load_features, profile, standardize
 from text_clustering import SEED, load_embeddings
+from top_groups import GROUPS, top_groups
 
 MIN_CLUSTER_SIZE, MIN_SAMPLES = 5, 2   # HDBSCAN settings inside each group
 MAX_LEAF_CLUSTER = 30                  # split subclusters bigger than this
@@ -36,13 +35,6 @@ TARGET_LEAF_SIZE = 15                  # aim for ~15 jobs per split
 MIN_SPLIT_SIZE = 3                     # merge smaller splits into their nearest neighbor
 N_TASKS_SHOWN = 5
 NICHE = -1
-
-
-def group_profiles(groups: pd.Series) -> pd.Series:
-    """Defining numeric attributes per group, used to match groups to their names."""
-    Z = standardize(load_features("IM"))
-    common = Z.index.intersection(groups.index)
-    return profile(Z.loc[common], groups.loc[common].values, n=6)
 
 
 def subcluster(Xg: np.ndarray) -> np.ndarray:
@@ -122,9 +114,13 @@ def cluster_node(row: pd.Series, children: list) -> dict:
     return {"name": row["label"], "keywords": list(row["top_terms"]), "children": children}
 
 
-def build_tree(paths: pd.DataFrame, labels: dict, names: pd.DataFrame, details: pd.DataFrame) -> dict:
+def build_tree(paths: pd.DataFrame, labels: dict, details: pd.DataFrame) -> dict:
     root = {"name": "All occupations", "children": []}
-    for g, gdf in paths.groupby("group"):
+    for group in GROUPS:  # keep the groups in their defined order
+        g = group["name"]
+        gdf = paths[paths["group"] == g]
+        if gdf.empty:
+            continue
         group_children = []
         for s, sdf in gdf.groupby("sub"):
             jobs = lambda df, niche=False: [leaf(c, details.loc[c], niche) for c in df.index]
@@ -136,8 +132,7 @@ def build_tree(paths: pd.DataFrame, labels: dict, names: pd.DataFrame, details: 
                 group_children.append(cluster_node(labels[(g, s)], splits))
             else:
                 group_children.append(cluster_node(labels[(g, s)], jobs(sdf)))
-        root["children"].append({"name": names.loc[g, "name"], "tagline": names.loc[g, "tagline"],
-                                 "children": group_children})
+        root["children"].append({"name": g, "tagline": group["tagline"], "children": group_children})
     return root
 
 
@@ -146,19 +141,18 @@ def main() -> None:
     E = pd.DataFrame(X, index=codes)
     text = load_job_text()
 
-    groups = hybrid_groups().loc[E.index]
+    groups = top_groups().loc[E.index]
     paths = build_paths(E, groups)
     labels = label_clusters(paths, text)
-    names = name_groups(group_profiles(groups))
     details = job_details()
 
-    tree = build_tree(paths, labels, names, details)
+    tree = build_tree(paths, labels, details)
     out = ROOT / "web" / "data" / "hierarchy.json"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(tree, ensure_ascii=False), encoding="utf-8")
 
     flat = paths.join(details["title"])
-    flat["group_name"] = flat["group"].map(names["name"])
+    flat["group_name"] = flat["group"]
     flat["sub_label"] = [labels[(g, s)]["label"] if s != NICHE else "Unique roles"
                          for g, s in zip(flat["group"], flat["sub"])]
     flat.to_csv(PROCESSED / "hierarchy.csv")
