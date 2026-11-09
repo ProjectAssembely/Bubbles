@@ -8,8 +8,8 @@ from sklearn.cluster import AgglomerativeClustering, KMeans
 from sklearn.metrics import silhouette_samples
 from sklearn.preprocessing import StandardScaler
 
+from evaluation import SEED, score
 from load_onet import PROCESSED
-from text_clustering import SEED, score
 
 
 def load_features(scale: str = "IM") -> pd.DataFrame:

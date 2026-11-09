@@ -7,11 +7,9 @@ import pandas as pd
 import hdbscan
 import umap
 from sklearn.cluster import KMeans
-from sklearn.metrics import adjusted_rand_score, silhouette_score
 
+from evaluation import SEED, score  # noqa: F401  (score is re-exported for the notebooks)
 from load_onet import PROCESSED
-
-SEED = 42
 
 
 def load_embeddings(tag: str = "all-mpnet-base-v2") -> tuple[np.ndarray, pd.Series]:
@@ -35,21 +33,6 @@ def run_hdbscan(Xr: np.ndarray, min_cluster_size: int, min_samples: int | None =
 
 def run_kmeans(Xr: np.ndarray, k: int) -> KMeans:
     return KMeans(n_clusters=k, init="k-means++", n_init=10, random_state=SEED).fit(Xr)
-
-
-def score(Xr: np.ndarray, labels: np.ndarray, reference: dict[str, pd.Series] | None = None) -> dict:
-    """Quality metrics for one labeling. Noise points (-1) are left out of the silhouette."""
-    mask = labels != -1
-    n_clusters = len(set(labels[mask]))
-    out = {
-        "n_clusters": n_clusters,
-        "noise_pct": round(100 * (1 - mask.mean()), 1),
-        "silhouette": round(silhouette_score(Xr[mask], labels[mask]), 3) if n_clusters > 1 else np.nan,
-    }
-    # Agreement with existing groupings (e.g. SOC major group, top RIASEC interest)
-    for name, ref in (reference or {}).items():
-        out[f"ARI_vs_{name}"] = round(adjusted_rand_score(ref.values[mask], labels[mask]), 3)
-    return out
 
 
 def sweep_hdbscan(Xr: np.ndarray, sizes, min_samples_list=(None,), reference=None) -> pd.DataFrame:

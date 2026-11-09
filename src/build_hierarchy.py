@@ -26,7 +26,8 @@ from sklearn.cluster import KMeans
 
 from labeling import load_job_text, top_terms
 from load_onet import CODE, PROCESSED, ROOT, load_table
-from text_clustering import SEED, load_embeddings
+from evaluation import SEED
+from text_clustering import load_embeddings
 from top_groups import GROUPS, top_groups
 
 MIN_CLUSTER_SIZE, MIN_SAMPLES = 5, 2   # HDBSCAN settings inside each group

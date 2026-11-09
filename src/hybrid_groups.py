@@ -14,7 +14,8 @@ from sklearn.decomposition import PCA
 from sklearn.neighbors import KNeighborsClassifier
 
 from numeric_clustering import load_features, standardize
-from text_clustering import SEED, load_embeddings
+from evaluation import SEED
+from text_clustering import load_embeddings
 
 TEXT_WEIGHT = 0.7   # share of the distance that comes from the text embeddings
 N_GROUPS = 6
