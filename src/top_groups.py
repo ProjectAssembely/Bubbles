@@ -65,9 +65,7 @@ GROUPS = [
             "Construct, install and repair building structures, pipes or electrical wiring.",
             "Repair and maintain machines, engines and mechanical equipment.",
             "Set up and operate production machines to manufacture products.",
-            "Drive trucks or operate heavy equipment to move materials.",
-            "Drive buses, taxis or trains over scheduled routes to transport passengers.",
-            "Operate aircraft or vessel controls to take off, navigate and land.",
+            "Operate cranes, forklifts or heavy equipment to move materials.",
             "Cut, shape and assemble wood, metal or other materials using hand and power tools.",
             "Plant, cultivate and harvest crops or care for livestock.",
         ],
@@ -111,9 +109,12 @@ GROUPS = [
     },
     {
         "name": "Connect",
-        "tagline": "I want to work with customers, sell and serve the public",
+        "tagline": "I want to serve the public, sell, and keep people and goods moving",
         "examples": [
             "Sell products or services to customers and negotiate prices.",
+            "Drive buses, taxis or trains over scheduled routes to transport passengers.",
+            "Drive trucks to deliver goods and cargo to customers.",
+            "Pilot aircraft or ships to carry passengers and freight.",
             "Greet customers, answer questions and resolve complaints.",
             "Prepare and serve food and beverages to guests.",
             "Cook and plate meals for restaurant customers.",
@@ -137,6 +138,30 @@ GROUPS = [
     },
 ]
 GROUP_NAMES = [g["name"] for g in GROUPS]
+
+# Fixed placements that override the similarity-based assignment.
+# All transportation jobs go to Connect: O*NET's transportation occupations are SOC minor
+# groups 53-2 (air), 53-3 (motor vehicle), 53-4 (rail), 53-5 (water) and 53-6 (other, e.g.
+# parking attendants, traffic technicians, transportation inspectors), plus the supervisors
+# of vehicle, cargo and passenger work. Material moving (53-7: cranes, packers, laborers)
+# is not transportation and stays with the similarity assignment.
+TRANSPORTATION_SOC_GROUPS = ("53-2", "53-3", "53-4", "53-5", "53-6")
+TRANSPORTATION_SUPERVISORS = {
+    "53-1041.00",  # Aircraft Cargo Handling Supervisors
+    "53-1043.00",  # First-Line Supervisors of Material-Moving Machine and Vehicle Operators
+    "53-1044.00",  # First-Line Supervisors of Passenger Attendants
+}
+
+
+def is_transportation(code: str) -> bool:
+    return code[:4] in TRANSPORTATION_SOC_GROUPS or code in TRANSPORTATION_SUPERVISORS
+
+
+def apply_rules(groups: pd.Series) -> pd.Series:
+    """Apply the fixed placements above to a Series of group names indexed by SOC code."""
+    groups = groups.copy()
+    groups[[is_transportation(c) for c in groups.index]] = "Connect"
+    return groups
 
 
 def prototypes(model_name: str = EMBED_MODEL) -> list[np.ndarray]:
@@ -188,11 +213,12 @@ def assign(X: np.ndarray, P: list[np.ndarray], refine_rounds: int = 0, anchor: f
 
 
 def top_groups(refine_rounds: int = 8, anchor: float = 0.7) -> pd.Series:
-    """Group name for every job that has an embedding.
+    """Group name for every job that has an embedding, with the fixed rules applied.
 
-    anchor=0.7 was chosen by checking known jobs (see notebooks/06_top_groups.ipynb): lower values
-    let the passenger-transport jobs drift into Protect; higher ones stop refinement from
-    fixing cases like Chefs (Organize -> Connect) and Graphic Designers (Invent -> Create)."""
+    anchor=0.7 was chosen by checking known jobs (see notebooks/06_top_groups.ipynb): higher values
+    stop refinement from fixing cases like Chefs (Organize -> Connect) and Graphic Designers
+    (Invent -> Create)."""
     X, codes = load_embeddings(EMBED_MODEL)
     labels = assign(X, prototypes(), refine_rounds=refine_rounds, anchor=anchor)
-    return pd.Series(np.array(GROUP_NAMES)[labels], index=codes.values, name="group")
+    groups = pd.Series(np.array(GROUP_NAMES)[labels], index=codes.values, name="group")
+    return apply_rules(groups)
