@@ -363,95 +363,110 @@
 39-5094.00,Care,3,5,Skincare Specialists,Care,Patients · Physicians · Progress
 43-4111.00,Care,3,1,"Interviewers, Except Eligibility and Loan",Care,Patients · Physicians · Progress
 43-6013.00,Care,3,2,Medical Secretaries and Administrative Assistants,Care,Patients · Physicians · Progress
-11-2011.00,Connect,1,-1,Advertising and Promotions Managers,Connect,Products · Promote · Contracts
-11-2021.00,Connect,1,-1,Marketing Managers,Connect,Products · Promote · Contracts
-11-9051.00,Connect,3,-1,Food Service Managers,Connect,Serving · Serve · Preparation
-13-1011.00,Connect,1,-1,"Agents and Business Managers of Artists, Performers, and Athletes",Connect,Products · Promote · Contracts
-13-1022.00,Connect,1,-1,"Wholesale and Retail Buyers, Except Farm Products",Connect,Products · Promote · Contracts
-13-1041.08,Connect,0,1,Customs Brokers,Connect,Crew · Fuel · Cargo
-13-1131.00,Connect,1,-1,Fundraisers,Connect,Products · Promote · Contracts
-13-1161.01,Connect,1,-1,Search Marketing Strategists,Connect,Products · Promote · Contracts
-13-1199.06,Connect,1,-1,Online Merchants,Connect,Products · Promote · Contracts
-27-1023.00,Connect,1,-1,Floral Designers,Connect,Products · Promote · Contracts
-27-1026.00,Connect,1,-1,Merchandise Displayers and Window Trimmers,Connect,Products · Promote · Contracts
-27-2091.00,Connect,2,-1,"Disc Jockeys, Except Radio",Connect,Tours · Packages · Travel
-27-3011.00,Connect,1,-1,Broadcast Announcers and Radio Disc Jockeys,Connect,Products · Promote · Contracts
-27-3031.00,Connect,1,-1,Public Relations Specialists,Connect,Products · Promote · Contracts
-35-1011.00,Connect,3,-1,Chefs and Head Cooks,Connect,Serving · Serve · Preparation
-35-2011.00,Connect,3,-1,"Cooks, Fast Food",Connect,Serving · Serve · Preparation
-35-2012.00,Connect,3,-1,"Cooks, Institution and Cafeteria",Connect,Serving · Serve · Preparation
-35-2013.00,Connect,3,-1,"Cooks, Private Household",Connect,Serving · Serve · Preparation
-35-2014.00,Connect,3,-1,"Cooks, Restaurant",Connect,Serving · Serve · Preparation
-35-2015.00,Connect,3,-1,"Cooks, Short Order",Connect,Serving · Serve · Preparation
-35-2021.00,Connect,3,-1,Food Preparation Workers,Connect,Serving · Serve · Preparation
-35-3011.00,Connect,3,-1,Bartenders,Connect,Serving · Serve · Preparation
-35-3023.00,Connect,3,-1,Fast Food and Counter Workers,Connect,Serving · Serve · Preparation
-35-3023.01,Connect,3,-1,Baristas,Connect,Serving · Serve · Preparation
-35-3031.00,Connect,3,-1,Waiters and Waitresses,Connect,Serving · Serve · Preparation
-35-3041.00,Connect,3,-1,"Food Servers, Nonrestaurant",Connect,Serving · Serve · Preparation
-35-9011.00,Connect,3,-1,Dining Room and Cafeteria Attendants and Bartender Helpers,Connect,Serving · Serve · Preparation
-35-9021.00,Connect,3,-1,Dishwashers,Connect,Serving · Serve · Preparation
-35-9031.00,Connect,2,-1,"Hosts and Hostesses, Restaurant, Lounge, and Coffee Shop",Connect,Tours · Packages · Travel
-39-3011.00,Connect,2,-1,Gambling Dealers,Connect,Tours · Packages · Travel
-39-3031.00,Connect,2,-1,"Ushers, Lobby Attendants, and Ticket Takers",Connect,Tours · Packages · Travel
-39-3091.00,Connect,2,-1,Amusement and Recreation Attendants,Connect,Tours · Packages · Travel
-39-5011.00,Connect,1,-1,Barbers,Connect,Products · Promote · Contracts
-39-5012.00,Connect,1,-1,"Hairdressers, Hairstylists, and Cosmetologists",Connect,Products · Promote · Contracts
-39-5092.00,Connect,1,-1,Manicurists and Pedicurists,Connect,Products · Promote · Contracts
-39-6011.00,Connect,2,-1,Baggage Porters and Bellhops,Connect,Tours · Packages · Travel
-39-6012.00,Connect,2,-1,Concierges,Connect,Tours · Packages · Travel
-39-7011.00,Connect,2,-1,Tour Guides and Escorts,Connect,Tours · Packages · Travel
-39-7012.00,Connect,2,-1,Travel Guides,Connect,Tours · Packages · Travel
-41-2021.00,Connect,1,-1,Counter and Rental Clerks,Connect,Products · Promote · Contracts
-41-2031.00,Connect,1,-1,Retail Salespersons,Connect,Products · Promote · Contracts
-41-3011.00,Connect,1,-1,Advertising Sales Agents,Connect,Products · Promote · Contracts
-41-3041.00,Connect,2,-1,Travel Agents,Connect,Tours · Packages · Travel
-41-3091.00,Connect,1,-1,"Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel",Connect,Products · Promote · Contracts
-41-4011.00,Connect,1,-1,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",Connect,Products · Promote · Contracts
-41-4011.07,Connect,1,-1,Solar Sales Representatives and Assessors,Connect,Products · Promote · Contracts
-41-4012.00,Connect,1,-1,"Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",Connect,Products · Promote · Contracts
-41-9011.00,Connect,1,-1,Demonstrators and Product Promoters,Connect,Products · Promote · Contracts
-41-9022.00,Connect,1,-1,Real Estate Sales Agents,Connect,Products · Promote · Contracts
-41-9041.00,Connect,1,-1,Telemarketers,Connect,Products · Promote · Contracts
-41-9091.00,Connect,1,-1,"Door-to-Door Sales Workers, News and Street Vendors, and Related Workers",Connect,Products · Promote · Contracts
-43-4081.00,Connect,2,-1,"Hotel, Motel, and Resort Desk Clerks",Connect,Tours · Packages · Travel
-43-4181.00,Connect,2,-1,Reservation and Transportation Ticket Agents and Travel Clerks,Connect,Tours · Packages · Travel
-43-5021.00,Connect,0,1,Couriers and Messengers,Connect,Crew · Fuel · Cargo
-51-3021.00,Connect,3,-1,Butchers and Meat Cutters,Connect,Serving · Serve · Preparation
-53-1041.00,Connect,0,0,Aircraft Cargo Handling Supervisors,Connect,Crew · Fuel · Cargo
-53-1043.00,Connect,0,1,First-Line Supervisors of Material-Moving Machine and Vehicle Operators,Connect,Crew · Fuel · Cargo
-53-1044.00,Connect,-1,-1,First-Line Supervisors of Passenger Attendants,Connect,Unique roles
-53-2011.00,Connect,0,0,"Airline Pilots, Copilots, and Flight Engineers",Connect,Crew · Fuel · Cargo
-53-2012.00,Connect,0,0,Commercial Pilots,Connect,Crew · Fuel · Cargo
-53-2021.00,Connect,0,0,Air Traffic Controllers,Connect,Crew · Fuel · Cargo
-53-2022.00,Connect,0,0,Airfield Operations Specialists,Connect,Crew · Fuel · Cargo
-53-2031.00,Connect,0,0,Flight Attendants,Connect,Crew · Fuel · Cargo
-53-3011.00,Connect,0,1,"Ambulance Drivers and Attendants, Except Emergency Medical Technicians",Connect,Crew · Fuel · Cargo
-53-3031.00,Connect,1,-1,Driver/Sales Workers,Connect,Products · Promote · Contracts
-53-3032.00,Connect,0,1,Heavy and Tractor-Trailer Truck Drivers,Connect,Crew · Fuel · Cargo
-53-3033.00,Connect,0,1,Light Truck Drivers,Connect,Crew · Fuel · Cargo
-53-3051.00,Connect,0,2,"Bus Drivers, School",Connect,Crew · Fuel · Cargo
-53-3052.00,Connect,0,2,"Bus Drivers, Transit and Intercity",Connect,Crew · Fuel · Cargo
-53-3053.00,Connect,0,2,Shuttle Drivers and Chauffeurs,Connect,Crew · Fuel · Cargo
-53-3054.00,Connect,0,2,Taxi Drivers,Connect,Crew · Fuel · Cargo
-53-4011.00,Connect,0,2,Locomotive Engineers,Connect,Crew · Fuel · Cargo
-53-4013.00,Connect,0,2,"Rail Yard Engineers, Dinkey Operators, and Hostlers",Connect,Crew · Fuel · Cargo
-53-4022.00,Connect,0,2,"Railroad Brake, Signal, and Switch Operators and Locomotive Firers",Connect,Crew · Fuel · Cargo
-53-4031.00,Connect,0,2,Railroad Conductors and Yardmasters,Connect,Crew · Fuel · Cargo
-53-4041.00,Connect,0,2,Subway and Streetcar Operators,Connect,Crew · Fuel · Cargo
-53-5011.00,Connect,0,1,Sailors and Marine Oilers,Connect,Crew · Fuel · Cargo
-53-5021.00,Connect,0,1,"Captains, Mates, and Pilots of Water Vessels",Connect,Crew · Fuel · Cargo
-53-5022.00,Connect,0,1,Motorboat Operators,Connect,Crew · Fuel · Cargo
-53-5031.00,Connect,0,1,Ship Engineers,Connect,Crew · Fuel · Cargo
-53-6011.00,Connect,0,1,Bridge and Lock Tenders,Connect,Crew · Fuel · Cargo
-53-6021.00,Connect,0,2,Parking Attendants,Connect,Crew · Fuel · Cargo
-53-6031.00,Connect,0,1,Automotive and Watercraft Service Attendants,Connect,Crew · Fuel · Cargo
-53-6032.00,Connect,0,0,Aircraft Service Attendants,Connect,Crew · Fuel · Cargo
-53-6041.00,Connect,0,2,Traffic Technicians,Connect,Crew · Fuel · Cargo
-53-6051.00,Connect,0,1,Transportation Inspectors,Connect,Crew · Fuel · Cargo
-53-6051.01,Connect,0,0,Aviation Inspectors,Connect,Crew · Fuel · Cargo
-53-6051.07,Connect,0,1,"Transportation Vehicle, Equipment and Systems Inspectors, Except Aviation",Connect,Crew · Fuel · Cargo
-53-6061.00,Connect,0,2,Passenger Attendants,Connect,Crew · Fuel · Cargo
+11-2011.00,Connect,0,-1,Advertising and Promotions Managers,Connect,Promote · Products Services · Contracts
+11-2021.00,Connect,0,-1,Marketing Managers,Connect,Promote · Products Services · Contracts
+11-3071.00,Connect,3,-1,"Transportation, Storage, and Distribution Managers",Connect,Logistics · Processes · Management
+11-3071.04,Connect,3,-1,Supply Chain Managers,Connect,Logistics · Processes · Management
+11-9051.00,Connect,2,-1,Food Service Managers,Connect,Kitchen · Menus · Dishes
+11-9131.00,Connect,3,-1,Postmasters and Mail Superintendents,Connect,Logistics · Processes · Management
+13-1011.00,Connect,0,-1,"Agents and Business Managers of Artists, Performers, and Athletes",Connect,Promote · Products Services · Contracts
+13-1022.00,Connect,0,-1,"Wholesale and Retail Buyers, Except Farm Products",Connect,Promote · Products Services · Contracts
+13-1041.08,Connect,4,-1,Customs Brokers,Connect,Sort · Postal Service · Parcels
+13-1081.00,Connect,3,-1,Logisticians,Connect,Logistics · Processes · Management
+13-1081.01,Connect,3,-1,Logistics Engineers,Connect,Logistics · Processes · Management
+13-1081.02,Connect,3,-1,Logistics Analysts,Connect,Logistics · Processes · Management
+13-1131.00,Connect,0,-1,Fundraisers,Connect,Promote · Products Services · Contracts
+13-1161.01,Connect,0,-1,Search Marketing Strategists,Connect,Promote · Products Services · Contracts
+13-1199.06,Connect,0,-1,Online Merchants,Connect,Promote · Products Services · Contracts
+27-1023.00,Connect,0,-1,Floral Designers,Connect,Promote · Products Services · Contracts
+27-1026.00,Connect,0,-1,Merchandise Displayers and Window Trimmers,Connect,Promote · Products Services · Contracts
+27-2091.00,Connect,1,-1,"Disc Jockeys, Except Radio",Connect,Tours · Brochures · Entertainment
+27-3011.00,Connect,0,-1,Broadcast Announcers and Radio Disc Jockeys,Connect,Promote · Products Services · Contracts
+27-3031.00,Connect,0,-1,Public Relations Specialists,Connect,Promote · Products Services · Contracts
+35-1011.00,Connect,2,-1,Chefs and Head Cooks,Connect,Kitchen · Menus · Dishes
+35-2011.00,Connect,2,-1,"Cooks, Fast Food",Connect,Kitchen · Menus · Dishes
+35-2012.00,Connect,2,-1,"Cooks, Institution and Cafeteria",Connect,Kitchen · Menus · Dishes
+35-2013.00,Connect,2,-1,"Cooks, Private Household",Connect,Kitchen · Menus · Dishes
+35-2014.00,Connect,2,-1,"Cooks, Restaurant",Connect,Kitchen · Menus · Dishes
+35-2015.00,Connect,2,-1,"Cooks, Short Order",Connect,Kitchen · Menus · Dishes
+35-2021.00,Connect,2,-1,Food Preparation Workers,Connect,Kitchen · Menus · Dishes
+35-3011.00,Connect,2,-1,Bartenders,Connect,Kitchen · Menus · Dishes
+35-3023.00,Connect,2,-1,Fast Food and Counter Workers,Connect,Kitchen · Menus · Dishes
+35-3023.01,Connect,2,-1,Baristas,Connect,Kitchen · Menus · Dishes
+35-3031.00,Connect,2,-1,Waiters and Waitresses,Connect,Kitchen · Menus · Dishes
+35-3041.00,Connect,2,-1,"Food Servers, Nonrestaurant",Connect,Kitchen · Menus · Dishes
+35-9011.00,Connect,2,-1,Dining Room and Cafeteria Attendants and Bartender Helpers,Connect,Kitchen · Menus · Dishes
+35-9021.00,Connect,2,-1,Dishwashers,Connect,Kitchen · Menus · Dishes
+35-9031.00,Connect,2,-1,"Hosts and Hostesses, Restaurant, Lounge, and Coffee Shop",Connect,Kitchen · Menus · Dishes
+39-3011.00,Connect,1,-1,Gambling Dealers,Connect,Tours · Brochures · Entertainment
+39-3031.00,Connect,1,-1,"Ushers, Lobby Attendants, and Ticket Takers",Connect,Tours · Brochures · Entertainment
+39-3091.00,Connect,1,-1,Amusement and Recreation Attendants,Connect,Tours · Brochures · Entertainment
+39-5011.00,Connect,0,-1,Barbers,Connect,Promote · Products Services · Contracts
+39-5012.00,Connect,0,-1,"Hairdressers, Hairstylists, and Cosmetologists",Connect,Promote · Products Services · Contracts
+39-5092.00,Connect,0,-1,Manicurists and Pedicurists,Connect,Promote · Products Services · Contracts
+39-6011.00,Connect,1,-1,Baggage Porters and Bellhops,Connect,Tours · Brochures · Entertainment
+39-6012.00,Connect,1,-1,Concierges,Connect,Tours · Brochures · Entertainment
+39-7011.00,Connect,1,-1,Tour Guides and Escorts,Connect,Tours · Brochures · Entertainment
+39-7012.00,Connect,1,-1,Travel Guides,Connect,Tours · Brochures · Entertainment
+41-2021.00,Connect,0,-1,Counter and Rental Clerks,Connect,Promote · Products Services · Contracts
+41-2031.00,Connect,0,-1,Retail Salespersons,Connect,Promote · Products Services · Contracts
+41-3011.00,Connect,0,-1,Advertising Sales Agents,Connect,Promote · Products Services · Contracts
+41-3041.00,Connect,1,-1,Travel Agents,Connect,Tours · Brochures · Entertainment
+41-3091.00,Connect,0,-1,"Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel",Connect,Promote · Products Services · Contracts
+41-4011.00,Connect,0,-1,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",Connect,Promote · Products Services · Contracts
+41-4011.07,Connect,0,-1,Solar Sales Representatives and Assessors,Connect,Promote · Products Services · Contracts
+41-4012.00,Connect,0,-1,"Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",Connect,Promote · Products Services · Contracts
+41-9011.00,Connect,0,-1,Demonstrators and Product Promoters,Connect,Promote · Products Services · Contracts
+41-9022.00,Connect,0,-1,Real Estate Sales Agents,Connect,Promote · Products Services · Contracts
+41-9041.00,Connect,0,-1,Telemarketers,Connect,Promote · Products Services · Contracts
+41-9091.00,Connect,0,-1,"Door-to-Door Sales Workers, News and Street Vendors, and Related Workers",Connect,Promote · Products Services · Contracts
+43-4081.00,Connect,1,-1,"Hotel, Motel, and Resort Desk Clerks",Connect,Tours · Brochures · Entertainment
+43-4181.00,Connect,1,-1,Reservation and Transportation Ticket Agents and Travel Clerks,Connect,Tours · Brochures · Entertainment
+43-5011.00,Connect,4,-1,Cargo and Freight Agents,Connect,Sort · Postal Service · Parcels
+43-5011.01,Connect,4,-1,Freight Forwarders,Connect,Sort · Postal Service · Parcels
+43-5021.00,Connect,4,-1,Couriers and Messengers,Connect,Sort · Postal Service · Parcels
+43-5032.00,Connect,3,-1,"Dispatchers, Except Police, Fire, and Ambulance",Connect,Logistics · Processes · Management
+43-5051.00,Connect,4,-1,Postal Service Clerks,Connect,Sort · Postal Service · Parcels
+43-5052.00,Connect,4,-1,Postal Service Mail Carriers,Connect,Sort · Postal Service · Parcels
+43-5053.00,Connect,4,-1,"Postal Service Mail Sorters, Processors, and Processing Machine Operators",Connect,Sort · Postal Service · Parcels
+43-5061.00,Connect,3,-1,"Production, Planning, and Expediting Clerks",Connect,Logistics · Processes · Management
+43-5071.00,Connect,4,-1,"Shipping, Receiving, and Inventory Clerks",Connect,Sort · Postal Service · Parcels
+43-9051.00,Connect,4,-1,"Mail Clerks and Mail Machine Operators, Except Postal Service",Connect,Sort · Postal Service · Parcels
+51-3021.00,Connect,2,-1,Butchers and Meat Cutters,Connect,Kitchen · Menus · Dishes
+53-1041.00,Connect,5,-1,Aircraft Cargo Handling Supervisors,Connect,Aircraft · Ground · Flights
+53-1043.00,Connect,3,-1,First-Line Supervisors of Material-Moving Machine and Vehicle Operators,Connect,Logistics · Processes · Management
+53-1044.00,Connect,3,-1,First-Line Supervisors of Passenger Attendants,Connect,Logistics · Processes · Management
+53-2011.00,Connect,5,-1,"Airline Pilots, Copilots, and Flight Engineers",Connect,Aircraft · Ground · Flights
+53-2012.00,Connect,5,-1,Commercial Pilots,Connect,Aircraft · Ground · Flights
+53-2021.00,Connect,5,-1,Air Traffic Controllers,Connect,Aircraft · Ground · Flights
+53-2022.00,Connect,5,-1,Airfield Operations Specialists,Connect,Aircraft · Ground · Flights
+53-2031.00,Connect,5,-1,Flight Attendants,Connect,Aircraft · Ground · Flights
+53-3011.00,Connect,-1,-1,"Ambulance Drivers and Attendants, Except Emergency Medical Technicians",Connect,Unique roles
+53-3031.00,Connect,0,-1,Driver/Sales Workers,Connect,Promote · Products Services · Contracts
+53-3032.00,Connect,-1,-1,Heavy and Tractor-Trailer Truck Drivers,Connect,Unique roles
+53-3033.00,Connect,8,-1,Light Truck Drivers,Connect,Automobiles · Windshield · Oil Water
+53-3051.00,Connect,8,-1,"Bus Drivers, School",Connect,Automobiles · Windshield · Oil Water
+53-3052.00,Connect,8,-1,"Bus Drivers, Transit and Intercity",Connect,Automobiles · Windshield · Oil Water
+53-3053.00,Connect,8,-1,Shuttle Drivers and Chauffeurs,Connect,Automobiles · Windshield · Oil Water
+53-3054.00,Connect,8,-1,Taxi Drivers,Connect,Automobiles · Windshield · Oil Water
+53-4011.00,Connect,7,-1,Locomotive Engineers,Connect,Conductors · Locomotive · Switching
+53-4013.00,Connect,7,-1,"Rail Yard Engineers, Dinkey Operators, and Hostlers",Connect,Conductors · Locomotive · Switching
+53-4022.00,Connect,7,-1,"Railroad Brake, Signal, and Switch Operators and Locomotive Firers",Connect,Conductors · Locomotive · Switching
+53-4031.00,Connect,7,-1,Railroad Conductors and Yardmasters,Connect,Conductors · Locomotive · Switching
+53-4041.00,Connect,7,-1,Subway and Streetcar Operators,Connect,Conductors · Locomotive · Switching
+53-5011.00,Connect,6,-1,Sailors and Marine Oilers,Connect,Vessels · Decks · Bridges
+53-5021.00,Connect,6,-1,"Captains, Mates, and Pilots of Water Vessels",Connect,Vessels · Decks · Bridges
+53-5022.00,Connect,6,-1,Motorboat Operators,Connect,Vessels · Decks · Bridges
+53-5031.00,Connect,6,-1,Ship Engineers,Connect,Vessels · Decks · Bridges
+53-6011.00,Connect,6,-1,Bridge and Lock Tenders,Connect,Vessels · Decks · Bridges
+53-6021.00,Connect,8,-1,Parking Attendants,Connect,Automobiles · Windshield · Oil Water
+53-6031.00,Connect,8,-1,Automotive and Watercraft Service Attendants,Connect,Automobiles · Windshield · Oil Water
+53-6032.00,Connect,5,-1,Aircraft Service Attendants,Connect,Aircraft · Ground · Flights
+53-6041.00,Connect,7,-1,Traffic Technicians,Connect,Conductors · Locomotive · Switching
+53-6051.00,Connect,-1,-1,Transportation Inspectors,Connect,Unique roles
+53-6051.01,Connect,5,-1,Aviation Inspectors,Connect,Aircraft · Ground · Flights
+53-6051.07,Connect,-1,-1,"Transportation Vehicle, Equipment and Systems Inspectors, Except Aviation",Connect,Unique roles
+53-6061.00,Connect,8,-1,Passenger Attendants,Connect,Automobiles · Windshield · Oil Water
 27-1011.00,Create,1,-1,Art Directors,Create,Equipment · Camera · Graphics
 27-1013.00,Create,1,-1,"Fine Artists, Including Painters, Sculptors, and Illustrators",Create,Equipment · Camera · Graphics
 27-1014.00,Create,1,-1,Special Effects Artists and Animators,Create,Equipment · Camera · Graphics
@@ -631,243 +646,228 @@
 39-9011.01,Guide,2,-1,Nannies,Guide,Motor · Equipment Materials · Following
 39-9031.00,Guide,2,-1,Exercise Trainers and Group Fitness Instructors,Guide,Motor · Equipment Materials · Following
 39-9041.00,Guide,3,-1,Residential Advisors,Guide,Train Evaluate · Offerings · Local
-11-3051.01,Invent,3,0,Quality Control Systems Managers,Invent,Equipment · Manufacturing · Engineers
-11-9041.00,Invent,2,-1,Architectural and Engineering Managers,Invent,Drawings · Materials · Specifications
-11-9121.00,Invent,1,-1,Natural Sciences Managers,Invent,Network · Users · Application
-13-1081.01,Invent,3,0,Logistics Engineers,Invent,Equipment · Manufacturing · Engineers
-15-1211.00,Invent,1,-1,Computer Systems Analysts,Invent,Network · Users · Application
-15-1221.00,Invent,1,-1,Computer and Information Research Scientists,Invent,Network · Users · Application
-15-1231.00,Invent,1,-1,Computer Network Support Specialists,Invent,Network · Users · Application
-15-1232.00,Invent,1,-1,Computer User Support Specialists,Invent,Network · Users · Application
-15-1241.00,Invent,1,-1,Computer Network Architects,Invent,Network · Users · Application
-15-1241.01,Invent,1,-1,Telecommunications Engineering Specialists,Invent,Network · Users · Application
-15-1242.00,Invent,0,-1,Database Administrators,Invent,Databases · Users · Source
-15-1243.00,Invent,0,-1,Database Architects,Invent,Databases · Users · Source
-15-1243.01,Invent,0,-1,Data Warehousing Specialists,Invent,Databases · Users · Source
-15-1244.00,Invent,1,-1,Network and Computer Systems Administrators,Invent,Network · Users · Application
-15-1251.00,Invent,1,-1,Computer Programmers,Invent,Network · Users · Application
-15-1252.00,Invent,1,-1,Software Developers,Invent,Network · Users · Application
-15-1253.00,Invent,1,-1,Software Quality Assurance Analysts and Testers,Invent,Network · Users · Application
-15-1254.00,Invent,1,-1,Web Developers,Invent,Network · Users · Application
-15-1255.00,Invent,1,-1,Web and Digital Interface Designers,Invent,Network · Users · Application
-15-1255.01,Invent,2,-1,Video Game Designers,Invent,Drawings · Materials · Specifications
-15-1299.01,Invent,1,-1,Web Administrators,Invent,Network · Users · Application
-15-1299.02,Invent,1,-1,Geographic Information Systems Technologists and Technicians,Invent,Network · Users · Application
-15-1299.04,Invent,1,-1,Penetration Testers,Invent,Network · Users · Application
-15-1299.07,Invent,1,-1,Blockchain Engineers,Invent,Network · Users · Application
-15-1299.08,Invent,1,-1,Computer Systems Engineers/Architects,Invent,Network · Users · Application
-15-2031.00,Invent,1,-1,Operations Research Analysts,Invent,Network · Users · Application
-15-2051.01,Invent,0,-1,Business Intelligence Analysts,Invent,Databases · Users · Source
-15-2099.01,Invent,0,-1,Bioinformatics Technicians,Invent,Databases · Users · Source
-17-1011.00,Invent,2,-1,"Architects, Except Landscape and Naval",Invent,Drawings · Materials · Specifications
-17-1012.00,Invent,2,-1,Landscape Architects,Invent,Drawings · Materials · Specifications
-17-2011.00,Invent,3,0,Aerospace Engineers,Invent,Equipment · Manufacturing · Engineers
-17-2021.00,Invent,2,-1,Agricultural Engineers,Invent,Drawings · Materials · Specifications
-17-2031.00,Invent,3,0,Bioengineers and Biomedical Engineers,Invent,Equipment · Manufacturing · Engineers
-17-2041.00,Invent,3,0,Chemical Engineers,Invent,Equipment · Manufacturing · Engineers
-17-2051.00,Invent,2,-1,Civil Engineers,Invent,Drawings · Materials · Specifications
-17-2051.01,Invent,2,-1,Transportation Engineers,Invent,Drawings · Materials · Specifications
-17-2061.00,Invent,1,-1,Computer Hardware Engineers,Invent,Network · Users · Application
-17-2071.00,Invent,3,0,Electrical Engineers,Invent,Equipment · Manufacturing · Engineers
-17-2072.00,Invent,3,1,"Electronics Engineers, Except Computer",Invent,Equipment · Manufacturing · Engineers
-17-2072.01,Invent,1,-1,Radio Frequency Identification Device Specialists,Invent,Network · Users · Application
-17-2112.00,Invent,3,0,Industrial Engineers,Invent,Equipment · Manufacturing · Engineers
-17-2112.01,Invent,1,-1,Human Factors Engineers and Ergonomists,Invent,Network · Users · Application
-17-2112.02,Invent,3,0,Validation Engineers,Invent,Equipment · Manufacturing · Engineers
-17-2112.03,Invent,3,0,Manufacturing Engineers,Invent,Equipment · Manufacturing · Engineers
-17-2121.00,Invent,3,0,Marine Engineers and Naval Architects,Invent,Equipment · Manufacturing · Engineers
-17-2131.00,Invent,3,0,Materials Engineers,Invent,Equipment · Manufacturing · Engineers
-17-2141.00,Invent,3,0,Mechanical Engineers,Invent,Equipment · Manufacturing · Engineers
-17-2141.01,Invent,3,2,Fuel Cell Engineers,Invent,Equipment · Manufacturing · Engineers
-17-2141.02,Invent,3,0,Automotive Engineers,Invent,Equipment · Manufacturing · Engineers
-17-2171.00,Invent,3,0,Petroleum Engineers,Invent,Equipment · Manufacturing · Engineers
-17-2199.03,Invent,3,2,"Energy Engineers, Except Wind and Solar",Invent,Equipment · Manufacturing · Engineers
-17-2199.05,Invent,3,1,Mechatronics Engineers,Invent,Equipment · Manufacturing · Engineers
-17-2199.06,Invent,3,1,Microsystems Engineers,Invent,Equipment · Manufacturing · Engineers
-17-2199.07,Invent,3,1,Photonics Engineers,Invent,Equipment · Manufacturing · Engineers
-17-2199.08,Invent,3,1,Robotics Engineers,Invent,Equipment · Manufacturing · Engineers
-17-2199.09,Invent,3,1,Nanosystems Engineers,Invent,Equipment · Manufacturing · Engineers
-17-2199.10,Invent,3,2,Wind Energy Engineers,Invent,Equipment · Manufacturing · Engineers
-17-2199.11,Invent,3,2,Solar Energy Systems Engineers,Invent,Equipment · Manufacturing · Engineers
-17-3011.00,Invent,2,-1,Architectural and Civil Drafters,Invent,Drawings · Materials · Specifications
-17-3012.00,Invent,2,-1,Electrical and Electronics Drafters,Invent,Drawings · Materials · Specifications
-17-3013.00,Invent,2,-1,Mechanical Drafters,Invent,Drawings · Materials · Specifications
-17-3021.00,Invent,3,1,Aerospace Engineering and Operations Technologists and Technicians,Invent,Equipment · Manufacturing · Engineers
-17-3022.00,Invent,2,-1,Civil Engineering Technologists and Technicians,Invent,Drawings · Materials · Specifications
-17-3023.00,Invent,3,1,Electrical and Electronic Engineering Technologists and Technicians,Invent,Equipment · Manufacturing · Engineers
-17-3024.00,Invent,3,1,Electro-Mechanical and Mechatronics Technologists and Technicians,Invent,Equipment · Manufacturing · Engineers
-17-3024.01,Invent,3,1,Robotics Technicians,Invent,Equipment · Manufacturing · Engineers
-17-3026.00,Invent,3,0,Industrial Engineering Technologists and Technicians,Invent,Equipment · Manufacturing · Engineers
-17-3026.01,Invent,3,1,Nanotechnology Engineering Technologists and Technicians,Invent,Equipment · Manufacturing · Engineers
-17-3027.00,Invent,3,0,Mechanical Engineering Technologists and Technicians,Invent,Equipment · Manufacturing · Engineers
-17-3027.01,Invent,3,1,Automotive Engineering Technicians,Invent,Equipment · Manufacturing · Engineers
-17-3028.00,Invent,3,1,Calibration Technologists and Technicians,Invent,Equipment · Manufacturing · Engineers
-17-3029.01,Invent,3,1,Non-Destructive Testing Specialists,Invent,Equipment · Manufacturing · Engineers
-17-3029.08,Invent,3,1,Photonics Technicians,Invent,Equipment · Manufacturing · Engineers
-19-2032.00,Invent,3,0,Materials Scientists,Invent,Equipment · Manufacturing · Engineers
-19-3099.01,Invent,2,-1,Transportation Planners,Invent,Drawings · Materials · Specifications
-19-4099.01,Invent,3,0,Quality Control Analysts,Invent,Equipment · Manufacturing · Engineers
-27-1012.00,Invent,2,-1,Craft Artists,Invent,Drawings · Materials · Specifications
-27-1021.00,Invent,2,-1,Commercial and Industrial Designers,Invent,Drawings · Materials · Specifications
-27-1025.00,Invent,2,-1,Interior Designers,Invent,Drawings · Materials · Specifications
-27-3042.00,Invent,2,-1,Technical Writers,Invent,Drawings · Materials · Specifications
-41-9031.00,Invent,3,0,Sales Engineers,Invent,Equipment · Manufacturing · Engineers
-43-9031.00,Invent,2,-1,Desktop Publishers,Invent,Drawings · Materials · Specifications
-47-1011.03,Invent,3,2,Solar Energy Installation Managers,Invent,Equipment · Manufacturing · Engineers
-47-2231.00,Invent,3,2,Solar Photovoltaic Installers,Invent,Equipment · Manufacturing · Engineers
-49-2091.00,Invent,3,1,Avionics Technicians,Invent,Equipment · Manufacturing · Engineers
-51-5111.00,Invent,2,-1,Prepress Technicians and Workers,Invent,Drawings · Materials · Specifications
-51-6092.00,Invent,2,-1,Fabric and Apparel Patternmakers,Invent,Drawings · Materials · Specifications
-51-9061.00,Invent,3,0,"Inspectors, Testers, Sorters, Samplers, and Weighers",Invent,Equipment · Manufacturing · Engineers
-51-9141.00,Invent,3,1,Semiconductor Processing Technicians,Invent,Equipment · Manufacturing · Engineers
-51-9151.00,Invent,2,-1,Photographic Process Workers and Processing Machine Operators,Invent,Drawings · Materials · Specifications
-51-9162.00,Invent,2,-1,Computer Numerically Controlled Tool Programmers,Invent,Drawings · Materials · Specifications
-11-1011.00,Organize,10,-1,Chief Executives,Organize,Organizational · Establishments Departments · Agencies
-11-1021.00,Organize,11,-1,General and Operations Managers,Organize,Product · Demand · Purchasing
-11-2022.00,Organize,11,-1,Sales Managers,Organize,Product · Demand · Purchasing
-11-2032.00,Organize,10,-1,Public Relations Managers,Organize,Organizational · Establishments Departments · Agencies
-11-2033.00,Organize,10,-1,Fundraising Managers,Organize,Organizational · Establishments Departments · Agencies
-11-3012.00,Organize,10,-1,Administrative Services Managers,Organize,Organizational · Establishments Departments · Agencies
-11-3013.00,Organize,-1,-1,Facilities Managers,Organize,Unique roles
-11-3021.00,Organize,-1,-1,Computer and Information Systems Managers,Organize,Unique roles
-11-3031.00,Organize,8,-1,Financial Managers,Organize,Tax · Securities · Discrepancies
-11-3031.01,Organize,8,-1,Treasurers and Controllers,Organize,Tax · Securities · Discrepancies
-11-3031.03,Organize,8,-1,Investment Fund Managers,Organize,Tax · Securities · Discrepancies
-11-3051.00,Organize,12,-1,Industrial Production Managers,Organize,Measures · Personnel Actions · Safety
-11-3061.00,Organize,11,-1,Purchasing Managers,Organize,Product · Demand · Purchasing
-11-3071.00,Organize,11,-1,"Transportation, Storage, and Distribution Managers",Organize,Product · Demand · Purchasing
-11-3071.04,Organize,11,-1,Supply Chain Managers,Organize,Product · Demand · Purchasing
-11-3111.00,Organize,0,-1,Compensation and Benefits Managers,Organize,Compensation · Employment · Bargaining Agreements
-11-3121.00,Organize,0,-1,Human Resources Managers,Organize,Compensation · Employment · Bargaining Agreements
-11-9013.00,Organize,12,-1,"Farmers, Ranchers, and Other Agricultural Managers",Organize,Measures · Personnel Actions · Safety
-11-9021.00,Organize,11,-1,Construction Managers,Organize,Product · Demand · Purchasing
-11-9071.00,Organize,3,-1,Gambling Managers,Organize,Casino · Gaming · Players
-11-9072.00,Organize,13,-1,"Entertainment and Recreation Managers, Except Gambling",Organize,Entertainment · Arts · Services Rendered
-11-9081.00,Organize,13,-1,Lodging Managers,Organize,Entertainment · Arts · Services Rendered
-11-9111.00,Organize,10,-1,Medical and Health Services Managers,Organize,Organizational · Establishments Departments · Agencies
-11-9131.00,Organize,2,-1,Postmasters and Mail Superintendents,Organize,Calls · Messages · Proofreading
-11-9141.00,Organize,1,-1,"Property, Real Estate, and Community Association Managers",Organize,Properties · Land · Zoning
-11-9151.00,Organize,10,-1,Social and Community Service Managers,Organize,Organizational · Establishments Departments · Agencies
-11-9171.00,Organize,13,-1,Funeral Home Managers,Organize,Entertainment · Arts · Services Rendered
-11-9179.02,Organize,13,-1,Spa Managers,Organize,Entertainment · Arts · Services Rendered
+11-3051.01,Invent,0,1,Quality Control Systems Managers,Invent,Equipment · Environmental · Engineers
+11-9041.00,Invent,4,-1,Architectural and Engineering Managers,Invent,Environmental · Contractors · Land
+11-9121.00,Invent,-1,-1,Natural Sciences Managers,Invent,Unique roles
+15-1211.00,Invent,2,-1,Computer Systems Analysts,Invent,Network · Users · Hardware Software
+15-1221.00,Invent,2,-1,Computer and Information Research Scientists,Invent,Network · Users · Hardware Software
+15-1231.00,Invent,2,-1,Computer Network Support Specialists,Invent,Network · Users · Hardware Software
+15-1232.00,Invent,2,-1,Computer User Support Specialists,Invent,Network · Users · Hardware Software
+15-1241.00,Invent,2,-1,Computer Network Architects,Invent,Network · Users · Hardware Software
+15-1241.01,Invent,2,-1,Telecommunications Engineering Specialists,Invent,Network · Users · Hardware Software
+15-1242.00,Invent,1,-1,Database Administrators,Invent,Users · Databases · Source
+15-1243.00,Invent,1,-1,Database Architects,Invent,Users · Databases · Source
+15-1243.01,Invent,1,-1,Data Warehousing Specialists,Invent,Users · Databases · Source
+15-1244.00,Invent,2,-1,Network and Computer Systems Administrators,Invent,Network · Users · Hardware Software
+15-1251.00,Invent,2,-1,Computer Programmers,Invent,Network · Users · Hardware Software
+15-1252.00,Invent,2,-1,Software Developers,Invent,Network · Users · Hardware Software
+15-1253.00,Invent,2,-1,Software Quality Assurance Analysts and Testers,Invent,Network · Users · Hardware Software
+15-1254.00,Invent,2,-1,Web Developers,Invent,Network · Users · Hardware Software
+15-1255.00,Invent,2,-1,Web and Digital Interface Designers,Invent,Network · Users · Hardware Software
+15-1255.01,Invent,-1,-1,Video Game Designers,Invent,Unique roles
+15-1299.01,Invent,2,-1,Web Administrators,Invent,Network · Users · Hardware Software
+15-1299.02,Invent,1,-1,Geographic Information Systems Technologists and Technicians,Invent,Users · Databases · Source
+15-1299.04,Invent,2,-1,Penetration Testers,Invent,Network · Users · Hardware Software
+15-1299.07,Invent,2,-1,Blockchain Engineers,Invent,Network · Users · Hardware Software
+15-1299.08,Invent,2,-1,Computer Systems Engineers/Architects,Invent,Network · Users · Hardware Software
+15-2031.00,Invent,2,-1,Operations Research Analysts,Invent,Network · Users · Hardware Software
+15-2051.01,Invent,1,-1,Business Intelligence Analysts,Invent,Users · Databases · Source
+15-2099.01,Invent,1,-1,Bioinformatics Technicians,Invent,Users · Databases · Source
+17-1011.00,Invent,4,-1,"Architects, Except Landscape and Naval",Invent,Environmental · Contractors · Land
+17-1012.00,Invent,4,-1,Landscape Architects,Invent,Environmental · Contractors · Land
+17-2011.00,Invent,0,1,Aerospace Engineers,Invent,Equipment · Environmental · Engineers
+17-2021.00,Invent,4,-1,Agricultural Engineers,Invent,Environmental · Contractors · Land
+17-2031.00,Invent,0,2,Bioengineers and Biomedical Engineers,Invent,Equipment · Environmental · Engineers
+17-2041.00,Invent,0,2,Chemical Engineers,Invent,Equipment · Environmental · Engineers
+17-2051.00,Invent,4,-1,Civil Engineers,Invent,Environmental · Contractors · Land
+17-2051.01,Invent,4,-1,Transportation Engineers,Invent,Environmental · Contractors · Land
+17-2061.00,Invent,2,-1,Computer Hardware Engineers,Invent,Network · Users · Hardware Software
+17-2071.00,Invent,0,0,Electrical Engineers,Invent,Equipment · Environmental · Engineers
+17-2072.00,Invent,0,1,"Electronics Engineers, Except Computer",Invent,Equipment · Environmental · Engineers
+17-2072.01,Invent,2,-1,Radio Frequency Identification Device Specialists,Invent,Network · Users · Hardware Software
+17-2112.00,Invent,0,1,Industrial Engineers,Invent,Equipment · Environmental · Engineers
+17-2112.01,Invent,2,-1,Human Factors Engineers and Ergonomists,Invent,Network · Users · Hardware Software
+17-2112.02,Invent,0,1,Validation Engineers,Invent,Equipment · Environmental · Engineers
+17-2112.03,Invent,0,1,Manufacturing Engineers,Invent,Equipment · Environmental · Engineers
+17-2121.00,Invent,0,1,Marine Engineers and Naval Architects,Invent,Equipment · Environmental · Engineers
+17-2131.00,Invent,0,2,Materials Engineers,Invent,Equipment · Environmental · Engineers
+17-2141.00,Invent,0,1,Mechanical Engineers,Invent,Equipment · Environmental · Engineers
+17-2141.01,Invent,0,0,Fuel Cell Engineers,Invent,Equipment · Environmental · Engineers
+17-2141.02,Invent,0,1,Automotive Engineers,Invent,Equipment · Environmental · Engineers
+17-2171.00,Invent,0,1,Petroleum Engineers,Invent,Equipment · Environmental · Engineers
+17-2199.03,Invent,0,0,"Energy Engineers, Except Wind and Solar",Invent,Equipment · Environmental · Engineers
+17-2199.05,Invent,0,1,Mechatronics Engineers,Invent,Equipment · Environmental · Engineers
+17-2199.06,Invent,0,2,Microsystems Engineers,Invent,Equipment · Environmental · Engineers
+17-2199.07,Invent,0,2,Photonics Engineers,Invent,Equipment · Environmental · Engineers
+17-2199.08,Invent,0,1,Robotics Engineers,Invent,Equipment · Environmental · Engineers
+17-2199.09,Invent,0,2,Nanosystems Engineers,Invent,Equipment · Environmental · Engineers
+17-2199.10,Invent,0,0,Wind Energy Engineers,Invent,Equipment · Environmental · Engineers
+17-2199.11,Invent,0,0,Solar Energy Systems Engineers,Invent,Equipment · Environmental · Engineers
+17-3011.00,Invent,3,-1,Architectural and Civil Drafters,Invent,Draw · Paper · Sketches
+17-3012.00,Invent,3,-1,Electrical and Electronics Drafters,Invent,Draw · Paper · Sketches
+17-3013.00,Invent,3,-1,Mechanical Drafters,Invent,Draw · Paper · Sketches
+17-3021.00,Invent,0,1,Aerospace Engineering and Operations Technologists and Technicians,Invent,Equipment · Environmental · Engineers
+17-3022.00,Invent,4,-1,Civil Engineering Technologists and Technicians,Invent,Environmental · Contractors · Land
+17-3023.00,Invent,0,1,Electrical and Electronic Engineering Technologists and Technicians,Invent,Equipment · Environmental · Engineers
+17-3024.00,Invent,0,1,Electro-Mechanical and Mechatronics Technologists and Technicians,Invent,Equipment · Environmental · Engineers
+17-3024.01,Invent,0,1,Robotics Technicians,Invent,Equipment · Environmental · Engineers
+17-3026.00,Invent,0,1,Industrial Engineering Technologists and Technicians,Invent,Equipment · Environmental · Engineers
+17-3026.01,Invent,0,2,Nanotechnology Engineering Technologists and Technicians,Invent,Equipment · Environmental · Engineers
+17-3027.00,Invent,0,1,Mechanical Engineering Technologists and Technicians,Invent,Equipment · Environmental · Engineers
+17-3027.01,Invent,0,1,Automotive Engineering Technicians,Invent,Equipment · Environmental · Engineers
+17-3028.00,Invent,0,1,Calibration Technologists and Technicians,Invent,Equipment · Environmental · Engineers
+17-3029.01,Invent,0,2,Non-Destructive Testing Specialists,Invent,Equipment · Environmental · Engineers
+17-3029.08,Invent,0,2,Photonics Technicians,Invent,Equipment · Environmental · Engineers
+19-2032.00,Invent,0,2,Materials Scientists,Invent,Equipment · Environmental · Engineers
+19-3099.01,Invent,4,-1,Transportation Planners,Invent,Environmental · Contractors · Land
+19-4099.01,Invent,0,1,Quality Control Analysts,Invent,Equipment · Environmental · Engineers
+27-1012.00,Invent,3,-1,Craft Artists,Invent,Draw · Paper · Sketches
+27-1021.00,Invent,3,-1,Commercial and Industrial Designers,Invent,Draw · Paper · Sketches
+27-1025.00,Invent,4,-1,Interior Designers,Invent,Environmental · Contractors · Land
+27-3042.00,Invent,3,-1,Technical Writers,Invent,Draw · Paper · Sketches
+41-9031.00,Invent,0,1,Sales Engineers,Invent,Equipment · Environmental · Engineers
+43-9031.00,Invent,-1,-1,Desktop Publishers,Invent,Unique roles
+47-1011.03,Invent,0,0,Solar Energy Installation Managers,Invent,Equipment · Environmental · Engineers
+47-2231.00,Invent,0,0,Solar Photovoltaic Installers,Invent,Equipment · Environmental · Engineers
+49-2091.00,Invent,0,1,Avionics Technicians,Invent,Equipment · Environmental · Engineers
+51-5111.00,Invent,-1,-1,Prepress Technicians and Workers,Invent,Unique roles
+51-6092.00,Invent,3,-1,Fabric and Apparel Patternmakers,Invent,Draw · Paper · Sketches
+51-9061.00,Invent,0,1,"Inspectors, Testers, Sorters, Samplers, and Weighers",Invent,Equipment · Environmental · Engineers
+51-9141.00,Invent,0,2,Semiconductor Processing Technicians,Invent,Equipment · Environmental · Engineers
+51-9151.00,Invent,-1,-1,Photographic Process Workers and Processing Machine Operators,Invent,Unique roles
+51-9162.00,Invent,3,-1,Computer Numerically Controlled Tool Programmers,Invent,Draw · Paper · Sketches
+11-1011.00,Organize,3,1,Chief Executives,Organize,Efficiency · Equipment · Maintenance
+11-1021.00,Organize,2,-1,General and Operations Managers,Organize,Requisitions · Product · Purchasing
+11-2022.00,Organize,2,-1,Sales Managers,Organize,Requisitions · Product · Purchasing
+11-2032.00,Organize,3,1,Public Relations Managers,Organize,Efficiency · Equipment · Maintenance
+11-2033.00,Organize,3,1,Fundraising Managers,Organize,Efficiency · Equipment · Maintenance
+11-3012.00,Organize,3,0,Administrative Services Managers,Organize,Efficiency · Equipment · Maintenance
+11-3013.00,Organize,3,0,Facilities Managers,Organize,Efficiency · Equipment · Maintenance
+11-3021.00,Organize,3,0,Computer and Information Systems Managers,Organize,Efficiency · Equipment · Maintenance
+11-3031.00,Organize,10,-1,Financial Managers,Organize,Investment · Accountants · Securities
+11-3031.01,Organize,10,-1,Treasurers and Controllers,Organize,Investment · Accountants · Securities
+11-3031.03,Organize,10,-1,Investment Fund Managers,Organize,Investment · Accountants · Securities
+11-3051.00,Organize,3,0,Industrial Production Managers,Organize,Efficiency · Equipment · Maintenance
+11-3061.00,Organize,2,-1,Purchasing Managers,Organize,Requisitions · Product · Purchasing
+11-3111.00,Organize,0,-1,Compensation and Benefits Managers,Organize,Compensation · Bargaining Agreements · Equal Employment
+11-3121.00,Organize,0,-1,Human Resources Managers,Organize,Compensation · Bargaining Agreements · Equal Employment
+11-9013.00,Organize,3,0,"Farmers, Ranchers, and Other Agricultural Managers",Organize,Efficiency · Equipment · Maintenance
+11-9021.00,Organize,3,2,Construction Managers,Organize,Efficiency · Equipment · Maintenance
+11-9071.00,Organize,4,-1,Gambling Managers,Organize,Gambling · Gaming · Players
+11-9072.00,Organize,3,1,"Entertainment and Recreation Managers, Except Gambling",Organize,Efficiency · Equipment · Maintenance
+11-9081.00,Organize,3,1,Lodging Managers,Organize,Efficiency · Equipment · Maintenance
+11-9111.00,Organize,3,0,Medical and Health Services Managers,Organize,Efficiency · Equipment · Maintenance
+11-9141.00,Organize,1,-1,"Property, Real Estate, and Community Association Managers",Organize,Land · Properties · Buyers Sellers
+11-9151.00,Organize,3,1,Social and Community Service Managers,Organize,Efficiency · Equipment · Maintenance
+11-9171.00,Organize,3,1,Funeral Home Managers,Organize,Efficiency · Equipment · Maintenance
+11-9179.02,Organize,3,0,Spa Managers,Organize,Efficiency · Equipment · Maintenance
 11-9199.01,Organize,-1,-1,Regulatory Affairs Managers,Organize,Unique roles
 11-9199.02,Organize,-1,-1,Compliance Managers,Organize,Unique roles
-11-9199.08,Organize,-1,-1,Loss Prevention Managers,Organize,Unique roles
-11-9199.09,Organize,-1,-1,Wind Energy Operations Managers,Organize,Unique roles
-11-9199.10,Organize,11,-1,Wind Energy Development Managers,Organize,Product · Demand · Purchasing
-13-1021.00,Organize,11,-1,"Buyers and Purchasing Agents, Farm Products",Organize,Product · Demand · Purchasing
-13-1023.00,Organize,11,-1,"Purchasing Agents, Except Wholesale, Retail, and Farm Products",Organize,Product · Demand · Purchasing
-13-1031.00,Organize,6,-1,"Claims Adjusters, Examiners, and Investigators",Organize,Risks · Reinsurance · Policyholders
+11-9199.08,Organize,3,0,Loss Prevention Managers,Organize,Efficiency · Equipment · Maintenance
+11-9199.09,Organize,3,2,Wind Energy Operations Managers,Organize,Efficiency · Equipment · Maintenance
+11-9199.10,Organize,3,2,Wind Energy Development Managers,Organize,Efficiency · Equipment · Maintenance
+13-1021.00,Organize,2,-1,"Buyers and Purchasing Agents, Farm Products",Organize,Requisitions · Product · Purchasing
+13-1023.00,Organize,2,-1,"Purchasing Agents, Except Wholesale, Retail, and Farm Products",Organize,Requisitions · Product · Purchasing
+13-1031.00,Organize,6,-1,"Claims Adjusters, Examiners, and Investigators",Organize,Reinsurance · Policyholders · Insurance Claims
 13-1041.00,Organize,-1,-1,Compliance Officers,Organize,Unique roles
 13-1041.07,Organize,-1,-1,Regulatory Affairs Specialists,Organize,Unique roles
-13-1051.00,Organize,11,-1,Cost Estimators,Organize,Product · Demand · Purchasing
-13-1071.00,Organize,0,-1,Human Resources Specialists,Organize,Compensation · Employment · Bargaining Agreements
-13-1074.00,Organize,12,-1,Farm Labor Contractors,Organize,Measures · Personnel Actions · Safety
-13-1075.00,Organize,0,-1,Labor Relations Specialists,Organize,Compensation · Employment · Bargaining Agreements
-13-1081.00,Organize,11,-1,Logisticians,Organize,Product · Demand · Purchasing
-13-1081.02,Organize,-1,-1,Logistics Analysts,Organize,Unique roles
-13-1082.00,Organize,11,-1,Project Management Specialists,Organize,Product · Demand · Purchasing
-13-1111.00,Organize,-1,-1,Management Analysts,Organize,Unique roles
-13-1121.00,Organize,13,-1,"Meeting, Convention, and Event Planners",Organize,Entertainment · Arts · Services Rendered
-13-1141.00,Organize,0,-1,"Compensation, Benefits, and Job Analysis Specialists",Organize,Compensation · Employment · Bargaining Agreements
-13-1199.04,Organize,-1,-1,Business Continuity Planners,Organize,Unique roles
-13-2011.00,Organize,8,-1,Accountants and Auditors,Organize,Tax · Securities · Discrepancies
-13-2022.00,Organize,1,-1,Appraisers of Personal and Business Property,Organize,Properties · Land · Zoning
-13-2023.00,Organize,1,-1,Appraisers and Assessors of Real Estate,Organize,Properties · Land · Zoning
-13-2031.00,Organize,8,-1,Budget Analysts,Organize,Tax · Securities · Discrepancies
-13-2041.00,Organize,7,-1,Credit Analysts,Organize,Delinquent Accounts · Repayment · Histories
-13-2051.00,Organize,8,-1,Financial and Investment Analysts,Organize,Tax · Securities · Discrepancies
-13-2052.00,Organize,8,-1,Personal Financial Advisors,Organize,Tax · Securities · Discrepancies
-13-2053.00,Organize,6,-1,Insurance Underwriters,Organize,Risks · Reinsurance · Policyholders
-13-2061.00,Organize,8,-1,Financial Examiners,Organize,Tax · Securities · Discrepancies
-13-2071.00,Organize,7,-1,Credit Counselors,Organize,Delinquent Accounts · Repayment · Histories
-13-2072.00,Organize,7,-1,Loan Officers,Organize,Delinquent Accounts · Repayment · Histories
-13-2081.00,Organize,8,-1,"Tax Examiners and Collectors, and Revenue Agents",Organize,Tax · Securities · Discrepancies
-13-2082.00,Organize,8,-1,Tax Preparers,Organize,Tax · Securities · Discrepancies
-15-1299.03,Organize,4,-1,Document Management Specialists,Organize,Classification · Collections · Subject
-15-1299.09,Organize,11,-1,Information Technology Project Managers,Organize,Product · Demand · Purchasing
-15-2011.00,Organize,6,-1,Actuaries,Organize,Risks · Reinsurance · Policyholders
-15-2051.02,Organize,-1,-1,Clinical Data Managers,Organize,Unique roles
-23-2093.00,Organize,1,-1,"Title Examiners, Abstractors, and Searchers",Organize,Properties · Land · Zoning
-25-4011.00,Organize,4,-1,Archivists,Organize,Classification · Collections · Subject
-25-4012.00,Organize,-1,-1,Curators,Organize,Unique roles
-25-4022.00,Organize,4,-1,Librarians and Media Collections Specialists,Organize,Classification · Collections · Subject
-25-4031.00,Organize,4,-1,Library Technicians,Organize,Classification · Collections · Subject
-27-1027.00,Organize,9,-1,Set and Exhibit Designers,Organize,Sound · Television · Install
-27-2012.03,Organize,9,-1,Media Programming Directors,Organize,Sound · Television · Install
-27-3041.00,Organize,5,-1,Editors,Organize,Page · Proof · Punctuation
-27-3091.00,Organize,5,-1,Interpreters and Translators,Organize,Page · Proof · Punctuation
-27-3092.00,Organize,2,-1,Court Reporters and Simultaneous Captioners,Organize,Calls · Messages · Proofreading
-27-4011.00,Organize,9,-1,Audio and Video Technicians,Organize,Sound · Television · Install
-27-4012.00,Organize,9,-1,Broadcast Technicians,Organize,Sound · Television · Install
-31-9095.00,Organize,2,-1,Pharmacy Aides,Organize,Calls · Messages · Proofreading
-35-1012.00,Organize,12,-1,First-Line Supervisors of Food Preparation and Serving Workers,Organize,Measures · Personnel Actions · Safety
-37-1011.00,Organize,12,-1,First-Line Supervisors of Housekeeping and Janitorial Workers,Organize,Measures · Personnel Actions · Safety
-37-1012.00,Organize,12,-1,"First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers",Organize,Measures · Personnel Actions · Safety
-39-1013.00,Organize,3,-1,First-Line Supervisors of Gambling Services Workers,Organize,Casino · Gaming · Players
-39-1014.00,Organize,13,-1,"First-Line Supervisors of Entertainment and Recreation Workers, Except Gambling Services",Organize,Entertainment · Arts · Services Rendered
-39-1022.00,Organize,13,-1,First-Line Supervisors of Personal Service Workers,Organize,Entertainment · Arts · Services Rendered
-39-3012.00,Organize,3,-1,Gambling and Sports Book Writers and Runners,Organize,Casino · Gaming · Players
-39-3021.00,Organize,9,-1,Motion Picture Projectionists,Organize,Sound · Television · Install
-39-3092.00,Organize,-1,-1,Costume Attendants,Organize,Unique roles
-39-3093.00,Organize,12,-1,"Locker Room, Coatroom, and Dressing Room Attendants",Organize,Measures · Personnel Actions · Safety
-39-9032.00,Organize,13,-1,Recreation Workers,Organize,Entertainment · Arts · Services Rendered
-41-1011.00,Organize,11,-1,First-Line Supervisors of Retail Sales Workers,Organize,Product · Demand · Purchasing
-41-1012.00,Organize,11,-1,First-Line Supervisors of Non-Retail Sales Workers,Organize,Product · Demand · Purchasing
-41-2011.00,Organize,8,-1,Cashiers,Organize,Tax · Securities · Discrepancies
-41-2012.00,Organize,3,-1,Gambling Change Persons and Booth Cashiers,Organize,Casino · Gaming · Players
-41-3021.00,Organize,6,-1,Insurance Sales Agents,Organize,Risks · Reinsurance · Policyholders
-41-3031.00,Organize,8,-1,"Securities, Commodities, and Financial Services Sales Agents",Organize,Tax · Securities · Discrepancies
-41-9021.00,Organize,1,-1,Real Estate Brokers,Organize,Properties · Land · Zoning
-43-1011.00,Organize,10,-1,First-Line Supervisors of Office and Administrative Support Workers,Organize,Organizational · Establishments Departments · Agencies
-43-2011.00,Organize,2,-1,"Switchboard Operators, Including Answering Service",Organize,Calls · Messages · Proofreading
-43-2021.00,Organize,2,-1,Telephone Operators,Organize,Calls · Messages · Proofreading
-43-3011.00,Organize,7,-1,Bill and Account Collectors,Organize,Delinquent Accounts · Repayment · Histories
-43-3021.00,Organize,8,-1,Billing and Posting Clerks,Organize,Tax · Securities · Discrepancies
-43-3031.00,Organize,8,-1,"Bookkeeping, Accounting, and Auditing Clerks",Organize,Tax · Securities · Discrepancies
-43-3041.00,Organize,3,-1,Gambling Cage Workers,Organize,Casino · Gaming · Players
-43-3051.00,Organize,8,-1,Payroll and Timekeeping Clerks,Organize,Tax · Securities · Discrepancies
-43-3061.00,Organize,11,-1,Procurement Clerks,Organize,Product · Demand · Purchasing
-43-3071.00,Organize,8,-1,Tellers,Organize,Tax · Securities · Discrepancies
-43-4011.00,Organize,8,-1,Brokerage Clerks,Organize,Tax · Securities · Discrepancies
-43-4021.00,Organize,2,-1,Correspondence Clerks,Organize,Calls · Messages · Proofreading
-43-4031.00,Organize,2,-1,"Court, Municipal, and License Clerks",Organize,Calls · Messages · Proofreading
-43-4041.00,Organize,7,-1,"Credit Authorizers, Checkers, and Clerks",Organize,Delinquent Accounts · Repayment · Histories
-43-4051.00,Organize,-1,-1,Customer Service Representatives,Organize,Unique roles
-43-4061.00,Organize,0,-1,"Eligibility Interviewers, Government Programs",Organize,Compensation · Employment · Bargaining Agreements
-43-4071.00,Organize,5,-1,File Clerks,Organize,Page · Proof · Punctuation
-43-4121.00,Organize,4,-1,"Library Assistants, Clerical",Organize,Classification · Collections · Subject
-43-4131.00,Organize,7,-1,Loan Interviewers and Clerks,Organize,Delinquent Accounts · Repayment · Histories
-43-4141.00,Organize,7,-1,New Accounts Clerks,Organize,Delinquent Accounts · Repayment · Histories
-43-4151.00,Organize,-1,-1,Order Clerks,Organize,Unique roles
-43-4161.00,Organize,0,-1,"Human Resources Assistants, Except Payroll and Timekeeping",Organize,Compensation · Employment · Bargaining Agreements
-43-4171.00,Organize,2,-1,Receptionists and Information Clerks,Organize,Calls · Messages · Proofreading
-43-5011.00,Organize,-1,-1,Cargo and Freight Agents,Organize,Unique roles
-43-5011.01,Organize,-1,-1,Freight Forwarders,Organize,Unique roles
-43-5032.00,Organize,12,-1,"Dispatchers, Except Police, Fire, and Ambulance",Organize,Measures · Personnel Actions · Safety
-43-5041.00,Organize,2,-1,"Meter Readers, Utilities",Organize,Calls · Messages · Proofreading
-43-5051.00,Organize,-1,-1,Postal Service Clerks,Organize,Unique roles
-43-5052.00,Organize,-1,-1,Postal Service Mail Carriers,Organize,Unique roles
-43-5053.00,Organize,-1,-1,"Postal Service Mail Sorters, Processors, and Processing Machine Operators",Organize,Unique roles
-43-5061.00,Organize,12,-1,"Production, Planning, and Expediting Clerks",Organize,Measures · Personnel Actions · Safety
-43-5071.00,Organize,-1,-1,"Shipping, Receiving, and Inventory Clerks",Organize,Unique roles
-43-6011.00,Organize,2,-1,Executive Secretaries and Executive Administrative Assistants,Organize,Calls · Messages · Proofreading
-43-6012.00,Organize,2,-1,Legal Secretaries and Administrative Assistants,Organize,Calls · Messages · Proofreading
-43-6014.00,Organize,2,-1,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive",Organize,Calls · Messages · Proofreading
-43-9021.00,Organize,5,-1,Data Entry Keyers,Organize,Page · Proof · Punctuation
-43-9022.00,Organize,5,-1,Word Processors and Typists,Organize,Page · Proof · Punctuation
-43-9041.00,Organize,6,-1,Insurance Claims and Policy Processing Clerks,Organize,Risks · Reinsurance · Policyholders
-43-9051.00,Organize,-1,-1,"Mail Clerks and Mail Machine Operators, Except Postal Service",Organize,Unique roles
-43-9061.00,Organize,2,-1,"Office Clerks, General",Organize,Calls · Messages · Proofreading
-43-9071.00,Organize,5,-1,"Office Machine Operators, Except Computer",Organize,Page · Proof · Punctuation
-43-9081.00,Organize,5,-1,Proofreaders and Copy Markers,Organize,Page · Proof · Punctuation
-45-1011.00,Organize,12,-1,"First-Line Supervisors of Farming, Fishing, and Forestry Workers",Organize,Measures · Personnel Actions · Safety
-49-1011.00,Organize,12,-1,"First-Line Supervisors of Mechanics, Installers, and Repairers",Organize,Measures · Personnel Actions · Safety
-51-1011.00,Organize,12,-1,First-Line Supervisors of Production and Operating Workers,Organize,Measures · Personnel Actions · Safety
-51-8011.00,Organize,12,-1,Nuclear Power Reactor Operators,Organize,Measures · Personnel Actions · Safety
-53-1042.00,Organize,12,-1,"First-Line Supervisors of Helpers, Laborers, and Material Movers, Hand",Organize,Measures · Personnel Actions · Safety
-53-1042.01,Organize,-1,-1,Recycling Coordinators,Organize,Unique roles
-53-7065.00,Organize,11,-1,Stockers and Order Fillers,Organize,Product · Demand · Purchasing
+13-1051.00,Organize,3,2,Cost Estimators,Organize,Efficiency · Equipment · Maintenance
+13-1071.00,Organize,0,-1,Human Resources Specialists,Organize,Compensation · Bargaining Agreements · Equal Employment
+13-1074.00,Organize,3,1,Farm Labor Contractors,Organize,Efficiency · Equipment · Maintenance
+13-1075.00,Organize,0,-1,Labor Relations Specialists,Organize,Compensation · Bargaining Agreements · Equal Employment
+13-1082.00,Organize,3,2,Project Management Specialists,Organize,Efficiency · Equipment · Maintenance
+13-1111.00,Organize,3,0,Management Analysts,Organize,Efficiency · Equipment · Maintenance
+13-1121.00,Organize,3,1,"Meeting, Convention, and Event Planners",Organize,Efficiency · Equipment · Maintenance
+13-1141.00,Organize,0,-1,"Compensation, Benefits, and Job Analysis Specialists",Organize,Compensation · Bargaining Agreements · Equal Employment
+13-1199.04,Organize,3,0,Business Continuity Planners,Organize,Efficiency · Equipment · Maintenance
+13-2011.00,Organize,10,-1,Accountants and Auditors,Organize,Investment · Accountants · Securities
+13-2022.00,Organize,1,-1,Appraisers of Personal and Business Property,Organize,Land · Properties · Buyers Sellers
+13-2023.00,Organize,1,-1,Appraisers and Assessors of Real Estate,Organize,Land · Properties · Buyers Sellers
+13-2031.00,Organize,10,-1,Budget Analysts,Organize,Investment · Accountants · Securities
+13-2041.00,Organize,7,-1,Credit Analysts,Organize,Repayment · Delinquent Accounts · Histories
+13-2051.00,Organize,10,-1,Financial and Investment Analysts,Organize,Investment · Accountants · Securities
+13-2052.00,Organize,10,-1,Personal Financial Advisors,Organize,Investment · Accountants · Securities
+13-2053.00,Organize,6,-1,Insurance Underwriters,Organize,Reinsurance · Policyholders · Insurance Claims
+13-2061.00,Organize,10,-1,Financial Examiners,Organize,Investment · Accountants · Securities
+13-2071.00,Organize,7,-1,Credit Counselors,Organize,Repayment · Delinquent Accounts · Histories
+13-2072.00,Organize,7,-1,Loan Officers,Organize,Repayment · Delinquent Accounts · Histories
+13-2081.00,Organize,9,-1,"Tax Examiners and Collectors, and Revenue Agents",Organize,Tax · Discrepancies · Returns
+13-2082.00,Organize,9,-1,Tax Preparers,Organize,Tax · Discrepancies · Returns
+15-1299.03,Organize,11,-1,Document Management Specialists,Organize,Classification · Collections · Workshops
+15-1299.09,Organize,3,2,Information Technology Project Managers,Organize,Efficiency · Equipment · Maintenance
+15-2011.00,Organize,6,-1,Actuaries,Organize,Reinsurance · Policyholders · Insurance Claims
+15-2051.02,Organize,3,0,Clinical Data Managers,Organize,Efficiency · Equipment · Maintenance
+23-2093.00,Organize,1,-1,"Title Examiners, Abstractors, and Searchers",Organize,Land · Properties · Buyers Sellers
+25-4011.00,Organize,11,-1,Archivists,Organize,Classification · Collections · Workshops
+25-4012.00,Organize,11,-1,Curators,Organize,Classification · Collections · Workshops
+25-4022.00,Organize,11,-1,Librarians and Media Collections Specialists,Organize,Classification · Collections · Workshops
+25-4031.00,Organize,11,-1,Library Technicians,Organize,Classification · Collections · Workshops
+27-1027.00,Organize,5,-1,Set and Exhibit Designers,Organize,Television · Sound · Microphones
+27-2012.03,Organize,5,-1,Media Programming Directors,Organize,Television · Sound · Microphones
+27-3041.00,Organize,12,-1,Editors,Organize,Page · Completed Documents · Punctuation
+27-3091.00,Organize,12,-1,Interpreters and Translators,Organize,Page · Completed Documents · Punctuation
+27-3092.00,Organize,8,-1,Court Reporters and Simultaneous Captioners,Organize,Calls · Visitors · Proofreading
+27-4011.00,Organize,5,-1,Audio and Video Technicians,Organize,Television · Sound · Microphones
+27-4012.00,Organize,5,-1,Broadcast Technicians,Organize,Television · Sound · Microphones
+31-9095.00,Organize,8,-1,Pharmacy Aides,Organize,Calls · Visitors · Proofreading
+35-1012.00,Organize,3,0,First-Line Supervisors of Food Preparation and Serving Workers,Organize,Efficiency · Equipment · Maintenance
+37-1011.00,Organize,3,0,First-Line Supervisors of Housekeeping and Janitorial Workers,Organize,Efficiency · Equipment · Maintenance
+37-1012.00,Organize,3,0,"First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers",Organize,Efficiency · Equipment · Maintenance
+39-1013.00,Organize,4,-1,First-Line Supervisors of Gambling Services Workers,Organize,Gambling · Gaming · Players
+39-1014.00,Organize,3,0,"First-Line Supervisors of Entertainment and Recreation Workers, Except Gambling Services",Organize,Efficiency · Equipment · Maintenance
+39-1022.00,Organize,3,0,First-Line Supervisors of Personal Service Workers,Organize,Efficiency · Equipment · Maintenance
+39-3012.00,Organize,4,-1,Gambling and Sports Book Writers and Runners,Organize,Gambling · Gaming · Players
+39-3021.00,Organize,5,-1,Motion Picture Projectionists,Organize,Television · Sound · Microphones
+39-3092.00,Organize,3,1,Costume Attendants,Organize,Efficiency · Equipment · Maintenance
+39-3093.00,Organize,3,1,"Locker Room, Coatroom, and Dressing Room Attendants",Organize,Efficiency · Equipment · Maintenance
+39-9032.00,Organize,3,1,Recreation Workers,Organize,Efficiency · Equipment · Maintenance
+41-1011.00,Organize,2,-1,First-Line Supervisors of Retail Sales Workers,Organize,Requisitions · Product · Purchasing
+41-1012.00,Organize,2,-1,First-Line Supervisors of Non-Retail Sales Workers,Organize,Requisitions · Product · Purchasing
+41-2011.00,Organize,-1,-1,Cashiers,Organize,Unique roles
+41-2012.00,Organize,4,-1,Gambling Change Persons and Booth Cashiers,Organize,Gambling · Gaming · Players
+41-3021.00,Organize,6,-1,Insurance Sales Agents,Organize,Reinsurance · Policyholders · Insurance Claims
+41-3031.00,Organize,10,-1,"Securities, Commodities, and Financial Services Sales Agents",Organize,Investment · Accountants · Securities
+41-9021.00,Organize,1,-1,Real Estate Brokers,Organize,Land · Properties · Buyers Sellers
+43-1011.00,Organize,3,0,First-Line Supervisors of Office and Administrative Support Workers,Organize,Efficiency · Equipment · Maintenance
+43-2011.00,Organize,8,-1,"Switchboard Operators, Including Answering Service",Organize,Calls · Visitors · Proofreading
+43-2021.00,Organize,8,-1,Telephone Operators,Organize,Calls · Visitors · Proofreading
+43-3011.00,Organize,7,-1,Bill and Account Collectors,Organize,Repayment · Delinquent Accounts · Histories
+43-3021.00,Organize,9,-1,Billing and Posting Clerks,Organize,Tax · Discrepancies · Returns
+43-3031.00,Organize,9,-1,"Bookkeeping, Accounting, and Auditing Clerks",Organize,Tax · Discrepancies · Returns
+43-3041.00,Organize,4,-1,Gambling Cage Workers,Organize,Gambling · Gaming · Players
+43-3051.00,Organize,9,-1,Payroll and Timekeeping Clerks,Organize,Tax · Discrepancies · Returns
+43-3061.00,Organize,2,-1,Procurement Clerks,Organize,Requisitions · Product · Purchasing
+43-3071.00,Organize,7,-1,Tellers,Organize,Repayment · Delinquent Accounts · Histories
+43-4011.00,Organize,9,-1,Brokerage Clerks,Organize,Tax · Discrepancies · Returns
+43-4021.00,Organize,-1,-1,Correspondence Clerks,Organize,Unique roles
+43-4031.00,Organize,8,-1,"Court, Municipal, and License Clerks",Organize,Calls · Visitors · Proofreading
+43-4041.00,Organize,7,-1,"Credit Authorizers, Checkers, and Clerks",Organize,Repayment · Delinquent Accounts · Histories
+43-4051.00,Organize,2,-1,Customer Service Representatives,Organize,Requisitions · Product · Purchasing
+43-4061.00,Organize,0,-1,"Eligibility Interviewers, Government Programs",Organize,Compensation · Bargaining Agreements · Equal Employment
+43-4071.00,Organize,12,-1,File Clerks,Organize,Page · Completed Documents · Punctuation
+43-4121.00,Organize,11,-1,"Library Assistants, Clerical",Organize,Classification · Collections · Workshops
+43-4131.00,Organize,7,-1,Loan Interviewers and Clerks,Organize,Repayment · Delinquent Accounts · Histories
+43-4141.00,Organize,7,-1,New Accounts Clerks,Organize,Repayment · Delinquent Accounts · Histories
+43-4151.00,Organize,2,-1,Order Clerks,Organize,Requisitions · Product · Purchasing
+43-4161.00,Organize,0,-1,"Human Resources Assistants, Except Payroll and Timekeeping",Organize,Compensation · Bargaining Agreements · Equal Employment
+43-4171.00,Organize,8,-1,Receptionists and Information Clerks,Organize,Calls · Visitors · Proofreading
+43-5041.00,Organize,-1,-1,"Meter Readers, Utilities",Organize,Unique roles
+43-6011.00,Organize,8,-1,Executive Secretaries and Executive Administrative Assistants,Organize,Calls · Visitors · Proofreading
+43-6012.00,Organize,8,-1,Legal Secretaries and Administrative Assistants,Organize,Calls · Visitors · Proofreading
+43-6014.00,Organize,8,-1,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive",Organize,Calls · Visitors · Proofreading
+43-9021.00,Organize,12,-1,Data Entry Keyers,Organize,Page · Completed Documents · Punctuation
+43-9022.00,Organize,12,-1,Word Processors and Typists,Organize,Page · Completed Documents · Punctuation
+43-9041.00,Organize,6,-1,Insurance Claims and Policy Processing Clerks,Organize,Reinsurance · Policyholders · Insurance Claims
+43-9061.00,Organize,8,-1,"Office Clerks, General",Organize,Calls · Visitors · Proofreading
+43-9071.00,Organize,12,-1,"Office Machine Operators, Except Computer",Organize,Page · Completed Documents · Punctuation
+43-9081.00,Organize,12,-1,Proofreaders and Copy Markers,Organize,Page · Completed Documents · Punctuation
+45-1011.00,Organize,3,0,"First-Line Supervisors of Farming, Fishing, and Forestry Workers",Organize,Efficiency · Equipment · Maintenance
+49-1011.00,Organize,3,0,"First-Line Supervisors of Mechanics, Installers, and Repairers",Organize,Efficiency · Equipment · Maintenance
+51-1011.00,Organize,3,0,First-Line Supervisors of Production and Operating Workers,Organize,Efficiency · Equipment · Maintenance
+51-8011.00,Organize,3,0,Nuclear Power Reactor Operators,Organize,Efficiency · Equipment · Maintenance
+53-1042.00,Organize,3,0,"First-Line Supervisors of Helpers, Laborers, and Material Movers, Hand",Organize,Efficiency · Equipment · Maintenance
+53-1042.01,Organize,3,1,Recycling Coordinators,Organize,Efficiency · Equipment · Maintenance
+53-7065.00,Organize,2,-1,Stockers and Order Fillers,Organize,Requisitions · Product · Purchasing
 11-1031.00,Protect,0,-1,Legislators,Protect,Decisions · Motions · Opinions
 11-3013.01,Protect,1,-1,Security Managers,Protect,Security · Reports · Law Enforcement
 11-9161.00,Protect,-1,-1,Emergency Management Directors,Protect,Unique roles

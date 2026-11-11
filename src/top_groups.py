@@ -153,14 +153,46 @@ TRANSPORTATION_SUPERVISORS = {
 }
 
 
+# Delivery and logistics jobs also go to Connect ("keep people and goods moving").
+# O*NET files most of these under office or business work, so they're listed by code.
+# Not included despite similar words: 911 dispatchers and border protection officers (Protect),
+# meter readers, power dispatchers, data warehousing.
+DELIVERY_AND_LOGISTICS = {
+    # Delivery
+    "43-5021.00",  # Couriers and Messengers
+    "43-5051.00",  # Postal Service Clerks
+    "43-5052.00",  # Postal Service Mail Carriers
+    "43-5053.00",  # Postal Service Mail Sorters, Processors, and Processing Machine Operators
+    "43-9051.00",  # Mail Clerks and Mail Machine Operators, Except Postal Service
+    "11-9131.00",  # Postmasters and Mail Superintendents
+    # Logistics
+    "13-1081.00",  # Logisticians
+    "13-1081.01",  # Logistics Engineers
+    "13-1081.02",  # Logistics Analysts
+    "11-3071.04",  # Supply Chain Managers
+    "11-3071.00",  # Transportation, Storage, and Distribution Managers
+    "43-5011.00",  # Cargo and Freight Agents
+    "43-5011.01",  # Freight Forwarders
+    "13-1041.08",  # Customs Brokers
+    "43-5071.00",  # Shipping, Receiving, and Inventory Clerks
+    "43-5061.00",  # Production, Planning, and Expediting Clerks
+    "43-5032.00",  # Dispatchers, Except Police, Fire, and Ambulance
+}
+
+
 def is_transportation(code: str) -> bool:
     return code[:4] in TRANSPORTATION_SOC_GROUPS or code in TRANSPORTATION_SUPERVISORS
+
+
+def is_moving_people_or_goods(code: str) -> bool:
+    """Transportation, delivery and logistics: all placed in Connect."""
+    return is_transportation(code) or code in DELIVERY_AND_LOGISTICS
 
 
 def apply_rules(groups: pd.Series) -> pd.Series:
     """Apply the fixed placements above to a Series of group names indexed by SOC code."""
     groups = groups.copy()
-    groups[[is_transportation(c) for c in groups.index]] = "Connect"
+    groups[[is_moving_people_or_goods(c) for c in groups.index]] = "Connect"
     return groups
 
 
