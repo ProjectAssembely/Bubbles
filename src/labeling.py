@@ -86,30 +86,3 @@ def top_terms(job_text: pd.Series, labels: pd.Series, n: int = 5, exclude=(-1,))
         rows.append({"cluster": cluster, "size": int((labels == cluster).sum()), "top_terms": chosen,
                      "label": " · ".join(t.title() for t in chosen[:3])})
     return pd.DataFrame(rows).set_index("cluster")
-
-
-# Plain-language names for the 6 top-level groups (hybrid groups, see hybrid_groups.py).
-# Cluster ids can change between runs, so each name is matched by a keyword
-# from that group's defining attributes rather than by its number.
-GROUP_NAMES = [
-    ("Programming", "Tech & Analysis", "I want to solve problems with technology, science and data"),
-    ("Repairing", "Build & Fix", "I want to build, repair and operate machines and equipment"),
-    ("Instructing", "Teach & Guide", "I want to teach, train and guide people"),
-    ("Caring for Others", "Help & Heal", "I want to help people and care for their health"),
-    ("Stamina", "Hands-On Service", "I want active, hands-on work serving people"),
-    ("Administrative", "Business & Management", "I want to run things: manage, sell, organize and handle money"),
-]
-
-
-def name_groups(profiles: pd.Series) -> pd.DataFrame:
-    """Match each numeric group (by its defining attributes) to a plain-language name."""
-    rows = {}
-    for cluster, attrs in profiles.items():
-        hits = [(name, tagline) for key, name, tagline in GROUP_NAMES if key in attrs]
-        if len(hits) != 1:
-            raise ValueError(f"Group {cluster} ({attrs}) matched {len(hits)} names; update GROUP_NAMES")
-        rows[cluster] = {"name": hits[0][0], "tagline": hits[0][1]}
-    out = pd.DataFrame.from_dict(rows, orient="index")
-    if out["name"].duplicated().any():
-        raise ValueError("Two groups got the same name; update GROUP_NAMES")
-    return out

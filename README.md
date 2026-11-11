@@ -69,9 +69,10 @@ Link straight to a job with `#Job Title` (e.g. `#Registered Nurses`) or to a sea
 
 - **Text clustering (Project 1):** HDBSCAN (silhouette 0.60, 31 clusters) beat K-Means (0.54) and flagged ~9% of jobs
   as niche. Clusters capture the *field* (legal, culinary, IT, trades).
-- **Numeric clustering (Project 2):** the attribute space is a continuum, not separate islands (silhouette ≤ 0.24 for any K),
-  so the "mathematically optimal" K=2 is too coarse. K=6 gives nameable groups that capture *how* work is done
-  (physical, social, analytical) and match RIASEC interests better than text clusters.
+- **Numeric clustering (Project 2):** the attribute space is a continuum, not separate islands (silhouette ≤ 0.24 for any K).
+  Silhouette, Davies-Bouldin, Calinski-Harabasz and the gap statistic all put the global optimum at K=2 (physical vs.
+  non-physical work), which is too coarse. Within a useful 4–12 range, their consensus **automatically picks K=5**:
+  groups that capture *how* work is done and match RIASEC interests better than text clusters.
 - **Combined:** mixing both (70% text, 30% numeric) kept fields together (80% vs. 64% for numeric only) and matched
   career interests better (ARI 0.35 vs. 0.24). See `notebooks/05_hierarchy.ipynb`.
 - **Named top level:** the bubbles now start from 9 fixed groups. Each is described by example tasks; jobs are assigned
