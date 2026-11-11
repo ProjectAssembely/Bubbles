@@ -20,7 +20,7 @@ attribute scores**: how important each ability, skill, knowledge area and work a
 | File | What it does |
 |---|---|
 | `src/load_onet.py` | Reads the O*NET 31.0 text files and pivots Abilities, Knowledge, Work Activities, Essential Skills and Transferable Skills into occupation × attribute matrices (importance `IM` and level `LV`) |
-| `src/numeric_clustering.py` | StandardScaler, K-Means++ and Ward agglomerative sweeps, defining attributes per cluster, silhouette-based niche detection |
+| `src/numeric_clustering.py` | StandardScaler, K-Means++ and Ward agglomerative sweeps, automatic K selection (silhouette, Davies-Bouldin, Calinski-Harabasz, Kneedle elbow, gap statistic, stability), defining attributes per cluster, silhouette-based niche detection |
 | `src/evaluation.py` | Shared seed and scoring: silhouette, agreement with O*NET job families and RIASEC interests |
 | `notebooks/03_numeric_clustering.ipynb` | The full analysis, with plots |
 
@@ -49,23 +49,24 @@ python -m venv .venv
 - **The space is a continuum.** The first principal component alone explains 34% of the variance (roughly physical ↔
   cognitive work), and silhouette scores stay **at or below 0.24 for every K**. Jobs shift gradually rather than
   forming separate islands.
-- **Choosing K:** the silhouette method's optimum is K=2 (physical vs. non-physical), which is too coarse to use, and
-  the elbow is smooth. **K=6** was chosen for interpretability:
+- **Choosing K automatically:** silhouette, Davies-Bouldin, Calinski-Harabasz and the gap statistic all put the
+  global optimum at **K=2** (physical vs. non-physical work, very stable), which is too coarse to explore careers.
+  Within a useful range of 4–12 groups, the K with the best average rank across silhouette, Davies-Bouldin and
+  Calinski-Harabasz is chosen: **K=5** (the same for ranges 4–10 and 4–15). The elbow (Kneedle) suggests 10.
 
   | Group | Defining attributes |
   |---|---|
-  | Tech & analysis | Programming, Mathematics, Technology Design |
-  | Mechanical & repair | Equipment Maintenance, Repairing |
-  | Teaching & social | Instructing, Speaking, Learning Strategies |
-  | Healthcare & caregiving | Assisting and Caring for Others, Medicine |
-  | Physical labor | Stamina, Strength, Handling Objects |
-  | Business & admin | Administrative, Customer Service, Sales |
+  | Tech & analysis | Programming, Engineering and Technology, Mathematics |
+  | Mechanical & repair | Equipment Maintenance, Repairing, Reaction Time |
+  | Communication & people | Speech Clarity, Speaking, Active Listening, Writing |
+  | Healthcare & caregiving | Assisting and Caring for Others, Medicine, Psychology |
+  | Physical & public-facing service | Working Directly with the Public, Trunk Strength, Stamina |
 
 - **K-Means++ vs. Ward agglomerative:** K-Means scores higher on silhouette at almost every K; Ward gives a full tree
   (dendrogram), useful for building a hierarchy.
-- Numeric groups describe **how** work is done, so they match RIASEC career interests (ARI ≈ 0.26) better than
+- Numeric groups describe **how** work is done, so they match RIASEC career interests (ARI ≈ 0.26 at K=5) better than
   text clusters do.
-- **Niche roles:** 38 jobs (4%) have a negative silhouette (closer to another cluster than their own) and are flagged.
+- **Niche roles:** 41 jobs (5%) have a negative silhouette (closer to another cluster than their own) and are flagged.
 
 ## Data credit
 
