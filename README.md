@@ -18,6 +18,8 @@ O*NET data contains highly niche roles. Rely on density algorithms like HDBSCAN 
 
 ---
 
+**Live site:** https://projectassembely.github.io/Bubbles/
+
 ## Quick start
 
 Requires Python 3.12 (3.14 isn't supported by all the libraries yet).
@@ -52,6 +54,20 @@ typing "I like animals" or "fixing cars" finds the closest jobs by meaning, and 
 
 Link straight to a job with `#Job Title` (e.g. `#Registered Nurses`) or to a search with `#search=...`.
 
+**Search without the Python server (e.g. GitHub Pages):** the page runs a small sentence model in the browser
+(`all-MiniLM-L6-v2` via transformers.js, about 23 MB, downloaded once on the first search) against a compact index
+in `web/data/`. Rebuild that index after changing the hierarchy:
+
+```powershell
+.venv\Scripts\python src\embed.py all-MiniLM-L6-v2   # job vectors for the small model (cached)
+.venv\Scripts\python src\export_search_index.py      # writes web/data/search_index.json + .bin
+```
+
+The search box tries the Python API first, then the in-browser model, then plain title matching.
+
+**Deploying:** pushing changes under `web/` to `main` publishes the site with GitHub Actions
+(`.github/workflows/pages.yml`). Repo Settings → Pages → Source must be set to **GitHub Actions**.
+
 ## How it works
 
 | Step | Code | What it does |
@@ -62,7 +78,7 @@ Link straight to a job with `#Job Title` (e.g. `#Registered Nurses`) or to a sea
 | Labels | `src/labeling.py`, `notebooks/04_cluster_labels.ipynb` | TF-IDF top terms per cluster; plain-language names for top groups |
 | Top groups | `src/top_groups.py`, `notebooks/06_top_groups.ipynb` | 9 named groups (Care, Guide, Protect, Build, Invent, Discover, Create, Connect, Organize) assigned by similarity to example tasks |
 | Hierarchy | `src/build_hierarchy.py`, `notebooks/05_hierarchy.ipynb` | 9 top groups → HDBSCAN subclusters → jobs |
-| Search | `src/search.py`, `src/serve.py` | Embeds the query with the same model; scores jobs by profile (60%) + title (40%); below 0.28 = no results |
+| Search | `src/search.py`, `src/serve.py`, `src/export_search_index.py` | Embeds the query with the same model; scores jobs by profile (60%) + title (40%); below 0.28 = no results |
 | UI | `web/` | D3 zoomable circle packing |
 
 ## Findings

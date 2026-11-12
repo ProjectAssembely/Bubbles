@@ -320,7 +320,42 @@ function init(data) {
   };
   const clearSearch = () => { lastSearch = null; highlight([]); };
 
-  // Fallback when the search API isn't running (e.g. the site is hosted as static files)
+  // In-browser semantic search, used when the Python search API isn't running (e.g. on GitHub Pages).
+  // Loads a small sentence model (all-MiniLM-L6-v2, ~23 MB, cached by the browser after the first time)
+  // and compares the query with job vectors exported by src/export_search_index.py.
+  const TRANSFORMERS_URL = "https://cdn.jsdelivr.net/npm/@huggingface/transformers@4.3.1";
+  let browserEngine = null; // Promise of { meta, vectors, extractor }
+
+  function loadBrowserEngine() {
+    browserEngine ??= (async () => {
+      const [meta, buffer] = await Promise.all([
+        fetch("data/search_index.json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
+        fetch("data/search_index.bin").then(r => { if (!r.ok) throw new Error(r.status); return r.arrayBuffer(); }),
+      ]);
+      const { pipeline } = await import(TRANSFORMERS_URL);
+      const extractor = await pipeline("feature-extraction", meta.model, { dtype: "q8" });
+      return { meta, vectors: new Int8Array(buffer), extractor };
+    })().catch(err => { browserEngine = null; throw err; }); // allow a retry later
+    return browserEngine;
+  }
+
+  async function browserSearch(query) {
+    const { meta, vectors, extractor } = await loadBrowserEngine();
+    const { dim, count, scale, profileWeight, minScore, codes } = meta;
+    const q = (await extractor(query, { pooling: "mean", normalize: true })).data;
+    const scored = [];
+    for (let i = 0; i < count; i++) {
+      // Same blend as src/search.py: full job profile + title
+      let profile = 0, title = 0;
+      const p = i * dim, t = (count + i) * dim;
+      for (let j = 0; j < dim; j++) { profile += vectors[p + j] * q[j]; title += vectors[t + j] * q[j]; }
+      const score = (profileWeight * profile + (1 - profileWeight) * title) / scale;
+      if (score >= minScore) scored.push({ code: codes[i], score });
+    }
+    return scored.sort((a, b) => b.score - a.score).slice(0, 10);
+  }
+
+  // Last resort if neither semantic search is available: match words in job titles
   function keywordSearch(query) {
     const words = query.toLowerCase().split(/\W+/).filter(w => w.length > 2);
     if (!words.length) return [];
@@ -333,20 +368,43 @@ function init(data) {
   }
 
   let searchSeq = 0;
+  let apiAvailable = null; // null = not tried yet; false once the Python API has failed
+
+  function showSearchLoading(query) {
+    select(null);
+    panel.style.removeProperty("--swatch");
+    panel.innerHTML = `
+      <p class="eyebrow">Search</p>
+      <h2>Searching for “${esc(query)}”…</h2>
+      <p class="meta">Loading the search model (about 23 MB, first search only). Later searches are instant.</p>`;
+  }
+
   async function runSearch(query) {
     query = query.trim();
     if (!query) { clearSearch(); if (focus === root) showCluster(root); return; }
     if (openJob(query)) return;
     const seq = ++searchSeq;
-    let results;
+    let results = null;
     let semantic = true;
-    try {
-      const r = await fetch(`/api/search?q=${encodeURIComponent(query)}`);
-      if (!r.ok) throw new Error(r.status);
-      results = (await r.json()).results;
-    } catch {
-      semantic = false;
-      results = keywordSearch(query);
+    if (apiAvailable !== false) {
+      try {
+        const r = await fetch(`/api/search?q=${encodeURIComponent(query)}`);
+        if (!r.ok) throw new Error(r.status);
+        results = (await r.json()).results;
+        apiAvailable = true;
+      } catch {
+        apiAvailable = false;
+      }
+    }
+    if (results === null) {
+      try {
+        if (!browserEngine && seq === searchSeq) showSearchLoading(query);
+        results = await browserSearch(query);
+      } catch (err) {
+        console.warn("In-browser search unavailable, matching titles instead:", err);
+        semantic = false;
+        results = keywordSearch(query);
+      }
     }
     if (seq !== searchSeq) return; // a newer search started while this one was running
     const hits = results.map(r => ({ ...r, d: jobsByCode.get(r.code) })).filter(r => r.d);
