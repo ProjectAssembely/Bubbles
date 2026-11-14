@@ -65,8 +65,10 @@ in `web/data/`. Rebuild that index after changing the hierarchy:
 
 The search box tries the Python API first, then the in-browser model, then plain title matching.
 
-**Deploying:** pushing changes under `web/` to `main` publishes the site with GitHub Actions
-(`.github/workflows/pages.yml`). Repo Settings → Pages → Source must be set to **GitHub Actions**.
+**Deploying:** the site is published with GitHub Pages and updates on every push to `main`. Pages currently builds
+from the `main` branch root, where `index.html` redirects to `web/`. A GitHub Actions workflow
+(`.github/workflows/pages.yml`) can publish `web/` directly instead: set Repo Settings → Pages → Source to
+**GitHub Actions** to use it.
 
 ## How it works
 
