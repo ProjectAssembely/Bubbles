@@ -21,7 +21,7 @@ jobs by **what their task statements say**.
 | `src/load_onet.py` | Reads the O*NET 31.0 text files and builds one text block per occupation (title + description + tasks) |
 | `src/embed.py` | Embeds every task statement with `all-mpnet-base-v2` and averages them into one 768-number vector per job (avoids the model cutting off long task lists); caches results |
 | `src/text_clustering.py` | UMAP reduction, HDBSCAN and K-Means runs and parameter sweeps, cluster summaries |
-| `src/evaluation.py` | Shared seed and scoring: silhouette, noise %, agreement with O*NET job families and RIASEC interests |
+| `src/evaluation.py` | Shared seed and scoring (silhouette, noise %, agreement with O*NET job families and RIASEC interests) and automatic choice of K (silhouette, Davies-Bouldin, Calinski-Harabasz, Kneedle elbow) |
 | `notebooks/02_text_clustering.ipynb` | The full analysis, with plots |
 
 ## Quick start
@@ -40,6 +40,7 @@ python -m venv .venv
 ```powershell
 .venv\Scripts\python src\load_onet.py   # build tables in data/processed/
 .venv\Scripts\python src\embed.py       # sentence embeddings (~10 min on CPU, cached after)
+.venv\Scripts\python src\embed.py all-MiniLM-L6-v2   # optional: smaller model for the comparison in section 1c
 .venv\Scripts\jupyter nbconvert --to notebook --execute --inplace notebooks\02_text_clustering.ipynb
 ```
 
@@ -52,14 +53,20 @@ python -m venv .venv
   - HDBSCAN labels **38–66% of jobs as noise** on raw or PCA vectors at any setting, versus **~9% after UMAP**.
   - PCA preserves neighborhoods best (trustworthiness up to 0.999) but doesn't create the density contrast HDBSCAN
     needs. UMAP is the right choice here.
+- **Embedding model (mpnet vs. MiniLM):** the 5× smaller `all-MiniLM-L6-v2` performs almost the same as
+  `all-mpnet-base-v2`: neighbor purity 0.342 vs 0.348, both give 31 HDBSCAN clusters, agreement with O*NET families
+  0.361 vs 0.363, and the two models' clusterings agree at ARI 0.87. mpnet is kept for the analysis.
+- **Choosing K for K-Means automatically:** over K = 2–60, silhouette and Davies-Bouldin both show a coarse peak at
+  K=4 and a fine one around K=44; the K with their best average rank is **K=44**. Calinski-Harabasz rises toward
+  the end of any range on UMAP output, so it isn't used.
 - **HDBSCAN vs. K-Means (on UMAP 10d):**
 
-  | | HDBSCAN | K-Means (K=30) |
+  | | HDBSCAN | K-Means (K=44) |
   |---|---|---|
-  | Clusters | 31, found automatically | 30, chosen |
+  | Clusters | 31, found by the algorithm | 44, chosen automatically |
   | Noise | 8.6% flagged as niche | none: every job forced into a cluster |
-  | Silhouette | **0.60** | 0.54 |
-  | Agreement with each other | ARI 0.71 | |
+  | Silhouette | **0.60** | 0.56 |
+  | Agreement with each other | ARI 0.67 | |
 
 - Clusters capture a job's **field** (legal, culinary, IT, construction trades). HDBSCAN's outlier scores flag
   unusual groups, e.g. the six funeral-related jobs form a tight group too small to be its own cluster.
