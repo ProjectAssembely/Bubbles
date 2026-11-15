@@ -85,8 +85,10 @@ from the `main` branch root, where `index.html` redirects to `web/`. A GitHub Ac
 
 ## Findings
 
-- **Text clustering (Project 1):** HDBSCAN (silhouette 0.60, 31 clusters) beat K-Means (0.54) and flagged ~9% of jobs
-  as niche. Clusters capture the *field* (legal, culinary, IT, trades).
+- **Text clustering (Project 1):** HDBSCAN (silhouette 0.60, 31 clusters) beat K-Means (0.56 at K=44, chosen
+  automatically by silhouette + Davies-Bouldin) and flagged ~9% of jobs as niche. Clusters capture the *field*
+  (legal, culinary, IT, trades). UMAP is what makes HDBSCAN work (38–66% noise on raw or PCA vectors vs ~9% after
+  UMAP). The 5× smaller MiniLM embedding model performs almost the same as mpnet.
 - **Numeric clustering (Project 2):** the attribute space is a continuum, not separate islands (silhouette ≤ 0.24 for any K).
   Silhouette, Davies-Bouldin, Calinski-Harabasz and the gap statistic all put the global optimum at K=2 (physical vs.
   non-physical work), which is too coarse. Within a useful 4–12 range, their consensus **automatically picks K=5**:

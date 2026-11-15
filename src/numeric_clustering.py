@@ -5,11 +5,10 @@ Used by notebooks/03_numeric_clustering.ipynb.
 import numpy as np
 import pandas as pd
 from sklearn.cluster import AgglomerativeClustering, KMeans
-from sklearn.metrics import (adjusted_rand_score, calinski_harabasz_score, davies_bouldin_score,
-                             silhouette_samples, silhouette_score)
+from sklearn.metrics import adjusted_rand_score, silhouette_samples
 from sklearn.preprocessing import StandardScaler
 
-from evaluation import SEED, score
+from evaluation import SEED, consensus_k, k_metrics, kneedle, score  # noqa: F401  (re-exported for notebooks)
 from load_onet import PROCESSED
 
 
@@ -59,28 +58,6 @@ def profile(Z: pd.DataFrame, labels: np.ndarray, n: int = 5) -> pd.Series:
 K_MIN, K_MAX = 4, 12
 
 
-def k_metrics(Z, ks) -> pd.DataFrame:
-    """Inertia, silhouette (higher = better), Davies-Bouldin (lower = better) and
-    Calinski-Harabasz (higher = better) for K-Means at each K."""
-    Z = np.asarray(Z)
-    rows = []
-    for k in ks:
-        km = run_kmeans(Z, k)
-        l = km.labels_
-        rows.append({"k": k, "inertia": km.inertia_, "silhouette": silhouette_score(Z, l),
-                     "davies_bouldin": davies_bouldin_score(Z, l), "calinski_harabasz": calinski_harabasz_score(Z, l)})
-    return pd.DataFrame(rows).set_index("k")
-
-
-def kneedle(ks, inertia) -> int:
-    """Elbow point: the K farthest from the straight line joining the two ends of the
-    normalized inertia curve (Satopaa et al., 2011)."""
-    x, y = np.asarray(list(ks), float), np.asarray(inertia, float)
-    x, y = (x - x.min()) / (x.max() - x.min()), (y - y.min()) / (y.max() - y.min())
-    dist = np.abs((y[-1] - y[0]) * x - (x[-1] - x[0]) * y + x[-1] * y[0] - y[-1] * x[0])
-    return int(np.asarray(list(ks))[dist.argmax()])
-
-
 def gap_statistic(Z, ks, inertias, n_refs: int = 10) -> pd.DataFrame:
     """Gap statistic (Tibshirani et al., 2001): compares log(inertia) with what K-Means gets on
     random data with no clusters (uniform in the data's principal-axis bounding box)."""
@@ -117,12 +94,9 @@ def stability(Z, k: int, n_boot: int = 10) -> float:
 
 
 def choose_k(metrics: pd.DataFrame, k_min: int = K_MIN, k_max: int = K_MAX) -> tuple[int, pd.Series]:
-    """Consensus K: the best average rank across silhouette, Davies-Bouldin and Calinski-Harabasz
-    within [k_min, k_max]. Returns the chosen K and every K's average rank."""
-    m = metrics.loc[k_min:k_max]
-    rank = (m["silhouette"].rank(ascending=False) + m["davies_bouldin"].rank()
-            + m["calinski_harabasz"].rank(ascending=False)) / 3
-    return int(rank.idxmin()), rank.rename("average_rank")
+    """Consensus K for the numeric data: best average rank across silhouette, Davies-Bouldin and
+    Calinski-Harabasz within [k_min, k_max]. Returns the chosen K and every K's average rank."""
+    return consensus_k(metrics, k_min, k_max)
 
 
 def misfits(Z, labels: np.ndarray, threshold: float = 0.0) -> np.ndarray:
