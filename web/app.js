@@ -6,25 +6,26 @@ const LABEL_PX = 13;    // on-screen label size in pixels
 
 // Natural palette (ink = bark brown, used for text)
 const PALETTE = {
-  bark: "#533416", moss: "#607938", parchment: "#eedfc7", ochre: "#ce7f20", amber: "#d98327", sunflower: "#ffcb3d",
+  bark: "#533416", moss: "#607938", parchment: "#eedfc7", ochre: "#ce7f20", sunflower: "#ffcb3d",
+  olive: "#5b6e2c", crimson: "#930031", brick: "#8b2626",
   ink: "#533416",
 };
 const mix = (a, b, t) => d3.interpolateLab(a, b)(t);
-// Strong earth tones plus soft natural blends, so each of the nine groups is distinct
+// Solid earth tones, plus three natural blends, so each of the nine groups is distinct
 const GROUP_COLORS = {
-  Care: PALETTE.amber,
+  Care: PALETTE.ochre,
   Guide: PALETTE.sunflower,
   Protect: PALETTE.bark,
   Build: mix(PALETTE.ochre, PALETTE.bark, 0.45),           // clay
-  Invent: PALETTE.moss,
-  Discover: mix(PALETTE.moss, PALETTE.sunflower, 0.5),     // olive
-  Create: mix(PALETTE.amber, PALETTE.parchment, 0.45),     // apricot
-  Connect: mix(PALETTE.bark, PALETTE.parchment, 0.45),     // tan
-  Organize: mix(PALETTE.moss, PALETTE.parchment, 0.45),    // sage
+  Invent: PALETTE.olive,
+  Discover: mix(PALETTE.moss, PALETTE.sunflower, 0.5),     // olive-yellow
+  Create: PALETTE.crimson,
+  Connect: PALETTE.brick,
+  Organize: mix(PALETTE.bark, PALETTE.parchment, 0.45),    // tan
 };
 const FALLBACK = Object.values(PALETTE);
-const TINT = { 1: 0.16, 2: 0.3, 3: 0.44 };  // how strongly cluster circles are tinted, by depth
-const JOB_TINT = 0.9;
+const TINT = { 1: 0.3, 2: 0.5, 3: 0.66 };  // how strongly cluster circles are filled, by depth (1 = solid)
+const JOB_TINT = 1;
 
 const JOB_ZONES = {
   1: "Little or no preparation needed",
