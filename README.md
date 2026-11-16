@@ -20,7 +20,7 @@ attribute scores**: how important each ability, skill, knowledge area and work a
 | File | What it does |
 |---|---|
 | `src/load_onet.py` | Reads the O*NET 31.0 text files and pivots Abilities, Knowledge, Work Activities, Essential Skills and Transferable Skills into occupation × attribute matrices (importance `IM` and level `LV`) |
-| `src/numeric_clustering.py` | StandardScaler, K-Means++ and Ward agglomerative sweeps, automatic K selection (silhouette, Davies-Bouldin, Calinski-Harabasz, Kneedle elbow, gap statistic, stability), defining attributes per cluster, silhouette-based niche detection |
+| `src/numeric_clustering.py` | StandardScaler, K-Means++ and Ward agglomerative sweeps, automatic K selection for K-Means and Ward (silhouette, Davies-Bouldin, Calinski-Harabasz, Kneedle elbow, gap statistic, stability), defining attributes per cluster, silhouette-based niche detection |
 | `src/evaluation.py` | Shared seed and scoring: silhouette, agreement with O*NET job families and RIASEC interests |
 | `notebooks/03_numeric_clustering.ipynb` | The full analysis, with plots |
 
@@ -62,8 +62,12 @@ python -m venv .venv
   | Healthcare & caregiving | Assisting and Caring for Others, Medicine, Psychology |
   | Physical & public-facing service | Working Directly with the Public, Trunk Strength, Stamina |
 
-- **K-Means++ vs. Ward agglomerative:** K-Means scores higher on silhouette at almost every K; Ward gives a full tree
-  (dendrogram), useful for building a hierarchy.
+- **K-Means++ vs. Ward agglomerative:** with K chosen by the same rule, Ward picks **K=6** (a less firm choice: a 4–10
+  range gives K=4). K-Means K=5 fits more tightly (silhouette 0.14 vs 0.10); Ward matches career interests a bit better
+  (RIASEC ARI 0.30 vs 0.26) and gives a full tree (dendrogram). The two agree only moderately (ARI 0.52).
+- **Does PCA help?** Clustering on PCA-reduced scores down to 16 components (80% of variance) gives ~99% the same
+  clusters (ARI 0.985) with unchanged quality in the full space, and the automatic K is still 5. PCA 2d and UMAP make
+  the clusters worse. The higher silhouette inside a reduced space is an artifact of fewer dimensions.
 - Numeric groups describe **how** work is done, so they match RIASEC career interests (ARI ≈ 0.26 at K=5) better than
   text clusters do.
 - **Niche roles:** 41 jobs (5%) have a negative silhouette (closer to another cluster than their own) and are flagged.

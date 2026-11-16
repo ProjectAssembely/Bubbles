@@ -93,6 +93,19 @@ def stability(Z, k: int, n_boot: int = 10) -> float:
                           for i in range(n_boot) for j in range(i + 1, n_boot)]))
 
 
+def ward_metrics(Z, ks) -> pd.DataFrame:
+    """Silhouette, Davies-Bouldin and Calinski-Harabasz for Ward agglomerative clustering at each K
+    (the same scores as k_metrics, so choose_k works on either)."""
+    from sklearn.metrics import calinski_harabasz_score, davies_bouldin_score, silhouette_score
+    Z = np.asarray(Z)
+    rows = []
+    for k in ks:
+        l = run_agglomerative(Z, k)
+        rows.append({"k": k, "silhouette": silhouette_score(Z, l), "davies_bouldin": davies_bouldin_score(Z, l),
+                     "calinski_harabasz": calinski_harabasz_score(Z, l)})
+    return pd.DataFrame(rows).set_index("k")
+
+
 def choose_k(metrics: pd.DataFrame, k_min: int = K_MIN, k_max: int = K_MAX) -> tuple[int, pd.Series]:
     """Consensus K for the numeric data: best average rank across silhouette, Davies-Bouldin and
     Calinski-Harabasz within [k_min, k_max]. Returns the chosen K and every K's average rank."""
