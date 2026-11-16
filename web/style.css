@@ -1,34 +1,38 @@
-/* Palette: blush #D8CBC7 · orange #CC3F0C · plum #4D243D · green #33673B · forest #19231A */
+/* Palette: cream #F8F7E5 · ink #1D1D1D · mint #7ECF86 (accent)
+   Group colors: mint #7ECF86 · tangerine #FF834F · amber #F9AF42 · teal #5EBCD0 · pink #D397B1 · olive gold #B39C4F */
 :root {
-  --blush: #d8cbc7;
-  --orange: #cc3f0c;
-  --plum: #4d243d;
-  --green: #33673b;
-  --forest: #19231a;
+  --cream: #f8f7e5;
+  --ink: #1d1d1d;
+  --mint: #7ecf86;
+  --tangerine: #ff834f;
 
-  --bg: #efe8e6;
-  --surface: #faf7f6;
-  --surface-2: #e9e0dd;
-  --text: var(--forest);
-  --muted: #6c6763;
-  --line: #ddd1cd;
-  --accent: var(--plum);
-  --button: var(--plum);
-  --button-hover: var(--orange);
-  --shadow: 0 1px 2px rgba(25, 35, 26, 0.06), 0 8px 24px rgba(77, 36, 61, 0.08);
+  --bg: var(--cream);
+  --surface: #fffef6;
+  --surface-2: #efeed8;
+  --text: var(--ink);
+  --muted: #66655b;
+  --line: #e2e0c8;
+  --accent: #2e7a38;            /* mint darkened so links stay readable on cream */
+  --button: var(--ink);
+  --button-text: var(--cream);
+  --button-hover: var(--mint);
+  --button-hover-text: var(--ink);
+  --shadow: 0 1px 2px rgba(29, 29, 29, 0.05), 0 8px 24px rgba(29, 29, 29, 0.07);
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: var(--forest);
-    --surface: #223024;
-    --surface-2: #2b3b2e;
-    --text: #efe8e6;
-    --muted: #b0a7a3;
-    --line: #34463a;
-    --accent: #e8825c;
-    --button: var(--orange);
-    --button-hover: #a83a52;
+    --bg: var(--ink);
+    --surface: #262624;
+    --surface-2: #30302c;
+    --text: var(--cream);
+    --muted: #aeac9c;
+    --line: #3b3b36;
+    --accent: var(--mint);
+    --button: var(--mint);
+    --button-text: var(--ink);
+    --button-hover: var(--tangerine);
+    --button-hover-text: var(--ink);
     --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 10px 30px rgba(0, 0, 0, 0.35);
     color-scheme: dark;
   }
@@ -62,9 +66,10 @@ button { font: inherit; color: inherit; }
 .brand p { margin: 0; color: var(--muted); font-size: 0.92rem; }
 .logo { position: relative; width: 40px; height: 40px; flex-shrink: 0; }
 .logo i { position: absolute; border-radius: 50%; }
-.logo i:nth-child(1) { inset: 0; background: var(--plum); }
-.logo i:nth-child(2) { width: 17px; height: 17px; left: 6px; top: 13px; background: var(--orange); }
-.logo i:nth-child(3) { width: 12px; height: 12px; right: 7px; top: 9px; background: var(--blush); }
+.logo i:nth-child(1) { inset: 0; background: var(--ink); }
+.logo i:nth-child(2) { width: 17px; height: 17px; left: 6px; top: 13px; background: var(--tangerine); }
+.logo i:nth-child(3) { width: 12px; height: 12px; right: 7px; top: 9px; background: var(--mint); }
+@media (prefers-color-scheme: dark) { .logo i:nth-child(1) { background: var(--cream); } }
 
 .search {
   display: flex;
@@ -113,9 +118,10 @@ button { font: inherit; color: inherit; }
 .chip:hover { border-color: var(--swatch); transform: translateY(-1px); }
 .chip .dot { width: 11px; height: 11px; border-radius: 50%; background: var(--swatch); }
 .chip .n { color: var(--muted); font-weight: 500; }
-.chip.active { background: var(--swatch); border-color: var(--swatch); color: #fff; }
-.chip.active .dot { background: #fff; }
-.chip.active .n { color: rgba(255, 255, 255, 0.8); }
+/* Group colors are light, so the active chip uses dark ink */
+.chip.active { background: var(--swatch); border-color: var(--swatch); color: var(--ink); }
+.chip.active .dot { background: var(--ink); }
+.chip.active .n { color: rgba(29, 29, 29, 0.7); }
 
 .breadcrumb { padding: 8px 28px 6px; color: var(--muted); font-size: 0.88rem; min-height: 2.2em; }
 .breadcrumb button { border: 0; padding: 0; background: none; color: var(--accent); font-weight: 600; cursor: pointer; }
@@ -237,12 +243,13 @@ svg.searching circle.job.match { opacity: 1; stroke: var(--text); stroke-width: 
   padding: 9px 16px;
   border-radius: 999px;
   background: var(--button);
-  color: #fff;
+  color: var(--button-text);
   font-weight: 700;
   font-size: 0.88rem;
   text-decoration: none;
+  transition: background 0.15s, color 0.15s;
 }
-.link-out:hover { background: var(--button-hover); }
+.link-out:hover { background: var(--button-hover); color: var(--button-hover-text); }
 .back { margin-top: 18px; border: 0; padding: 0; background: none; color: var(--accent); font-weight: 600; cursor: pointer; }
 
 .footer { padding: 6px 28px 18px; font-size: 0.76rem; color: var(--muted); }

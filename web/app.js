@@ -5,19 +5,22 @@ const SIZE = 1000;      // layout coordinate space (the SVG viewBox is SIZE x SI
 const LABEL_PX = 13;    // on-screen label size in pixels
 
 // Brand palette, plus four blends of it so all nine groups get their own color
-const PALETTE = { blush: "#d8cbc7", orange: "#cc3f0c", plum: "#4d243d", green: "#33673b", forest: "#19231a" };
+const PALETTE = {
+  mint: "#7ecf86", tangerine: "#ff834f", amber: "#f9af42", teal: "#5ebcd0", pink: "#d397b1", olive: "#b39c4f",
+  ink: "#1d1d1d",
+};
 const mix = (a, b, t) => d3.interpolateLab(a, b)(t);
-// The three strong colors, plus blends of the palette so each of the nine groups is distinct
+// Six palette colors, plus three deeper versions (mixed with ink) so each of the nine groups is distinct
 const GROUP_COLORS = {
-  Care: PALETTE.orange,
-  Guide: mix(PALETTE.orange, PALETTE.blush, 0.5),
-  Protect: PALETTE.plum,
-  Build: mix(PALETTE.forest, PALETTE.green, 0.4),
-  Invent: mix(PALETTE.plum, PALETTE.orange, 0.45),
-  Discover: PALETTE.green,
-  Create: mix(PALETTE.plum, PALETTE.blush, 0.45),
-  Connect: mix(PALETTE.green, PALETTE.orange, 0.5),
-  Organize: mix(PALETTE.green, PALETTE.blush, 0.5),
+  Care: PALETTE.pink,
+  Guide: PALETTE.amber,
+  Protect: mix(PALETTE.teal, PALETTE.ink, 0.4),
+  Build: PALETTE.tangerine,
+  Invent: PALETTE.teal,
+  Discover: PALETTE.mint,
+  Create: mix(PALETTE.pink, PALETTE.ink, 0.4),
+  Connect: PALETTE.olive,
+  Organize: mix(PALETTE.mint, PALETTE.ink, 0.4),
 };
 const FALLBACK = Object.values(PALETTE);
 const TINT = { 1: 0.16, 2: 0.3, 3: 0.44 };  // how strongly cluster circles are tinted, by depth
@@ -87,15 +90,16 @@ function init(data) {
   const groupsInOrder = data.children.map(c => root.children.find(g => g.data === c));
   const jobsByName = new Map(root.leaves().map(d => [d.data.name.toLowerCase(), d]));
 
-  // Colors adapt to the theme: in dark mode, deep colors are lifted so they stand out on navy
+  // Colors adapt to the theme: in dark mode every color is lightened in proportion, so they stand out on the
+  // dark background while the deeper variants (Protect, Create, Organize) stay darker than their partners
   const colorOf = d => {
     if (!darkMode.matches) return d.base;
     const c = d3.hsl(d.base);
-    c.l = Math.max(c.l, 0.6);
+    c.l = 0.3 + 0.62 * c.l;
     return c.formatHex();
   };
   const fillOf = d => mix(cssVar("--bg"), colorOf(d), isJob(d) ? JOB_TINT : TINT[d.depth] ?? 0.5);
-  const inkOn = color => (d3.lab(color).l > 62 ? PALETTE.forest : "#ffffff"); // readable text on a filled bubble
+  const inkOn = color => (d3.lab(color).l > 62 ? PALETTE.ink : "#ffffff"); // readable text on a filled bubble
 
   // ---------- drawing ----------
   const svg = d3.select(chartEl).append("svg")
