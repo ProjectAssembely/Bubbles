@@ -93,6 +93,8 @@ from the `main` branch root, where `index.html` redirects to `web/`. A GitHub Ac
   Silhouette, Davies-Bouldin, Calinski-Harabasz and the gap statistic all put the global optimum at K=2 (physical vs.
   non-physical work), which is too coarse. Within a useful 4–12 range, their consensus **automatically picks K=5**:
   groups that capture *how* work is done and match RIASEC interests better than text clusters.
+  Ward agglomerative, with K chosen the same way, picks K=6 (looser fit, slightly closer to interests). Clustering on
+  PCA-reduced scores (down to 16 components) gives ~99% the same clusters, so these scores don't need reduction.
 - **Combined:** mixing both (70% text, 30% numeric) kept fields together (80% vs. 64% for numeric only) and matched
   career interests better (ARI 0.35 vs. 0.24). See `notebooks/05_hierarchy.ipynb`.
 - **Named top level:** the bubbles now start from 9 fixed groups. Each is described by example tasks; jobs are assigned
