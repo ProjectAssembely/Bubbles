@@ -5,18 +5,19 @@ const SIZE = 1000;      // layout coordinate space (the SVG viewBox is SIZE x SI
 const LABEL_PX = 13;    // on-screen label size in pixels
 
 // Brand palette, plus four blends of it so all nine groups get their own color
-const PALETTE = { navy: "#23335f", sand: "#c3aa87", blue: "#2b5a87", sage: "#80a68a", terracotta: "#c48b71" };
+const PALETTE = { blush: "#d8cbc7", orange: "#cc3f0c", plum: "#4d243d", green: "#33673b", forest: "#19231a" };
 const mix = (a, b, t) => d3.interpolateLab(a, b)(t);
+// The three strong colors, plus blends of the palette so each of the nine groups is distinct
 const GROUP_COLORS = {
-  Care: PALETTE.terracotta,
-  Guide: PALETTE.sand,
-  Protect: PALETTE.navy,
-  Build: d3.color(PALETTE.sand).darker(1).formatHex(),
-  Invent: PALETTE.blue,
-  Discover: PALETTE.sage,
-  Create: mix(PALETTE.terracotta, PALETTE.navy, 0.5),
-  Connect: d3.color(PALETTE.terracotta).darker(0.7).formatHex(),
-  Organize: mix(PALETTE.blue, PALETTE.sage, 0.5),
+  Care: PALETTE.orange,
+  Guide: mix(PALETTE.orange, PALETTE.blush, 0.5),
+  Protect: PALETTE.plum,
+  Build: mix(PALETTE.forest, PALETTE.green, 0.4),
+  Invent: mix(PALETTE.plum, PALETTE.orange, 0.45),
+  Discover: PALETTE.green,
+  Create: mix(PALETTE.plum, PALETTE.blush, 0.45),
+  Connect: mix(PALETTE.green, PALETTE.orange, 0.5),
+  Organize: mix(PALETTE.green, PALETTE.blush, 0.5),
 };
 const FALLBACK = Object.values(PALETTE);
 const TINT = { 1: 0.16, 2: 0.3, 3: 0.44 };  // how strongly cluster circles are tinted, by depth
@@ -94,7 +95,7 @@ function init(data) {
     return c.formatHex();
   };
   const fillOf = d => mix(cssVar("--bg"), colorOf(d), isJob(d) ? JOB_TINT : TINT[d.depth] ?? 0.5);
-  const inkOn = color => (d3.lab(color).l > 62 ? "#1c2747" : "#ffffff"); // readable text on a filled bubble
+  const inkOn = color => (d3.lab(color).l > 62 ? PALETTE.forest : "#ffffff"); // readable text on a filled bubble
 
   // ---------- drawing ----------
   const svg = d3.select(chartEl).append("svg")
