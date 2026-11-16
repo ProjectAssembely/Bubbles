@@ -1,40 +1,40 @@
-/* Palette: sunflower #FFCB3D · leaf #71951E · olive #587529 · marigold #F1A344 · lemon #EDDA5E
-   Background and text are a pale and a deep version of the palette. */
+/* Natural palette: bark #533416 · moss #607938 · parchment #EEDFC7 · ochre #CE7F20 · amber #D98327 · sunflower #FFCB3D */
 :root {
+  --bark: #533416;
+  --moss: #607938;
+  --parchment: #eedfc7;
+  --ochre: #ce7f20;
+  --amber: #d98327;
   --sunflower: #ffcb3d;
-  --leaf: #71951e;
-  --olive: #587529;
-  --marigold: #f1a344;
-  --lemon: #edda5e;
-  --ink: #26330f;               /* olive darkened for text */
+  --ink: var(--bark);
 
-  --bg: #fcf8e6;                /* lemon, very pale */
-  --surface: #fffdf4;
-  --surface-2: #f5edcf;
-  --text: var(--ink);
-  --muted: #66684a;
-  --line: #e8deb8;
-  --accent: var(--olive);
-  --button: var(--olive);
-  --button-text: #fffdf4;
-  --button-hover: var(--leaf);
-  --button-hover-text: #fffdf4;
-  --shadow: 0 1px 2px rgba(38, 51, 15, 0.06), 0 8px 24px rgba(38, 51, 15, 0.08);
+  --bg: #f6eee2;                /* parchment, softened */
+  --surface: #fbf7f0;
+  --surface-2: var(--parchment);
+  --text: var(--bark);
+  --muted: #7a6650;
+  --line: #e2d2b8;
+  --accent: var(--moss);
+  --button: var(--moss);
+  --button-text: #fbf7f0;
+  --button-hover: var(--bark);
+  --button-hover-text: #fbf7f0;
+  --shadow: 0 1px 2px rgba(83, 52, 22, 0.06), 0 8px 24px rgba(83, 52, 22, 0.09);
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #171d0b;
-    --surface: #212a11;
-    --surface-2: #2b3617;
-    --text: #fbf5d9;
-    --muted: #b4b28f;
-    --line: #36421c;
+    --bg: #21170c;
+    --surface: #2b1f12;
+    --surface-2: #362816;
+    --text: #f3e9d8;
+    --muted: #b8a68c;
+    --line: #45351f;
     --accent: var(--sunflower);
     --button: var(--sunflower);
-    --button-text: var(--ink);
-    --button-hover: var(--marigold);
-    --button-hover-text: var(--ink);
+    --button-text: var(--bark);
+    --button-hover: var(--amber);
+    --button-hover-text: var(--bark);
     --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 10px 30px rgba(0, 0, 0, 0.35);
     color-scheme: dark;
   }
@@ -68,9 +68,10 @@ button { font: inherit; color: inherit; }
 .brand p { margin: 0; color: var(--muted); font-size: 0.92rem; }
 .logo { position: relative; width: 40px; height: 40px; flex-shrink: 0; }
 .logo i { position: absolute; border-radius: 50%; }
-.logo i:nth-child(1) { inset: 0; background: var(--olive); }
-.logo i:nth-child(2) { width: 17px; height: 17px; left: 6px; top: 13px; background: var(--marigold); }
+.logo i:nth-child(1) { inset: 0; background: var(--bark); }
+.logo i:nth-child(2) { width: 17px; height: 17px; left: 6px; top: 13px; background: var(--moss); }
 .logo i:nth-child(3) { width: 12px; height: 12px; right: 7px; top: 9px; background: var(--sunflower); }
+@media (prefers-color-scheme: dark) { .logo i:nth-child(1) { background: var(--parchment); } }
 
 .search {
   display: flex;

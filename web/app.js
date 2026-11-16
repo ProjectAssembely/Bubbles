@@ -4,23 +4,23 @@
 const SIZE = 1000;      // layout coordinate space (the SVG viewBox is SIZE x SIZE)
 const LABEL_PX = 13;    // on-screen label size in pixels
 
-// Brand palette (ink = olive darkened, used for text)
+// Natural palette (ink = bark brown, used for text)
 const PALETTE = {
-  sunflower: "#ffcb3d", leaf: "#71951e", olive: "#587529", marigold: "#f1a344", lemon: "#edda5e",
-  ink: "#26330f",
+  bark: "#533416", moss: "#607938", parchment: "#eedfc7", ochre: "#ce7f20", amber: "#d98327", sunflower: "#ffcb3d",
+  ink: "#533416",
 };
 const mix = (a, b, t) => d3.interpolateLab(a, b)(t);
-// Five palette colors, plus four deeper or blended versions so each of the nine groups is distinct
+// Strong earth tones plus soft natural blends, so each of the nine groups is distinct
 const GROUP_COLORS = {
-  Care: PALETTE.marigold,
+  Care: PALETTE.amber,
   Guide: PALETTE.sunflower,
-  Protect: PALETTE.olive,
-  Build: mix(PALETTE.marigold, PALETTE.ink, 0.38),     // burnt orange-brown
-  Invent: PALETTE.leaf,
-  Discover: PALETTE.lemon,
-  Create: mix(PALETTE.sunflower, PALETTE.ink, 0.38),   // mustard
-  Connect: mix(PALETTE.leaf, PALETTE.lemon, 0.5),      // chartreuse
-  Organize: mix(PALETTE.olive, PALETTE.ink, 0.45),     // deep forest
+  Protect: PALETTE.bark,
+  Build: mix(PALETTE.ochre, PALETTE.bark, 0.45),           // clay
+  Invent: PALETTE.moss,
+  Discover: mix(PALETTE.moss, PALETTE.sunflower, 0.5),     // olive
+  Create: mix(PALETTE.amber, PALETTE.parchment, 0.45),     // apricot
+  Connect: mix(PALETTE.bark, PALETTE.parchment, 0.45),     // tan
+  Organize: mix(PALETTE.moss, PALETTE.parchment, 0.45),    // sage
 };
 const FALLBACK = Object.values(PALETTE);
 const TINT = { 1: 0.16, 2: 0.3, 3: 0.44 };  // how strongly cluster circles are tinted, by depth
