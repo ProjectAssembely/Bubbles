@@ -4,23 +4,23 @@
 const SIZE = 1000;      // layout coordinate space (the SVG viewBox is SIZE x SIZE)
 const LABEL_PX = 13;    // on-screen label size in pixels
 
-// Brand palette, plus four blends of it so all nine groups get their own color
+// Brand palette (ink = olive darkened, used for text)
 const PALETTE = {
-  mint: "#7ecf86", tangerine: "#ff834f", amber: "#f9af42", teal: "#5ebcd0", pink: "#d397b1", olive: "#b39c4f",
-  ink: "#1d1d1d",
+  sunflower: "#ffcb3d", leaf: "#71951e", olive: "#587529", marigold: "#f1a344", lemon: "#edda5e",
+  ink: "#26330f",
 };
 const mix = (a, b, t) => d3.interpolateLab(a, b)(t);
-// Six palette colors, plus three deeper versions (mixed with ink) so each of the nine groups is distinct
+// Five palette colors, plus four deeper or blended versions so each of the nine groups is distinct
 const GROUP_COLORS = {
-  Care: PALETTE.pink,
-  Guide: PALETTE.amber,
-  Protect: mix(PALETTE.teal, PALETTE.ink, 0.4),
-  Build: PALETTE.tangerine,
-  Invent: PALETTE.teal,
-  Discover: PALETTE.mint,
-  Create: mix(PALETTE.pink, PALETTE.ink, 0.4),
-  Connect: PALETTE.olive,
-  Organize: mix(PALETTE.mint, PALETTE.ink, 0.4),
+  Care: PALETTE.marigold,
+  Guide: PALETTE.sunflower,
+  Protect: PALETTE.olive,
+  Build: mix(PALETTE.marigold, PALETTE.ink, 0.38),     // burnt orange-brown
+  Invent: PALETTE.leaf,
+  Discover: PALETTE.lemon,
+  Create: mix(PALETTE.sunflower, PALETTE.ink, 0.38),   // mustard
+  Connect: mix(PALETTE.leaf, PALETTE.lemon, 0.5),      // chartreuse
+  Organize: mix(PALETTE.olive, PALETTE.ink, 0.45),     // deep forest
 };
 const FALLBACK = Object.values(PALETTE);
 const TINT = { 1: 0.16, 2: 0.3, 3: 0.44 };  // how strongly cluster circles are tinted, by depth
@@ -214,7 +214,7 @@ function init(data) {
   function renderGroupNav() {
     const active = groupOf(focus);
     groupNav.innerHTML = groupsInOrder.map((g, i) => `
-      <button class="chip${g === active ? " active" : ""}" data-i="${i}" style="--swatch:${colorOf(g)}">
+      <button class="chip${g === active ? " active" : ""}" data-i="${i}" style="--swatch:${colorOf(g)};--chip-ink:${inkOn(colorOf(g))}">
         <span class="dot"></span>${esc(g.data.name)} <span class="n">${countJobs(g)}</span>
       </button>`).join("");
     groupNav.querySelectorAll("button").forEach(b => b.addEventListener("click", () => {
